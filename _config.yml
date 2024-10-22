@@ -18,16 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hyungseok Kim
+name: Hyungseok Kim
+title: Undergraduate Researcher | Student at Yonsei University
 email: kimnumber@yonsei.ac.kr
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+# email_title: Email (Email title override)
+#phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+#website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
 url: "https://fluorite42.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social links
 linkedin_username: fluorite42
 github_username: fluorite42
+orcid_username: 0009-0003-8981-3015
+googlescholar_username: e4HwKdQAAAAJ
+
+#twitter_username: jekyllrb
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+
 
 # sass
 sass:
