@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+repository: fluorite42/fluorite42.github.io
+
 name: Hyungseok Kim
 title: Undergraduate Researcher | Student at Yonsei University
 email: kimnumber@yonsei.ac.kr
