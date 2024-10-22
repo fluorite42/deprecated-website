@@ -20,6 +20,8 @@
 
 repository: fluorite42/fluorite42.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fluorite42.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 name: Hyungseok Kim
 title: Undergraduate Researcher | Student at Yonsei University
@@ -87,7 +89,7 @@ sass:
 
 # Build settings
 # theme: modern-resume-theme #(Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme #(Use this if you are hosting your resume on GitHub)
+# remote_theme: sproogen/modern-resume-theme #(Use this if you are hosting your resume on GitHub)
 plugins:
   - jekyll-seo-tag
 
