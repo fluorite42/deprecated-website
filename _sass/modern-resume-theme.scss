@@ -4,6 +4,11 @@
 @import "dark";
 @import "icons";
 
+.svg-icon {
+  position: relative;   /* Position relative to adjust location */
+  top: 25%;             /* Move it 50% down relative to its container */
+}
+
 /* Hide the default checkbox */
 .toggle-dark {
   display: none; /* Hide the actual checkbox */
