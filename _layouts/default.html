@@ -21,7 +21,7 @@
 
       {%- include about.html -%}
 
-      {% for section in site.content %}
+      {% for section in site.data.education.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}

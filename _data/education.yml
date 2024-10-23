@@ -1,0 +1,16 @@
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Yonsei University
+        sub_title: |
+          BSc in Electrical and Electronic Engineering
+          BA in Economics (Double Major)
+        caption: Mar. 2019 – Feb. 2025 (Expected)
+        quote: >
+          Founded in 1885, Yonsei University is a prestigious private institution known for its rigorous academics and beautiful campus. 
+          It offers a wide range of undergraduate and graduate programs, emphasizing academic excellence and global engagement.
+        description: | 
+          - First Major: Coursework focused on Quantum Computing, Computer Architecture, and Machine Learning.
+          - Second Major: Coursework focused on Financial Engineering, Econometrics, and DSGE Modeling.
