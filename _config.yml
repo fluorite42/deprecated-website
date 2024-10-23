@@ -79,7 +79,7 @@ about_profile_image: /images/Profile.jfif #(eg. /images/profile.jpg)
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
-about_content: |
+about_content: | 
   - Hyungseok Kim is presently an undergraduate student pursuing a dual degree in Electrical and Electronic Engineering and Economics at Yonsei University.
   - His academic pursuits are underscored by a keen interest in a diverse range of disciplines, including but not limited to:
   <br/>&nbsp;1. Quantum Computing
