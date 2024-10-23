@@ -24,13 +24,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fluorite42.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 name: Hyungseok Kim
-title: Undergraduate Researcher | Student at Yonsei University
+ipa: 김형석 /kimjʌŋsʌk/
+title: |
+  Quantum Computing Researcher
+  Student at Yonsei University
 email: kimnumber@yonsei.ac.kr
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 #website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
+city: Seoul, Republic of Korea
 
 # Social links
 linkedin_username: fluorite42
@@ -65,7 +69,7 @@ googlescholar_username: e4HwKdQAAAAJ
 
 # About Section
 about_title: Summary #(Use this to override about section title)
-#about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/Profile.jfif #(eg. images/profile.jpg)
 #about_content: | # this will include new lines to allow paragraphs
 #  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 #
@@ -74,6 +78,15 @@ about_title: Summary #(Use this to override about section title)
 #    - Tables
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+about_content: |
+  - Hyungseok Kim is presently an undergraduate student pursuing a dual degree in Electrical and Electronic Engineering and Economics at Yonsei University.
+  - His academic pursuits are underscored by a keen interest in a diverse range of disciplines, including but not limited to:
+  <br/>&nbsp;1. Quantum Computing
+  <br/>&nbsp;2. Computer Architecture
+  <br/>&nbsp;3. Machine Learning
+  <br/>&nbsp;4. Programming Language Theory
+  - Currently, his primary focus lies in Quantum Compiler Optimization, reflecting his dedication to cutting-edge research within the field.
 
 
 # Footer
