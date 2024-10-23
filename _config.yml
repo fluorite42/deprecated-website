@@ -23,11 +23,13 @@ favicon: /images/favicon.ico #Directory of your favicon (eg. images/favicon.ico)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fluorite42.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-name: Hyungseok Kim
+title: Hyungseok Kim
 ipa: 김형석 /kimjʌŋsʌk/
-title: |
+description: |
   Quantum Computing Researcher
   Student at Yonsei University
+description1: Quantum Computing Researcher
+description2: Student at Yonsei University
 email: kimnumber@yonsei.ac.kr
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
