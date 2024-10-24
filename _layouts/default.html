@@ -27,6 +27,21 @@
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+
+      {% for section in site.data.experience.content %}
+        <div class="container {{ section.layout }}-container">
+          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+        </div>
+      {% endfor %}
+
+      {% for section in site.data.publications.content %}
+        <div class="container {{ section.layout }}-container">
+          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+          {% include {{ section.layout | prepend: "section-" | append: "-pub.html" }} content=section.content %}
+        </div>
+      {% endfor %}
+
     </div>
   </main>
 

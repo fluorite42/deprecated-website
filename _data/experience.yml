@@ -1,0 +1,30 @@
+content:
+  - title: Research Experience
+    layout: list
+    content:
+      - layout: left
+        title: Undergraduate Researcher
+        sub_title: |
+          Embedded Systems and Computer Architecture Lab (eSCaL)
+        caption: Jun. 2024 - Present
+        link: http://escal.yonsei.ac.kr/index.html
+        quote: >
+          Led by Professor Won Woo Ro, the lab conducts cutting-edge research in computer architecture, embedded systems, and parallel processing, focusing on optimizing performance and energy efficiency in multi-core processors, GPUs, and novel hardware designs.
+        description: | 
+          - Collaborates with the quantum computing team on various research projects aimed at advancing quantum computing technologies.
+          - Engages in innovative solutions and contributes to cutting-edge developments in the field.
+        border: weak
+
+      - layout: left
+        title: Capstone Design
+        sub_title: |
+          Embedded Systems and Computer Architecture Lab (eSCaL)
+        caption: Jan. 2024 - Jun. 2024
+        link: http://escal.yonsei.ac.kr/index.html
+        quote: >
+          The School of Electrical and Electronic Engineering offers undergraduates research opportunities, requiring all seniors to complete the EEE4610 Capstone Design course.
+          Senior projects are supervised and evaluated by faculty and teaching assistants.
+        description: |
+          - Developed a compilation framework to enhance the performance of quantum compilers.
+          - Utilized the qubit reuse technique to improve resource efficiency and fidelity in quantum circuits.
+          - Wrote a research paper on the project and submitted it to the 2025 IEEE International Symposium on High-Performance Computer Architecture (HPCA).
