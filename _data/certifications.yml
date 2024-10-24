@@ -1,0 +1,53 @@
+content:
+  - title: Licenses and Certifications
+    layout: list
+    content:
+      - layout: top
+        title: Adobe Certified Professional (ACP) in Digital Video Using Adobe Premiere Pro
+        sub_title: |
+          Adobe
+        caption: Jan. 2024 - Jan. 2027
+        link: https://www.credly.com/badges/e7b22676-490f-471d-815b-65b9a8a15f61/public_url
+        quote: >
+          This certification validates expertise in video editing and production using Adobe Premiere Pro, covering essential skills in video creation, editing techniques, and post-production workflows.
+          It is designed for individuals looking to demonstrate their proficiency in digital video editing and advance their careers in media and entertainment.
+        description: | 
+          - Skills: Adobe Premiere Pro
+        border: weak
+
+      - layout: top
+        title: Korean History Proficiency Test, Level- I (Highest)
+        sub_title: |
+          National Institute of Korean History
+        caption: Feb. 2022
+        quote: >
+          This certification demonstrates advanced knowledge of Korean history, covering major events, figures, and cultural developments from ancient times to the modern era.
+          It is designed for individuals seeking to validate their deep understanding of Korean history, useful for academic or professional pursuits.
+        description: |
+          - Certification Number: 57-100794
+        border: weak
+
+      - layout: top
+        title: General Computer User, Level- I (Highest)
+        sub_title: |
+          Korea Chamber of Commerce and Industry
+        caption: May 2020
+        quote: >
+          This certification validates advanced computer literacy skills, including proficiency in essential office automation software such as spreadsheets and databases.
+          It is designed for individuals aiming to demonstrate their expertise in practical computing skills, useful for both academic and professional environments.
+          The certification includes both written and practical exams, making it a comprehensive test of computer competency.
+        description: |
+          - Skills: Microsoft Excel, Microsoft Access
+          - Certification Number: 20-K9-038595
+        border: weak
+
+      - layout: top
+        title: The Duke of Edinburgh's International Award, The Bronze Standard
+        sub_title: |
+          The Duke of Edinburgh's International Award Foundation, Ministry of Gender Equality and Family
+        caption: Dec. 2015
+        quote: >
+          This program is an international youth awards program founded in the United Kingdom in 1956 by Prince Philip, Duke of Edinburgh, that has since expanded to 144 nations.
+          It is designed to encourage personal development and community involvement in young people, with participants completing a series of self-improvement challenges in four areas: voluntary service, physical recreation, skills development, and an adventurous journey.
+        description: |
+          - Certification Number: 15-B-00327
