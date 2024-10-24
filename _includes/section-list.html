@@ -19,11 +19,55 @@
         {% endfor %}
       </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      {%- if item.quote -%}
-        <p class="quote">{{ item.quote }}</p>
-      {%- endif -%}
-      {{ item.description | strip | markdownify }}
-    </div>
+
+
+    {%- if item.video -%}
+      <style>
+        .content-container {
+          display: flex;              /* Enables flexbox layout */
+          flex-wrap: wrap;            /* Allows items to wrap on smaller screens */
+          gap: 20px;                  /* Space between the text and video */
+        }
+      
+        .text-content {
+          flex: 1;                    /* Let the text content take up the remaining space */
+          min-width: 300px;           /* Ensure the text content has a minimum width */
+          margin-left: 15px;          /* Add gap between the text and left end */
+        }
+      
+        .video-content {
+          flex-shrink: 0;             /* Prevent the video from shrinking */
+          margin-right: 20px;             /* Add gap between the video and right end */
+        }
+      </style>
+
+      <div class="content-container">
+        <div class="text-content">
+          {%- if item.quote -%}
+            <p class="quote">{{ item.quote }}</p>
+          {%- endif -%}
+          {{ item.description | strip | markdownify }}
+        </div>
+
+        <div class="video-content">
+          <iframe width="314px"  height="176px"
+                  src="{{ item.video }}" 
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    {%- else -%}
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+        {{ item.description | strip | markdownify }}
+      </div>
+    {% endif %}
+
   </div>
 {% endfor %}

@@ -1,0 +1,23 @@
+content:
+  - title: Honors and Awards
+    layout: list
+    content:
+      - layout: left
+        title: Micro-Learning Video Contest
+        sub_title: |
+          Yonsei Digital Experience Center (Y-DEC)
+        caption: Feb. 2023
+        video: https://www.youtube.com/embed/a-GB1bWfljM?si=Ypsa5zVoIsZX40aq
+        description: | 
+          - Title: Software Operating Fundamentals of Quantum Computing
+          - Created using Adobe After Effects and Adobe Illustrator.
+          - 4ᵗʰ prize with ₩500,000* (~$500)<br>&nbsp;&nbsp;&nbsp;&nbsp;*Received as a scholarship.
+        border: weak
+
+      - layout: left
+        title: Academic Honors
+        sub_title: |
+          Yonsei University
+        caption: Feb. 2024 and Aug. 2022
+        description: | 
+          - Fall Semester of 2023 and Spring Semester of 2022.
