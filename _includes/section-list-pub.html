@@ -25,25 +25,13 @@
                 {%- if author.style == "bold" -%}
                     <b>{{ author.name }}</b>
                 {%- else -%}
-                    {%- if author.link -%}
-                        {% include a.html href=author.link class="link" %}
-                            {{ author.name }}
-                        </a>
-                    {%- else -%}
-                        {{ author.name }}
-                    {%- endif -%}
+                    {{ author.name }}
                 {%- endif -%}
                 {%- if forloop.last == false -%}, {% endif -%}
             {% endfor %}
             <br>
             {% for affiliation in item.affiliations %}
-                {%- if affiliation.link -%}
-                    {% include a.html href=affiliation.link class="link" %}
-                        {{ affiliation.name }}
-                    </a>
-                {%- else -%}
-                    {{ affiliation.name }}
-                {%- endif -%}
+                {{ affiliation.name }}
                 {%- if forloop.last == false -%}&nbsp&nbsp&nbsp&nbsp{% endif -%}
             {% endfor %}
         </p>

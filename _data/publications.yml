@@ -10,9 +10,7 @@ content:
         link: https://doi.org/10.1145/3656019.3676899
         authors:
           - name: Enhyeok Jang*
-            link: https://scholar.google.com/citations?user=Qw-hrawAAAAJ
           - name: Dongho Ha**
-            link: https://scholar.google.com/citations?user=PmEs4dMAAAAJ
           - name: Seungwoo Choi*
           - name: Youngmin Kim*
           - name: Jaewon Kwon*
@@ -21,12 +19,10 @@ content:
           - name: Hyungseok Kim*
             style: bold
           - name: Won Woo Ro*
-            link: https://scholar.google.com/citations?user=GVfD5LQAAAAJ
         affiliations:
           - name: >
               *Yonsei University, Republic of Korea    
           - name: >
               **MangoBoost
-            link: https://www.mangoboost.io
         abstract: | 
             The quantum approximate optimization algorithm (QAOA) is introduced to efficiently solve combinatorial optimization problems. Despite the promise of QAOA, the cost of executing QAOA circuits at scale for quantum advantage may still be excessive for the near-future quantum device. We observe the increasing overhead of QAOA circuit execution in the native gate translation. To execute QAOA circuits on a real quantum computing device, Hamiltonians composed of predefined specific rotations (e.g., ZZ and X) should be decomposed into finite native gates. By adopting rotational combinations that utilize native gates more directly than the standard QAOA circuit model, the execution cost on real quantum devices can be reduced. In this study, we propose Racoon (Rotational Space Virtualization for QAOA Ansatz), an algorithm-hardware co-design approach that revisits the synthesis conditions of QAOA circuits and selects alternative candidates with different rotational combinations. Our analysis of six commercial quantum processors demonstrates that applying Racoon to QAOA circuits for the 4-node Sherrington-Kirkpatrick model reduces the number of native gates by an average of 23% and up to 79%. Consequently, using Racoon results in 43% fewer training epochs, 41% lower training energy consumption, and a 6% improvement in inference on average compared to standard QAOA. Racoon consistently reduces circuit depth as the number of qubits and layers increases, achieving 123 × more circuit depth reduction compared to the recently proposed Depth First Search (DFS)-based method. Furthermore, we confirm that Racoon's method can be extended to State-of-The-Art QAOAs with modified ansätze and to the variational quantum eigensolver (VQE). Our results suggest that Racoon can be a promising solution for reducing the execution cost of QAOA circuits on near-term quantum devices.
