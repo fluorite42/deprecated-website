@@ -76,11 +76,27 @@
     margin-bottom: 0;
   }
 }
-
+/*
 .border-weak  {
   padding-bottom: 8px;
   border-bottom: dashed 1px #CCCCCC;
+}*/
+
+.border-weak {
+  padding-bottom: 8px;
+  position: relative;            /* Required to position the pseudo-element */
 }
+
+.border-weak::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);   /* Center the border */
+  width: 97%;                    /* Adjust the length of the border */
+  border-bottom: dashed 1px #CCCCCC;
+}
+
 
 .layout {
   margin-top: 3rem;

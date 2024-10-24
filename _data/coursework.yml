@@ -1,0 +1,57 @@
+content:
+  - title: Selected Coursework
+    layout: list
+    content:
+      - layout: top-middle
+        title: Electrical and Electronic Engineering
+        description:
+          - name: |
+              - **Quantum Computing**
+                1. Quantum Computer and Simulation 1
+                1. Quantum Machine Learning
+                1. Electrical and Electronic Engineering Capstone Design
+              - **Computer Architecture**
+                1. Digital Logic Circuits
+                1. Computer Architecture
+                1. Communication Networks
+                1. Operating Systems
+                1. Microprocessors
+                1. Multicore and GPU Programming
+              - **Machine Learning**
+                1. Introduction Artificial Intelligence
+                1. Intelligent Control
+                1. Special Topics in Pattern Recognition
+          - name: |
+              - **Software Engineering**
+                1. Engineering Information Processing
+                1. Data Structure and Algorithms
+              - **Digital System Design**
+                1. Introductory Digital Labs
+                1. Digital Microelectronics
+                1. System IC Design
+                1. Embedded System Lab.
+              - **Analog System Design**
+                1. Basic Circuit Theory
+                1. Electronic Circuits
+                1. Analog Electronics Lab.
+              - **Telecommunications Engineering**
+                1. Signal and Systems
+                1. Electricity & Magnetism (1)
+        border: weak
+
+      - layout: top-middle
+        title: Economics
+        description:
+          - name: |
+              - **Econometrics**
+                1. Econometrics I
+                1. Financial Econometrics
+              - **DSGE Modeling**
+                1. Dynamic Analysis of Macroeconomy
+                1. Quantitative Macroeconomics
+          - name: |
+              - **Financial Engineering**
+                1. Introduction to Financial Engineering
+                1. Coding for Economics 2
+                1. Coding for Economics 1
+                1. AI Assisted Financial Engineering
