@@ -36,11 +36,12 @@
               font-size: 16px;
             }
 
-            /* Media query for smaller screens */
             @media (max-width: 768px) {
+              .columns {
+                flex-direction: column;
+              }
               .column {
-                width: 100%;  /* Single column on smaller screens */
-                margin-bottom: 20px; /* Optional: Adds space between items */
+                width: 100%;
               }
             }
         </style>
