@@ -1,0 +1,40 @@
+content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: top
+        title: 
+        description:
+          - name: |
+              - **Programming Languages**
+                - C/C++
+                  - OpenMP
+                  - CUDA
+                - Python
+                  - Qiskit
+                - MATLAB
+                - Assembly Languages
+                  - RISC-V
+                  - ARM
+              - **Hardware Description Languages**
+                - Verilog
+              - **Version Control**
+                - Git
+                - GitHub
+          - name: |
+              - **Video Production**
+                - Adobe Premiere Pro
+                - Adobe After Effects
+              - **Graphic Design**
+                - Adobe Illustrator
+              - **Productivity Software**
+                - Microsoft Excel
+                - Microsoft Access
+              - **Web Development**
+                - Jekyll
+              - **Markup Languages**
+                - LaTeX
+                - Markdown
+                - HTML
+                - CSS
+                - JavaScript
