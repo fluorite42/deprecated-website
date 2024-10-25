@@ -50,7 +50,23 @@
       
         .video-content {
           flex-shrink: 0;             /* Prevent the video from shrinking */
-          margin-right: 20px;             /* Add gap between the video and right end */
+          margin: 0 auto;            /* Center the video horizontally */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+          .content-container {
+            flex-direction: column;    /* Stack elements vertically in one column */
+            align-items: center;       /* Center-align items horizontally */
+          }
+
+          .video-content {
+            margin: 0 auto;            /* Center the video horizontally */
+          }
+
+          .text-content {
+            width: 100%;               /* Make the text content full width */
+          }
         }
       </style>
 
