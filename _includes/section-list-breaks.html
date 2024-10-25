@@ -26,35 +26,37 @@
             <p class="quote">{{ item.quote }}</p>
         {%- endif -%}
 
-        <style>
-            .columns-breaks {
-              display: flex;
-              justify-content: space-between;
-            }
-            .column-breaks {
-              width: 23%;
-              font-size: 16px;
-            }
-
-            @media (max-width: 768px) {
+        {%- if item.multi -%}
+          <style>
               .columns-breaks {
-                flex-direction: column;
+                display: flex;
+                justify-content: space-between;
               }
               .column-breaks {
-                width: 100%;
+                width: 23%;
+                font-size: 16px;
               }
-            }
-        </style>
 
-        <div class="columns-breaks">
-            {% for desc in item.description %}
-                <div class="column-breaks">
-                    {{ desc.name | strip | markdownify }}
-                </div>
-            {% endfor %}
+              @media (max-width: 768px) {
+                .columns-breaks {
+                  flex-direction: column;
+                }
+                .column-breaks {
+                  width: 100%;
+                }
+              }
+          </style>
 
-
-        </div>
+          <div class="columns-breaks">
+              {% for desc in item.description %}
+                  <div class="column-breaks">
+                      {{ desc.name | strip | markdownify }}
+                  </div>
+              {% endfor %}
+          </div>
+        {%- else -%}
+          {{ item.description | strip | markdownify }}
+        {%- endif -%}
     </div>
 
   </div>
