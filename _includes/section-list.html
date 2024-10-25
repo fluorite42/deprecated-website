@@ -33,70 +33,65 @@
 
     </div>
 
-
-    {%- if item.video -%}
-      <style>
-        .content-container {
-          display: flex;              /* Enables flexbox layout */
-          flex-wrap: wrap;            /* Allows items to wrap on smaller screens */
-          gap: 20px;                  /* Space between the text and video */
-        }
-      
-        .text-content {
-          flex: 1;                    /* Let the text content take up the remaining space */
-          min-width: 300px;           /* Ensure the text content has a minimum width */
-          margin-left: 15px;          /* Add gap between the text and left end */
-        }
-      
-        .video-content {
-          flex-shrink: 0;             /* Prevent the video from shrinking */
-          margin: 0 auto;            /* Center the video horizontally */
-        }
-
-        /* Media query for smaller screens */
-        @media (max-width: 768px) {
-          .content-container {
-            flex-direction: column;    /* Stack elements vertically in one column */
-            align-items: center;       /* Center-align items horizontally */
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.video -%}
+        <style>
+          .columns {
+            display: flex;
+            justify-content: space-between;
+          }
+          .column_text {
+            width: 58%;
+            font-size: 16px;
           }
 
-          .video-content {
-            margin: 0 auto;            /* Center the video horizontally */
+          .column_video {
+            width: 38%;
+            font-size: 16px;
+            text-align: left;
           }
 
-          .text-content {
-            width: 100%;               /* Make the text content full width */
-          }
-        }
-      </style>
+          @media (max-width: 768px) {
+            .columns {
+              flex-direction: column;
+            }
+            .column_text {
+              width: 100%;
+            }
 
-      <div class="content-container">
-        <div class="text-content">
-          {%- if item.quote -%}
-            <p class="quote">{{ item.quote }}</p>
-          {%- endif -%}
-          {{ item.description | strip | markdownify }}
+            .column_video {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        </style>
+
+        <div class="columns">
+          <div class="column_text">
+            {%- if item.quote -%}
+              <p class="quote">{{ item.quote }}</p>
+            {%- endif -%}
+            {{ item.description | strip | markdownify }}
+          </div>
+
+          <div class="column_video">
+            <iframe width="314px"  height="176px"
+                    src="{{ item.video }}" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+            </iframe>
+          </div>
         </div>
-
-        <div class="video-content">
-          <iframe width="314px"  height="176px"
-                  src="{{ item.video }}" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    {%- else -%}
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- else -%}
         {%- if item.quote -%}
           <p class="quote">{{ item.quote }}</p>
         {%- endif -%}
-        {{ item.description | strip | markdownify }}
-      </div>
-    {% endif %}
+          {{ item.description | strip | markdownify }}
+      {% endif %}
+    </div>
 
   </div>
 {% endfor %}
