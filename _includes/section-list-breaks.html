@@ -27,28 +27,28 @@
         {%- endif -%}
 
         <style>
-            .columns {
+            .columns-breaks {
               display: flex;
               justify-content: space-between;
             }
-            .column {
-              width: 48%;
+            .column-breaks {
+              width: 23%;
               font-size: 16px;
             }
 
             @media (max-width: 768px) {
-              .columns {
+              .columns-breaks {
                 flex-direction: column;
               }
-              .column {
+              .column-breaks {
                 width: 100%;
               }
             }
         </style>
 
-        <div class="columns">
+        <div class="columns-breaks">
             {% for desc in item.description %}
-                <div class="column">
+                <div class="column-breaks">
                     {{ desc.name | strip | markdownify }}
                 </div>
             {% endfor %}
