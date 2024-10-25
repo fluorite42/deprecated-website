@@ -2,7 +2,7 @@ content:
   - title: Selected Coursework
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: Electrical and Electronic Engineering
         description:
           - name: |
@@ -39,7 +39,7 @@ content:
                 1. Electricity & Magnetism (1)
         border: weak
 
-      - layout: top-middle
+      - layout: left
         title: Economics
         description:
           - name: |

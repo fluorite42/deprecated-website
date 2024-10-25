@@ -14,7 +14,19 @@
       <p class="no-print aditional-links">
         {% for link in item.additional_links %}
           {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            {%- if link.icon_svg -%}
+              <style>
+                .icon-container {
+                  text-align: center;
+                  font-size: 16px;
+                }
+              </style>
+              <div class="icon-container">
+              {{ link.icon_svg | safe }}
+              </div>
+            {%- else -%}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            {%- endif -%}
           </a>
         {% endfor %}
       </p>
