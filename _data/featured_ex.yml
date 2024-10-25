@@ -1,0 +1,41 @@
+content:
+  - title: Featured Experience
+    layout: list
+    content:
+      - layout: left
+        title: Language Exchange Program
+        sub_title: |
+          Yonsei Korean Language Institute (KLI)
+        caption: Fall 2023, Winter 2023, Spring 2024, Summer 2024, and Fall 2024
+        quote: >
+          Languages: English, Spanish
+        description: | 
+          - Participated in the program for 5 quarters with one or two KLI students per quarter.
+          - English-Korean: Fall 2023, Winter 2023, Spring 2024, Summer 2024; Spanish-Korean: Fall 2024
+          - Practiced English and Spanish and helped the KLI students study Korean by meeting regularly.
+        border: weak
+
+      - layout: left
+        title: Virtual Pen Pal Program
+        sub_title: |
+          University of South Florida,
+          Yonsei University Office of International Affairs
+        caption: Feb. 2023 - May 2023
+        quote: >
+          Languages: English
+        description: | 
+          - As part of IDH 4200-007: Korean Culture & Identity held at Judy Genshaft Honors College of University of South Florida.
+          - Had conversations with a student at University of South Florida regarding each other’s culture, interests, languages, etc. through a messaging app.
+          - Participated in the offline meeting event with University of South Florida students held at Yonsei University in May 2023.
+        border: weak
+
+      - layout: left
+        title: Student Exchange
+        sub_title: |
+          Waseda University Residence Life Center,
+          Yonsei University Residential College (RC)
+        caption: Sep. 2019
+        quote: >
+          Languages: Japanese, English
+        description: | 
+          - Introduced the campus to Waseda University students in Japanese and English at Yonsei University International Campus.
