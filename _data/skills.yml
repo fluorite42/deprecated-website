@@ -1,9 +1,9 @@
 content:
-  - title: Skills
+  - title: Skills/Languages
     layout: list
     content:
-      - layout: top
-        title: 
+      - layout: left
+        title: Skills
         description:
           - name: |
               - **Programming Languages**
@@ -18,6 +18,8 @@ content:
                   - ARM
               - **Hardware Description Languages**
                 - Verilog
+              - **Web Development**
+                - Jekyll
               - **Version Control**
                 - Git
                 - GitHub
@@ -30,11 +32,21 @@ content:
               - **Productivity Software**
                 - Microsoft Excel
                 - Microsoft Access
-              - **Web Development**
-                - Jekyll
               - **Markup Languages**
                 - LaTeX
                 - Markdown
                 - HTML
                 - CSS
                 - JavaScript
+                - YAML
+        border: weak
+
+      - layout: left
+        title: Languages
+        description:
+          - name: |
+              - **Korean**: Native
+              - **English**: Professional working proficiency
+          - name: |
+              - **Spanish**: Elementary proficiency
+              - **Japanese**: Elementary proficiency
