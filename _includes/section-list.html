@@ -14,14 +14,14 @@
       <p class="no-print aditional-links">
         {% for link in item.additional_links %}
           {%- if link.icon_svg -%}
-            <ul class="icons no-print">
-              <div class="center">
-                <li>
-                  <aa target="_blank" href="{{ link.url | escape }}" class="button button--sacnite button--round-l">
+            <ul class="icons no-print centered">
+              <li>
+                <a target="_blank" href="{{ link.url | escape }}">
+                  <aa class="button button--sacnite button--round-l">
                     {{ link.icon_svg | safe }}
                   </aa>
-                </li>
-              </div>
+                </a>
+              </li>
             </ul>
           {%- else -%}
             {% include a.html href=link.url class="" %}
