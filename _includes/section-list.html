@@ -16,7 +16,7 @@
           {%- if link.icon_svg -%}
             <div class="icons no-print">
               <div class="centered">
-                <a target="_blank" href="{{ link.url | escape }}">
+                <a target="_blank" href="{{ link.url | escape }}" title="{{ link.title | escape}}">
                   <aa class="button button--sacnite button--round-l">
                     {{ link.icon_svg | safe }}
                   </aa>
