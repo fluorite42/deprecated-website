@@ -52,7 +52,7 @@ content:
               <hr style="border-bottom: dashed 1px #CCCCCC;">
               ##### Winter DX Coding Camp (Machine Learning Class)
               ###### Yonsei University Library | Jan. 2023
-              - Instructor: Joeun Park <a href="https://www.youtube.com/@todaycode" target="_blank">[YouTube]<span>↗️</span></a>
+              - Instructor: Joeun Park <a href="https://www.youtube.com/@todaycode" target="_blank"><i class="fab fa-youtube" title="YouTube link"></i></a>
               - Understanding the Basics of Machine Learning
               - Feature Engineering Practice Using Python
 
@@ -66,5 +66,5 @@ content:
               <hr style="border-bottom: dashed 1px #CCCCCC;">
               ##### DX Academy Digital Literacy One-Day Class
               ###### Yonsei Digital Experience Center (Y-DEC) | Nov. 2022
-              - Instructor: Hojun Lee (Editor of <a href="https://www.youtube.com/@GYMJONGKOOK" target="_blank">[YouTube]<span>↗️</span></a>)
+              - Instructor: Hojun Lee (Editor of <a href="https://www.youtube.com/@GYMJONGKOOK" target="_blank"><i class="fab fa-youtube" title="YouTube link"></i></a>)
               - Creating a Vlog Using Adobe Premiere Pro

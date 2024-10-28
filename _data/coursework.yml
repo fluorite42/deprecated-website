@@ -5,53 +5,239 @@ content:
       - layout: left
         title: Electrical and Electronic Engineering
         description:
-          - name: |
-              - **Quantum Computing**
-                1. Quantum Computer and Simulation 1
-                1. Quantum Machine Learning
-                1. Electrical and Electronic Engineering Capstone Design
-              - **Computer Architecture**
-                1. Digital Logic Circuits
-                1. Computer Architecture
-                1. Communication Networks
-                1. Operating Systems
-                1. Microprocessors
-                1. Multicore and GPU Programming
-              - **Machine Learning**
-                1. Introduction Artificial Intelligence
-                1. Intelligent Control
-                1. Special Topics in Pattern Recognition
-          - name: |
-              - **Software Engineering**
-                1. Engineering Information Processing
-                1. Data Structure and Algorithms
-              - **Digital System Design**
-                1. Introductory Digital Labs
-                1. Digital Microelectronics
-                1. System IC Design
-                1. Embedded System Lab.
-              - **Analog System Design**
-                1. Basic Circuit Theory
-                1. Electronic Circuits
-                1. Analog Electronics Lab.
-              - **Telecommunications Engineering**
-                1. Signal and Systems
-                1. Electricity & Magnetism (1)
-        border: weak
+          - name:
+              - category:
+                  - title: Quantum Computing
+                    name:
+                      - number: 1
+                        course: Quantum Computer and Simulation 1
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic concepts of quantum computing and quantum information.
+                          - Learn quantum algorithms and practice quantum coding using IBM Qiskit.
+                          - Understand the physical systems that constitute qubits.
+                          - Learn quantum error correction essential for NISQ devices.
 
-      - layout: left
-        title: Economics
-        description:
-          - name: |
-              - **Econometrics**
-                1. Econometrics I
-                1. Financial Econometrics
-              - **DSGE Modeling**
-                1. Dynamic Analysis of Macroeconomy
-                1. Quantitative Macroeconomics
-          - name: |
-              - **Financial Engineering**
-                1. Introduction to Financial Engineering
-                1. Coding for Economics 2
-                1. Coding for Economics 1
-                1. AI Assisted Financial Engineering
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Quantum Computing: A Gentle Introduction (MIT Press) by Eleanor Rieffel and Wolfgang Polak <a href="https://a.co/d/1odkDcg" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Quantum Coding Practice Materials
+                          - <a href="https://github.com/qiskit-community/korean-community.git" target="_blank"><i class="fab fa-github" title="Github link"></i></a> korean-community / tutorials / 2023 Yonsei Lecture /
+
+                      - number: 2
+                        course: Quantum Machine Learning
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of quantum information theory and its applications on quantum computing.
+                          - Learn basic oracle-based quantum algorithms.
+                          - Understand near-term quantum machine learning algorithms.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. An Introduction to Quantum Computing (Oxford University Press) by Phillip Kaye, Raymond Laflamme, and Michele Mosca <a href="https://a.co/d/6FZXB1l" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Quantum Computation and Quantum Information (Cambridge University Press) by Michael A. Nielsen and Isaac L. Chuang <a href="https://a.co/d/7eJEEGs" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Machine Learning with Quantum Computers (Springer) by Maria Schuld and Francesco Petruccione <a href="https://a.co/d/3dj0lgZ" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                      - number: 3
+                        course: Electrical and Electronic Engineering Capstone Design
+                        description: |
+                          ###### Course Objective
+                          - Cultivate creative engineers with synthetic research ability.
+                          - Develop an engineering program considering industry requirements.
+                          - Summarize the undergraduate programs of EE.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Capstone Topic
+                          - **Title**: HS-Table: A Table-Based Algorithm for Optimizing Quantum Circuits through Qubit Reuse
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Capstone Team
+                          - **Members**: 1 student
+                          - **Role**: Team Leader
+                          - **Responsibility**: Every aspect of the project from planning to execution.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Research Lab
+                          - **Lab**: Embedded Systems and Computer Architecture Lab (eSCaL) <a href="http://escal.yonsei.ac.kr/research.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+                          - **Advisor**: Prof. Won Woo Ro <a href="http://escal.yonsei.ac.kr/professor.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+                          - **Teaching Assistant**: Enhyeok Jang <a href="https://www.notion.so/Enhyeok-Jang-9f594ec32719477fa5ab8cf0f517a642?pvs=4" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+                      
+              - category:
+                  - title: Computer Architecture
+                    name:
+                      - number: 1
+                        course: Digital Logic Circuits
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of digital circuits and analysing simple digital systems.
+                          - Learn Boolean algebra, Karnaugh map, combinational circuit, and sequential circuit.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Contemporary Logic Design (Pearson) by Randy H. Katz and Gaetano Borriello <a href="https://a.co/d/dKk9GQi" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                      - number: 2
+                        course: Computer Architecture
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of computer architecture.
+                          - Learn the structure of RISC CPU.
+                          - Learn the CPU pipeline structure.
+                          - Learn cache and memory structure.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Computer Organization and Design RISC-V Edition (Morgan Kaufmann) by David A. Patterson and John L. Hennessy <a href="https://a.co/d/cS3eyE1" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1-1**: Implementing a simple combinational circuit using on Quartus II.
+                          - **Project 1-2**: Designing an 8-bit arithmetic logic unit (ALU).
+                          - **Project 2**: Designing a 64-bit single-cycle RISC-V microprocessor.
+                          - **Project 3**: Designing a 64-bit pipelined RISC-V microprocessor.
+                          
+                          <img src="/images/coursework_ca.png" alt="Project 3" style="width: 100%; text-align: center;">
+                          <span style="font-size: 0.8em;">The block diagram of a pipelined RISC-V microprocessor.</span>
+
+                      - number: 3
+                        course: Communication Networks
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of communication networks.
+                          - Learn protocols of communication networks.
+                          - Learn control algorithms of communication networks.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Computer Networking (Pearson) by James F. Kurose and Keith W. Ross <a href="https://a.co/d/iPX5Vqz" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Investigating behaviors and analysing packets of HTTP, TCP, and UDP protocols using Wireshark.
+                          - **Project 2**: Investigating behaviors and analysing packets of IPv4, Ethernet, and 802.11 Wi-Fi protocols using Wireshark.
+
+                      - number: 4
+                        course: Operating Systems
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of process and scheduling.
+                          - Learn the basic concepts of memory virtualization, multi-threading, and file systems.
+                          - Programming practice of operating systems using xv6-riscv.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Operating Systems: Three Easy Pieces by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Assignment 1**: Implementing a simple shell in xv6-riscv.
+                          - **Assignment 2**: Adding a new system call to xv6-riscv that probes processes and prints out their information, including process ID, execution state, runtime, and program name.
+                          - **Assignment 3**: Replacing the round-robin process scheduler of xv6-riscv with a fair-share scheduling algorithm.
+                          - **Assignment 4**: Replacing the next-fit free list management scheme of xv6-riscv’s malloc library with the best-fit policy.
+                          - **Assignment 5**: Modifying the paging scheme of xv6-riscv to allocate physical frames belatedly on their first write access, referred to as copy-on-write.
+                          - **Assignment 6**: Implementing multi-threading features in xv6-riscv.
+
+                      - number: 5
+                        course: Microprocessors
+                        description: |
+                          ###### Course Objective
+                          - Understand parallel architectures and major peripheral devices.
+                          - Learn ARM processor and ARM assembly language for mobile SoCs.
+                          - Learn the solid-state drive (SSD) architecture.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects (in groups of 2)
+                          - Designing garbage collection and wear-leveling algorithm of block associative sector translation (BAST) flash translation layer (FTL) for an SSD.
+                            * Team Member: James Jihyun Moon <a href="https://magic-lycra-8cf.notion.site/Portfolio-3e8cdf51b9da45cbbf6f071994031aa9" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+                      - number: 6
+                        course: Multicore and GPU Programming
+                        description: |
+                          ###### Course Objective
+                          - Understand programming models for multi-threading (Pthread).
+                          - Understand programming models for multicore CPUs (OpenMP).
+                          - Understand programming models for GPUs (CUDA).
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Programming Massively Parallel Processors: A Hands-on Approach (Morgan Kaufmann) by Wen-mei W. Hwu, David B. Kirk, and Izzat El Hajj <a href="https://a.co/d/9KFxLMG" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Parallel Programming: Concepts and Practice (Morgan Kaufmann) by Bertil Schmidt, Jorge Gonzalez-Dominguez, Christian Hundt, and Moritz Schlarb <a href="https://a.co/d/hVPHI5c" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. C++ Concurrency in Action (Manning) by Anthony Williams <a href="https://a.co/d/hfHWZZ1" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Assignment 1**: Implementing a simple filter on 1D array using Pthread.
+                          - **Assignment 2**: Implementing a hash table using open addressing method using Pthread.
+                          - **Assignment 3**: Implementing a matrix multiplication kernel using OpenMP.
+                          - **Assignment 4**: Implementing a matrix multiplication kernel using CUDA.
+                          - **Assignment 5**: Implementing 7 versions of sum reduction kernels using CUDA.
+                          - **Assignment 6**: Implementing the VGG16 DNN model using CUDA.
+
+      #         - category:
+      #             - title: |
+      #                 - **Machine Learning**
+      #               name: |
+      #                 <ul>
+      #                   <ol>
+      #                   <li>Introduction Artificial Intelligence</li>
+      #                   <li>Intelligent Control</li>
+      #                   <li>Special Topics in Pattern Recognition</li>
+      #                   </ol>
+      #                 </ul>
+      #     - name:
+      #         - category:
+      #             - title: |
+      #                 - **Software Engineering**
+      #               name: |
+      #                   1. Engineering Information Processing
+      #                   1. Data Structure and Algorithms
+      #         - category:
+      #             - title: |
+      #                 - **Digital System Design**
+      #               name: |
+      #                   1. Introductory Digital Labs
+      #                   1. Digital Microelectronics
+      #                   1. System IC Design
+      #                   1. Embedded System Lab.
+      #         - category:
+      #             - title: |
+      #                 - **Analog System Design**
+      #               name: |
+      #                   1. Basic Circuit Theory
+      #                   1. Electronic Circuits
+      #                   1. Analog Electronics Lab.
+      #         - category:
+      #             - title: |
+      #                 - **Telecommunications Engineering**
+      #               name: |
+      #                   1. Signal and Systems
+      #                   1. Electricity & Magnetism (1)
+      #   border: weak
+
+      # - layout: left
+      #   title: Economics
+      #   description:
+      #     - name:
+      #         - category:
+      #             - title: |
+      #                 - **Econometrics**
+      #               name: |
+      #                   1. Econometrics I
+      #                   1. Financial Econometrics
+      #         - category:
+      #             - title: |
+      #                 - **DSGE Modeling**
+      #               name: |
+      #                   1. Dynamic Analysis of Macroeconomy
+      #                   1. Quantitative Macroeconomics
+      #     - name:
+      #         - category:
+      #             - title: |
+      #                 - **Financial Engineering**
+      #               name: |
+      #                   1. Introduction to Financial Engineering
+      #                   1. Coding for Economics 2
+      #                   1. Coding for Economics 1
+      #                   1. AI Assisted Financial Engineering
