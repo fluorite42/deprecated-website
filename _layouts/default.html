@@ -84,6 +84,13 @@
         </div>
       {% endfor %}
 
+      {% for section in site.data.lectures.content %}
+        <div class="container {{ section.layout }}-container">
+          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+          {% include {{ section.layout | prepend: "section-" | append: "-lec.html" }} content=section.content %}
+        </div>
+      {% endfor %}
+
       {% for section in site.data.volunteering.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>

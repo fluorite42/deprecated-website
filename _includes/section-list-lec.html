@@ -1,0 +1,37 @@
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+        {%- if item.quote -%}
+            <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+
+        <style>
+          .scrollable-container {
+              width: 100%;
+              height: 500px; /* Fixed height to make it scrollable */
+              overflow-y: auto; /* Enables vertical scrolling */
+              padding: 10px;
+              border: 1px solid #ccc; /* Optional: Border for visibility */
+          }
+      </style>
+      
+      <div class="scrollable-container">
+        {{ item.description | strip | markdownify }}
+      </div>
+    </div>
+
+  </div>
+{% endfor %}
