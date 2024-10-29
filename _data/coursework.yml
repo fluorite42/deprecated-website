@@ -377,14 +377,14 @@ content:
                             - Abstract: <br>
                               This report introduces a methodology of designing a liquid-crystal display (LCD) controller utilizing a fieldprogrammable gate array (FPGA) board. The controller controls two LCDs: a Text-LCD and a thin-film-transistor LCD (TFT-LCD). Instead of merely displaying texts, it interlocks data of two LCDs and implements effects such as blinking and color. Effects can be controlled through external buttons. The controller is designed through Verilog hardware description language (HDL) and implemented on an FPGA board. By operating the designed LCD controller, it can be verified that LCDs display and exchange characters in the form of American standard code for information interchange (ASCII) codes.
 
-                              <img src="/images/coursework_esl1.png" alt="Project" style="width: 80%; display: block; margin: 0 auto;">
+                              <img src="/images/coursework_esl1.png" alt="Midterm Project" style="width: 80%; display: block; margin: 0 auto;">
                               <div style="font-size: 0.8em; text-align: center;">A block diagram of the LCD controller.</div>
 
                           - **Final Project**
                             - Abstract: <br>
                               This report introduces the methodology of designing an interrupt clock using a field-programmable gate array (FPGA) board. The interrupt clock has two functions: retrieving the initial time from the real-time clock (RTC) and setting the time. The clock receives push button signals as interrupts, and these interrupts control the clock functions. The time is displayed on the 7-segment. The input/output (I/O) part is designed in Verilog hardware description language (HDL) and the firmware which handles interrupts is designed in the C programming language. By operating the designed interrupt clock, it can be verified that the clock manages interrupts using the interrupt device handler.
 
-                              <img src="/images/coursework_esl2.png" alt="Project" style="width: 80%; display: block; margin: 0 auto;">
+                              <img src="/images/coursework_esl2.png" alt="Final Project" style="width: 80%; display: block; margin: 0 auto;">
                               <div style="font-size: 0.8em; text-align: center;">A block diagram of the interrupt clock.</div>
 
               - category:
@@ -447,15 +447,109 @@ content:
                           <img src="/images/coursework_ael.png" alt="Project" style="width: 30%; display: block; margin: 0 auto;">
                           <div style="font-size: 0.8em; text-align: center;">The ECG readout result.</div>
 
+              - category:
+                  - title: Telecommunications Engineering
+                    name: 
+                      - number: 1
+                        course: Signal and Systems
+                        description: |
+                          ###### Course Objective
+                          - Learn signal and system characteristics and models.
+                          - Learn time-domain analysis of continuous-time signals.
+                          - Understand frequency-domain of continuous-time signals.
+                          - Understand analysis of continuous-time systems using Laplace transform.
+                          - Understand analysis of discrete-time systems using z-transform.
 
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Signal and Linear System Analysis 2e (John Wiley & Sons) by Gordon E. Carlson <a href="https://a.co/d/iOZ2w6X" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
 
-      #         - category:
-      #             - title: |
-      #                 - **Telecommunications Engineering**
-      #               name: |
-      #                   1. Signal and Systems
-      #                   1. Electricity & Magnetism (1)
-      #   border: weak
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### MATLAB Onramp
+                          - Recieved course completion certificate on 11 May 2020 from MathWorks. <a href="https://matlabacademy.mathworks.com/en/details/matlab-onramp/gettingstarted" title="MathWorks link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M5.765 21.661C4.172 20.473 2.188 19.078 0 17.489l7.749-2.979l3.183 2.385c-2.385 2.781-3.973 3.776-5.167 4.771zm21.266-8.344c-.599-1.588-.995-3.181-1.593-4.771c-.593-1.792-1.187-3.38-2.183-4.771c-.4-.593-1.192-1.989-2.187-1.989c-.199 0-.396.197-.599.197c-.595.204-1.391 1.391-1.589 2.188c-.593.995-1.792 2.583-2.583 3.577c-.199.396-.6.797-.797.996c-.593.395-1.193.995-1.984 1.391c-.204 0-.401.197-.599.197c-.595 0-.996.396-1.391.593c-.595.6-1.193 1.391-1.787 1.991c0 .197-.204.395-.401.599l2.984 2.181c2.188-2.583 4.771-5.167 6.557-10.135c0 0-.593 5.369-5.364 11.131c-2.985 3.38-5.371 5.171-5.767 5.567c0 0 .792-.197 1.589.199c1.593.593 2.385 2.781 2.984 4.369c.396 1.193.989 2.188 1.391 3.38c1.589-.396 2.584-.995 3.579-1.989c.989-.989 1.984-2.183 2.979-3.177c1.792-2.187 3.975-4.968 6.756-3.577c.4.197.995.599 1.192.796c.599.396.995.792 1.593 1.391c.991.792 1.391 1.391 2.183 1.787c-1.984-3.973-3.375-7.948-4.968-12.125z"/></svg></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Plotting continuous-time, discrete-time, and Fourier transformed signals.
+                          - **Project 2**: Verifying the Paley Wiener theory, properties of Fourier transform, and the Nyquist-Shannon sampling theorem.
+                          - **Project 3**: 
+                            1. Restoring the music signal* sampled at 4000 Hz to the original signal using a low-pass filter (LPF). 
+                            2. Removing noise from a music signal** using an LPF.
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;*What is Love? (2018) by TWICE <a href="https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y?si=f5416cccd7b944be&nd=1&dlsi=aefc1535489d41c1" target="_blank"><i class="fab fa-spotify" title="Spotify link"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;**Secret Garden (2017) by IU <a href="https://open.spotify.com/track/5F6nAnNIsRk9QbPOx9t11B?si=cc051a133ed64a0c&nd=1&dlsi=53d104c23545482d" target="_blank"><i class="fab fa-spotify" title="Spotify link"></i></a>
+                          - **Project 4**: Verifying Fourier transform, Laplace transform, and z-transform on different examples.
+
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss1.png" alt="Project 3(1)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Original signal.</figcaption>
+                            </figure>
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss2.png" alt="Project 3(1)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Sampled at 4000 Hz.</figcaption>
+                            </figure>
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss3.png" alt="Project 3(1)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Restored using LPF.</figcaption>
+                            </figure>
+                          </div>
+
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss6.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Original signal.</figcaption>
+                            </figure>
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss7.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Restored using LPF after sampled.</figcaption>
+                            </figure>
+                          </div>
+                          <br>
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss4.png" alt="Project 3(2)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise contained.</figcaption>
+                            </figure>
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss5.png" alt="Project 3(2)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise removed using LPF.</figcaption>
+                            </figure>
+                          </div>
+                          
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss8.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise contained.</figcaption>
+                            </figure>
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss9.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise removed using LPF.</figcaption>
+                            </figure>
+                          </div>
+
+                      - number: 2
+                        course: Electricity & Magnetism (1)
+                        description: |
+                          ###### Course Objective
+                          - Learn the basic characteristics of electric and magnetic fields.
+                          - Understand the meaning and phenomenon of electromagnetic waves through Maxwell's equations, which combine electric and magnetic fields in the time domain.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Field and Wave Electromagnetics: Pearson New International E (Pearson) by David K. Cheng <a href="https://a.co/d/iCUWvaV" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+        border: weak
 
       # - layout: left
       #   title: Economics
