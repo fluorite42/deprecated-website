@@ -387,16 +387,68 @@ content:
                               <img src="/images/coursework_esl2.png" alt="Project" style="width: 80%; display: block; margin: 0 auto;">
                               <div style="font-size: 0.8em; text-align: center;">A block diagram of the interrupt clock.</div>
 
-                          
+              - category:
+                  - title: Analog System Design
+                    name: 
+                      - number: 1
+                        course: Basic Circuit Theory
+                        description: |
+                          ###### Course Objective
+                          - Learn fundamental components comprising the analog ciruits.
+                          - Build the proper equations governing the circuit behaviors.
+                          - Learn algebraic equations explaining the static characteristics.
+                          - Learn differential equations explaining the dynamic characteristics.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Introduction to Electric Circuits (Wiley) by James A. Svoboda and Richard C. Dorf <a href="https://a.co/d/1bngi0l" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                      - number: 2
+                        course: Electronic Circuits
+                        description: |
+                          ###### Course Objective
+                          - Understand electronic circuits using Diode and Transistors.
+                          - Understand the physics of semiconductor.
+                          - Understand the physics of bipolar (BJT) and field effect (FET) transistors.
+                          - Design BJT and FET amplifiers.
+                          - Design multi-stage amplifiers.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Fundamentals of Microelectronics (Wiley) by Behzad Razavi <a href="https://a.co/d/0tSO6jd" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Designing a two stage amplifier based on bipolar junction transistors (BJTs).
+                            1. Finding the parameters and small signal model of BJTs.
+                            1. Designing a common emitter amplifier with a voltage gain higher than 45 dB.
+                            1. Designing an amplifier to drive a low impedance load.
+
+                          <img src="/images/coursework_ec.png" alt="Project" style="width: 60%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">Full circuit of the two-stage amplifier.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Modern Semiconductor Devices for Integrated Circuits (Pearson) by Chenming Hu <a href="https://a.co/d/gZM2V2G" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                      - number: 3
+                        course: Analog Electronics Lab.
+                        description: |
+                          ###### Course Objective
+                          - Verify the theoretical content of circuit theory through experiments and perform application projects.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Designing electrocardiogram (ECG) readout circuit.
+                            1. Designing ECG readout circuit using instrumentation amplifier (IA), notch filter, low-pass filter, and high-pass filter.
+                            1. Verifying the design through PSpice simulation.
+                            1. Implementing the design with breadboards and mearsuring ECG signals.
+
+                          <img src="/images/coursework_ael.png" alt="Project" style="width: 30%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The ECG readout result.</div>
 
 
-      #         - category:
-      #             - title: |
-      #                 - **Analog System Design**
-      #               name: |
-      #                   1. Basic Circuit Theory
-      #                   1. Electronic Circuits
-      #                   1. Analog Electronics Lab.
+
       #         - category:
       #             - title: |
       #                 - **Telecommunications Engineering**
