@@ -4,6 +4,27 @@
 @import "dark";
 @import "icons";
 
+#upButton {
+  display: none; /* Initially hidden */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  background-color: #9B5DE5;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1000; /* Keeps the button on top */
+}
+
+#upButton:hover {
+  background-color: #5F34A3; /* Changes color on hover */
+}
+
+
 .svg-icon {
   position: relative;   /* Position relative to adjust location */
   top: 24%;             /* Move it 50% down relative to its container */

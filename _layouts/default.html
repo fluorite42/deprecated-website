@@ -11,6 +11,7 @@
   /* For Chrome, Safari, and other WebKit-based browsers */
   ::-webkit-scrollbar {
       width: 14px; /* Width of the entire scrollbar */
+      height: 14px; /* Height of the entire scrollbar */
   }
 
   ::-webkit-scrollbar-track {
@@ -19,12 +20,12 @@
 
   ::-webkit-scrollbar-thumb {
       outline: none; /* Disable outline on the thumb */
-      background-color: #2e9cdf; /* Color of the draggable part */
+      background-color: #9B5DE5; /* Color of the draggable part */
       border-radius: 10px; /* Rounded corners for the thumb */
   }
 
   ::-webkit-scrollbar-thumb:hover {
-      background-color: #1e6faf; /* Color of the thumb when hovered */
+      background-color: #5F34A3; /* Color of the thumb when hovered */
   }
 
   ::-webkit-scrollbar-button {
@@ -37,6 +38,7 @@
     <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
     <label for="switch"><i id="moon" data-feather="moon" fill="var(color)"></i></label>
   </div>
+  <a href="#" id="upButton" title="Go to top"><b>↑</b></a>
 
   {%- include header.html -%}
 
@@ -153,5 +155,6 @@
 <script>
   feather.replace()
 </script>
+<script src="{{ '/assets/js/upButton.js' | relative_url }}"></script>
 
 </html>
