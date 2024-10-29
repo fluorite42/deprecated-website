@@ -39,12 +39,12 @@
     width: 280px;
     transform: translateY(-50%);
     background-color: #f1f1f1;
-    box-shadow: 0 0 10px rgba(#9B5DE5, 0.1);
     transition: right 0.3s ease;
     z-index: 1000;
     display: flex;
     align-items: center;
     border-radius: 10px;
+    border: 1.5px solid #9B5DE5;
   }
 
   .dark #contentsSidebar {
@@ -53,18 +53,21 @@
 
   .sidebar-title {
     position: absolute;
-    left: -20px;
+    left: -25.5px;
     top: 50%;
     transform: rotate(-90deg) translateY(-50%) translateX(-50%);
     background-color: #f1f1f1;
-    box-shadow: 0 0 10px rgba(#9B5DE5, 0.1);
-    z-index: 1000;
+    z-index: 900;
     transform-origin: left top;
     font-weight: semibold;
     color: #9B5DE5;
     font-size: 2em;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 10px 50px;
+    border-left: 1.5px solid #9B5DE5;
+    border-right: 1.5px solid #9B5DE5;
+    border-top: 1.5px solid #9B5DE5;
   }
 
   .dark .sidebar-title {
