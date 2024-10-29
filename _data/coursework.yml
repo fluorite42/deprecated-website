@@ -98,8 +98,8 @@ content:
                           - **Project 2**: Designing a 64-bit single-cycle RISC-V microprocessor.
                           - **Project 3**: Designing a 64-bit pipelined RISC-V microprocessor.
                           
-                          <img src="/images/coursework_ca.png" alt="Project 3" style="width: 100%; text-align: center;">
-                          <span style="font-size: 0.8em;">The block diagram of a pipelined RISC-V microprocessor.</span>
+                          <img src="/images/coursework_ca.png" alt="Project 3" style="width: 80%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The block diagram of a pipelined RISC-V microprocessor.</div>
 
                       - number: 3
                         course: Communication Networks
@@ -148,7 +148,7 @@ content:
                           - Learn the solid-state drive (SSD) architecture.
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
-                          ###### Projects (in groups of 2)
+                          ###### Project (in groups of 2)
                           - Designing garbage collection and wear-leveling algorithm of block associative sector translation (BAST) flash translation layer (FTL) for an SSD.
                             * Team Member: James Jihyun Moon <a href="https://magic-lycra-8cf.notion.site/Portfolio-3e8cdf51b9da45cbbf6f071994031aa9" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
@@ -175,32 +175,221 @@ content:
                           - **Assignment 5**: Implementing 7 versions of sum reduction kernels using CUDA.
                           - **Assignment 6**: Implementing the VGG16 DNN model using CUDA.
 
-      #         - category:
-      #             - title: |
-      #                 - **Machine Learning**
-      #               name: |
-      #                 <ul>
-      #                   <ol>
-      #                   <li>Introduction Artificial Intelligence</li>
-      #                   <li>Intelligent Control</li>
-      #                   <li>Special Topics in Pattern Recognition</li>
-      #                   </ol>
-      #                 </ul>
-      #     - name:
-      #         - category:
-      #             - title: |
-      #                 - **Software Engineering**
-      #               name: |
-      #                   1. Engineering Information Processing
-      #                   1. Data Structure and Algorithms
-      #         - category:
-      #             - title: |
-      #                 - **Digital System Design**
-      #               name: |
-      #                   1. Introductory Digital Labs
-      #                   1. Digital Microelectronics
-      #                   1. System IC Design
-      #                   1. Embedded System Lab.
+              - category:
+                  - title: Machine Learning
+                    name:
+                      - number: 1
+                        course: Introduction Artificial Intelligence
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic concepts and components of artificial intelligence (AI) and machine learning (ML).
+                          - Learn to formulate and to prepare the data for learning processing.
+                          - Learn to utilize and to implement programs for recognition applications and to evaluate the performance.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. The Hundred-Page Machine Learning Book by Andriy Burkov <a href="https://a.co/d/1Klobej" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Performing a linear regression for classification using the dataset “from sklearn.datasets import load_iris”.
+                          - **Project 2**: Training a decision tree regressor using the dataset “from sklearn.datasets import fetch_california_housing”.
+
+                      - number: 2
+                        course: Intelligent Control
+                        description: |
+                          ###### Course Objective
+                          - Understand reinforcement learning through programming.
+                          - Learn various reinforcement learning mothods such as Markov Decision Process (MDP), Dynamic Programming (DP), Monte Carlo, Temporal-Difference (TD) learning, and Q-learning.
+                          - Implement various reinforcement learning techniques through Python/Pytorch coding and compare their strengths and weaknesses.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Reinforcement Learning, second edition: An Introduction (Bradford Books) by Richard S. Sutton and Andrew G. Barto <a href="https://a.co/d/6XCtaII" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Implementing a program that solves the value function of a simple gridworld problem by matrix inversion.
+                          - **Project 2**: Implementing the DP algorithm to solve a gridworld problem.
+                          - **Project 3**: Implementing the Monte Carlo Control On Policy Simulation to solve a gridworld problem.
+                          - **Project 4**: Implementing the Q-learning Simulation to solve a gridworld problem.
+
+                          <img src="/images/coursework_ic.png" alt="Gridworld" style="width: 50%; display: block; margin: 0 auto;"><br>
+                          <div style="font-size: 0.8em; text-align: center;">The gridworld problem.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Mnih, V., Kavukcuoglu, K., Silver, D. *et al.* Human-level control through deep reinforcement learning. *Nature* **518**, 529-533 (2015). <a href="https://doi.org/10.1038/nature14236" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          
+                      - number: 3
+                        course: Special Topics in Pattern Recognition
+                        description: |
+                          ###### Course Objective
+                          - Focus on a special topic about "elements of learning from data" by going through important components in the field and link among these learning elements in pattern recognition.
+                          - Cover ecent and advanced learning algorithms from literatures of machine learning, neural network, and pattern recognition with particular attention paying towards relationships among the learning components.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. The Elements of Statistical Learning: Data Mining, Inference, and Prediction (Springer) by Trevor Hastie, Robert Tibshirani, and Jerome Friedman <a href="https://a.co/d/dL70zrf" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Performing classification using the linear regression model and reduced multivariate (RM) model and comparing the accuracies using the experimental data of Gaussian distribution.
+                          - **Project 2**: Performing a 5-fold cross validation test for the 3 data sets which are Mushroom, Iris, and Optical Recognition of Handwritten digits, using the following algorithms: 3-layer multi-layer perceptron (MLP) at different hidden node sizes, support vector machine (SVM) using different kernels, and RM Model for orders 1 to 5.
+
+                          <img src="/images/coursework_pr.png" alt="Project 1" style="width: 60%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">Project 1: The decision boundary line at order 5.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Kar-Ann Toh, Quoc-Long Tran and D. Srinivasan, "Benchmarking a reduced multivariate polynomial pattern classifier," in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 26, no. 6, pp. 740-755, June 2004 <a href="https://doi.org/10.1109/TPAMI.2004.3" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+          - name:
+              - category:
+                  - title: Software Engineering
+                    name:
+                      - number: 1
+                        course: Engineering Information Processing
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic concepts of programming.
+                          - Learn problem solving methods using the C programming language.
+                          - Improve the ability of solving some engineering-related subjects using the C programming language through various tasks.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 2)
+                          - Implementing a household account book program with the following functions: print the contents of all entries, add a new entry, delete or modify an entry, find some item from entry, calculate the current balance, display verbal histogram, sort entries, display the sum of card and cash, write the contents to account_book_new.txt file, and quit.
+
+                          <img src="/images/coursework_eip.png" alt="Project" style="width: 50%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The initial screen of the household account book program.</div>
+
+                      - number: 2
+                        course: Data Structure and Algorithms
+                        description: |
+                          ###### Course Objective
+                          - Understand abstract data types using the C programming language.
+                          - Analyze and design basic algorithms.
+                          - Introduction to the discrete mathematics system that is the basis of computer science and coding theory.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Data Structures and Algorithm Analysis in C (Pearson) by Mark Allen Weiss <a href="https://a.co/d/bBkDN9B" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+              - category:
+                  - title: Digital System Design
+                    name:
+                      - number: 1
+                        course: Introductory Digital Labs
+                        description: |
+                          ###### Course Objective
+                          - Learn basic digital logic design skills through laboratory experiments and projects.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Implementing a simple running game on a XILINX PYNQ-Z2 board.
+                            1. Characters: Yonsei University Eagle <a href="https://www.yonsei.ac.kr/en_sc/intro/symbol2.jsp" target="_blank"><i class="fa fa-link" title="Yonsei Eagle"></i></a>, MIT Beaver <a href="https://brand.mit.edu/logos-marks/tim-beaver" target="_blank"><i class="fa fa-link" title="Tim the Beaver"></i></a>, and Caltech Beaver <a href="https://identity.caltech.edu/officiallogomarks/athletics" target="_blank"><i class="fa fa-link" title="Caltech Beaver"></i></a>.
+                            1. Back ground music: The Skaters' Waltz from *Antarctic Adventure* (1983) by KONAMI. <a href="https://open.spotify.com/track/5XkIJ4UGZ2QvusWhFXBU5i" target="_blank"><i class="fab fa-spotify" title="Spotify link"></i></a> Originally composed by Émile Waldteufel. <a href="https://en.wikipedia.org/wiki/%C3%89mile_Waldteufel" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+
+                            <br>
+                            <div style="text-align: center;">
+                            <iframe width="226" height="127" 
+                              src="https://www.youtube.com/embed/ziwD89N9HxE?si=DScZf7jL9Gn0Ldq6" 
+                              title="YouTube video player" 
+                              frameborder="0" 
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                              referrerpolicy="strict-origin-when-cross-origin" 
+                              allowfullscreen>
+                            </iframe>
+
+                            <iframe width="226" height="127" 
+                              src="https://www.youtube.com/embed/NHBaYf8Geag?si=jvJbs6CFz0_typpG" 
+                              title="YouTube video player" 
+                              frameborder="0" 
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                              referrerpolicy="strict-origin-when-cross-origin" 
+                              allowfullscreen>
+                            </iframe>
+
+                            <iframe width="226" height="127" 
+                              src="https://www.youtube.com/embed/LRzXyT2rxAA?si=dVvw6q3fHezhSXOH" 
+                              title="YouTube video player" 
+                              frameborder="0" 
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                              referrerpolicy="strict-origin-when-cross-origin" 
+                              allowfullscreen>
+                            </iframe>
+                            </div>
+
+                      - number: 2
+                        course: Digital Microelectronics
+                        description: |
+                          ###### Course Objective
+                          - Understand CMOS transistors.
+                          - Learn combinational and sequential VLSI circuit design.
+                          - Learn subsystems of a computer such as data path, array, I/O, and clock.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Integrated Circuit Design: Global Edition (Pearson) by Neil H. E. Weste and David Money Harris <a href="https://a.co/d/2gf5FKv" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 2)
+                          - Designing a 6-bit decoder and digitally controlled delay line (DCDL) using combinational circuit.
+                            1. Pre-/main- decoder structural analysis and design considering metal resistance and capacitance.
+                            1. DCDL structural analysis and design considering uniform step-delay.
+
+                          <img src="/images/coursework_dm.png" alt="Project" style="width: 30%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">A uniform step-delay DCDL.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] R. -J. Yang and S. -I. Liu, "A 40-550 MHz Harmonic-Free All-Digital Delay-Locked Loop Using a Variable SAR Algorithm," in *IEEE Journal of Solid-State Circuits*, vol. 42, no. 2, pp. 361-373, Feb. 2007 <a href="http://doi.org/10.1109/JSSC.2006.889381" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+
+                      - number: 3
+                        course: System IC Design
+                        description: |
+                          ###### Course Objective
+                          - Understand system IC design flow.
+                          - Learn structural and behavioral modeling.
+                          - Learn synthesis and verification.
+                          - Learn design for testability and low power.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 3)
+                          - Designing, verifying, and synthesising a modified advanced encryption standard (AES) 128 decryptor.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Explanatory material for AES by Intel. <a href="https://www.intel.com/content/dam/doc/white-paper/advanced-encryption-standard-new-instructions-set-paper.pdf" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          <br>
+                          [2] AES specification by Federal Information Processing Standard (FIPS) Publication 197. <a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+
+                      - number: 4
+                        course: Embedded System Lab.
+                        description: |
+                          ###### Course Objective
+                          - Lab practices of embedded system hardware designs.
+                          - Lab practices of embedded software development.
+                          - Lab practices of development boards and kits.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Midterm Project**
+                            - Abstract: <br>
+                              This report introduces a methodology of designing a liquid-crystal display (LCD) controller utilizing a fieldprogrammable gate array (FPGA) board. The controller controls two LCDs: a Text-LCD and a thin-film-transistor LCD (TFT-LCD). Instead of merely displaying texts, it interlocks data of two LCDs and implements effects such as blinking and color. Effects can be controlled through external buttons. The controller is designed through Verilog hardware description language (HDL) and implemented on an FPGA board. By operating the designed LCD controller, it can be verified that LCDs display and exchange characters in the form of American standard code for information interchange (ASCII) codes.
+
+                              <img src="/images/coursework_esl1.png" alt="Project" style="width: 80%; display: block; margin: 0 auto;">
+                              <div style="font-size: 0.8em; text-align: center;">A block diagram of the LCD controller.</div>
+
+                          - **Final Project**
+                            - Abstract: <br>
+                              This report introduces the methodology of designing an interrupt clock using a field-programmable gate array (FPGA) board. The interrupt clock has two functions: retrieving the initial time from the real-time clock (RTC) and setting the time. The clock receives push button signals as interrupts, and these interrupts control the clock functions. The time is displayed on the 7-segment. The input/output (I/O) part is designed in Verilog hardware description language (HDL) and the firmware which handles interrupts is designed in the C programming language. By operating the designed interrupt clock, it can be verified that the clock manages interrupts using the interrupt device handler.
+
+                              <img src="/images/coursework_esl2.png" alt="Project" style="width: 80%; display: block; margin: 0 auto;">
+                              <div style="font-size: 0.8em; text-align: center;">A block diagram of the interrupt clock.</div>
+
+                          
+
+
       #         - category:
       #             - title: |
       #                 - **Analog System Design**
