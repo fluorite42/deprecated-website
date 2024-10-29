@@ -182,7 +182,15 @@
 
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
       <div class="columns-course">
-          {% for desc in item.description %}
+        {% assign total_categories = 0 %}
+        {% for desc in item.description %}
+          {% for desc2 in desc.name %}
+            {% assign total_categories = total_categories | plus: desc2.category.size %}
+          {% endfor %}
+        {% endfor %}
+
+        {% assign category_index = 0 %}
+        {% for desc in item.description %}
             <div class="column-course">
                 {% for desc2 in desc.name %}
                   {% for desc3 in desc2.category %}
@@ -198,6 +206,11 @@
                         </div>
                       </div>
                     {% endfor %}
+                    
+                    {% assign category_index = category_index | plus: 1 %}
+                    {%- if category_index < total_categories -%}
+                      <hr style="border-bottom: dashed 1px #CCCCCC;">
+                    {%- endif -%}
                   {% endfor %}
                 {% endfor %}
             </div>
