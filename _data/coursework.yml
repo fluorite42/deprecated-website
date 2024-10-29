@@ -219,7 +219,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] Mnih, V., Kavukcuoglu, K., Silver, D. *et al.* Human-level control through deep reinforcement learning. *Nature* **518**, 529-533 (2015). <a href="https://doi.org/10.1038/nature14236" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          [1] Mnih, V., Kavukcuoglu, K., Silver, D. *et al.* Human-level control through deep reinforcement learning. *Nature* **518**, 529-533 (2015). <a href="https://doi.org/10.1038/nature14236" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
                           
                       - number: 3
                         course: Special Topics in Pattern Recognition
@@ -242,7 +242,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] Kar-Ann Toh, Quoc-Long Tran and D. Srinivasan, "Benchmarking a reduced multivariate polynomial pattern classifier," in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 26, no. 6, pp. 740-755, June 2004 <a href="https://doi.org/10.1109/TPAMI.2004.3" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          [1] Kar-Ann Toh, Quoc-Long Tran and D. Srinivasan, "Benchmarking a reduced multivariate polynomial pattern classifier," in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 26, no. 6, pp. 740-755, June 2004 <a href="https://doi.org/10.1109/TPAMI.2004.3" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
           - name:
               - category:
                   - title: Software Engineering
@@ -342,7 +342,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] R. -J. Yang and S. -I. Liu, "A 40-550 MHz Harmonic-Free All-Digital Delay-Locked Loop Using a Variable SAR Algorithm," in *IEEE Journal of Solid-State Circuits*, vol. 42, no. 2, pp. 361-373, Feb. 2007 <a href="http://doi.org/10.1109/JSSC.2006.889381" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          [1] R. -J. Yang and S. -I. Liu, "A 40-550 MHz Harmonic-Free All-Digital Delay-Locked Loop Using a Variable SAR Algorithm," in *IEEE Journal of Solid-State Circuits*, vol. 42, no. 2, pp. 361-373, Feb. 2007 <a href="http://doi.org/10.1109/JSSC.2006.889381" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
 
                       - number: 3
                         course: System IC Design
@@ -359,9 +359,9 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] Explanatory material for AES by Intel. <a href="https://www.intel.com/content/dam/doc/white-paper/advanced-encryption-standard-new-instructions-set-paper.pdf" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          [1] Explanatory material for AES by Intel. <a href="https://www.intel.com/content/dam/doc/white-paper/advanced-encryption-standard-new-instructions-set-paper.pdf" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
                           <br>
-                          [2] AES specification by Federal Information Processing Standard (FIPS) Publication 197. <a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf" target="_blank"><i class="fa fa-link" title="Reference"></i></a>
+                          [2] AES specification by Federal Information Processing Standard (FIPS) Publication 197. <a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
 
                       - number: 4
                         course: Embedded System Lab.
@@ -620,11 +620,82 @@ content:
                           ###### References
                           [1] QuantEcon. <a href="https://quantecon.org" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
-      #         - category:
-      #             - title: |
-      #                 - **Financial Engineering**
-      #               name: |
-      #                   1. Introduction to Financial Engineering
-      #                   1. Coding for Economics 2
-      #                   1. Coding for Economics 1
-      #                   1. AI Assisted Financial Engineering
+          - name:
+              - category:
+                  - title: Financial Engineering
+                    name:
+                      - number: 1
+                        course: Introduction to Financial Engineering
+                        description: |
+                          ###### Course Objective
+                          - Understand the the types of derivatives.
+                          - Learn derivatives pricing principles.
+                          - Learn the risk management of derivatives.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] John C. Cox, Stephen A. Ross, and Mark Rubinstein, Option pricing: A simplified approach, *Journal of Financial Economics*, Volume 7, Issue 3, 1979, Pages 229-263, ISSN 0304-405X. <a href="http://doi.org/10.1016/0304-405X(79)90015-1" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+                          <br>
+                          [2] Fischer Black and Myron Scholes. "The Pricing of Options and Corporate Liabilities," *Journal of Political Economy*, vol. 81, no. 3, 1973, pp. 637-54. <a href="https://www.jstor.org/stable/1831029" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+                          <br>
+                          [3] "NOVA: Trillion Dollar Bet," *PBS*, 2000. <a href="https://www.imdb.com/title/tt1028385/" target="_blank"><i class="fab fa-imdb" title="IMDb link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          1. Introduction to Python
+                          1. Intermediate Python
+                          1. Python Data Science Toolbox (Part 1)
+                          1. Supervised Learning with scikit-learn
+                          1. Introduction to Deep Learning in Python
+                          1. Advanced Deep Learning with Keras
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Deep Hedging on Fixed Strike Asian Options
+                            - Abstract: <br>
+                              The Black-Scholes model is highly important and widely used strategy for the risk hedging of options. However, the Black-Scholes model has many limitations, and it is often unsuitable for application. This report introduces the method of option pricing using deep learning, which is called deep hedging, and applies the method on fixed strike Asian options.
+
+                          <img src="/images/coursework_ife.png" alt="Project" style="width: 40%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">Result of deep hedging on Asian option using sigmoid function.</div>
+
+                      - number: 2
+                        course: Coding for Economics 2
+                        description: |
+                          ###### Course Objective
+                          - Analyze the balance of a model economy by applying quantitative analysis algorithms to various economic theories.
+                          - Perform numerical analysis of changes in balance according to changes in the economic environment.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          1. Manipulating Time Series Data in Python
+                          1. Introduction to Portfolio Analysis in Python
+                          1. Introduction to Portfolio Risk Management in Python
+                          1. Quantitative Risk Management in Python
+                          1. Credit Risk Modeling in Python
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Coding 1**: Analyzing demographic data and financial data.
+                          - **Coding 2**: Dynamics of population distribution by age. Finding equilibria of competitive markets.
+                          - **Coding 3**: Simulating Friedman-Hall consumption smoothing model and present value model of asset pricing theory. Finding general equilibrium of an economic model with nonlinear demands and supplies using Newton's method.
+
+                      - number: 3
+                        course: Coding for Economics 1
+                        description: |
+                          ###### Course Objective
+                          - Learn Python, numerical computation, and object oriented programming.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          1. Introduction to Python
+                          1. Intermediate Python
+                          1. Introduction to Functions
+                          1. Python Toolbox
+
+                      - number: 4
+                        course: AI Assisted Financial Engineering
+                        description: |
+                          ###### Course Objective
+                          - Learn deep hedging.
+                          - Learn simulation-based delta hedging.
+                          - Understand the pricing of options.
