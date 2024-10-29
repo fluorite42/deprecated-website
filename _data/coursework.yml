@@ -214,7 +214,7 @@ content:
                           - **Project 3**: Implementing the Monte Carlo Control On Policy Simulation to solve a gridworld problem.
                           - **Project 4**: Implementing the Q-learning Simulation to solve a gridworld problem.
 
-                          <img src="/images/coursework_ic.png" alt="Gridworld" style="width: 50%; display: block; margin: 0 auto;"><br>
+                          <img src="/images/coursework_ic.png" alt="Gridworld" style="width: 50%; display: block; margin: 0 auto;">
                           <div style="font-size: 0.8em; text-align: center;">The gridworld problem.</div>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
