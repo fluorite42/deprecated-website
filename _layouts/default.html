@@ -31,6 +31,80 @@
   ::-webkit-scrollbar-button {
       display: none; /* No visible buttons */
   }
+
+  #contentsSidebar {
+    position: fixed;
+    top: 50%;
+    right: -280px;
+    width: 280px;
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(#9B5DE5, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .dark #contentsSidebar {
+    background-color: #333;
+  }
+
+  .sidebar-title {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: rotate(-90deg) translateY(-50%) translateX(-50%);
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(#9B5DE5, 0.1);
+    z-index: 1000;
+    transform-origin: left top;
+    font-weight: semibold;
+    color: #9B5DE5;
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 10px 50px;
+  }
+
+  .dark .sidebar-title {
+    background-color: #333;
+  }
+
+  #contentsSidebar nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 15px;
+  }
+
+  #contentsSidebar nav ul li {
+      margin: 15px 0;
+  }
+
+  #contentsSidebar nav ul li a {
+      text-decoration: none;
+      color: #9B5DE5;
+      font-weight: regular;
+  }
+
+  #contentsSidebar nav ul li a:hover {
+      color: #5F34A3;
+      font-weight: bold;
+      font-size: large;
+  }
+
+  #contentsSidebar nav ul li a.active {
+      color: #5F34A3;
+      font-weight: bold;
+      font-size: large;
+  }
+
+  @media (max-width: 768px) {
+    #contentsSidebar {
+        display: none;
+    }
+  }
 </style>
 
 <body class="">
@@ -49,103 +123,153 @@
         {%- include gtm_body.html -%}
       {%- endif -%}
 
-      {%- include about.html -%}
+      <section id="section1">{%- include about.html -%}</section>
 
+      <section id="section2">
       {% for section in site.data.education.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section3">
       {% for section in site.data.experience.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section4">
       {% for section in site.data.publications.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: "-pub.html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section5">
       {% for section in site.data.projects.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section6">
       {% for section in site.data.awards.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section7">
       {% for section in site.data.coursework.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: "-course.html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section8">
       {% for section in site.data.certifications.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section9">
       {% for section in site.data.featured_ex.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section10">
       {% for section in site.data.educational.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: "-prog.html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section11">
       {% for section in site.data.lectures.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: "-lec.html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section12">
       {% for section in site.data.volunteering.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section13">
       {% for section in site.data.skills.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: "-skills.html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
+      <section id="section14">
       {% for section in site.data.breaks.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
           {% include {{ section.layout | prepend: "section-" | append: "-breaks.html" }} content=section.content %}
         </div>
       {% endfor %}
+      </section>
 
     </div>
   </main>
 
   {%- include footer.html -%}
+
+  <!-- Sidebar -->
+  <div id="contentsSidebar">
+    <div class="sidebar-title">Contents</div>
+    <nav>
+      <ul>
+        <li><a href="#section1" data-section="section1">1. Summary</a></li>
+        <li><a href="#section2" data-section="section2">2. Education</a></li>
+        <li><a href="#section3" data-section="section3">3. Research Experience</a></li>
+        <li><a href="#section4" data-section="section4">4. Publications</a></li>
+        <li><a href="#section5" data-section="section5">5. Participated Projects</a></li>
+        <li><a href="#section6" data-section="section6">6. Honors and Awards</a></li>
+        <li><a href="#section7" data-section="section7">7. Selected Coursework</a></li>
+        <li><a href="#section8" data-section="section8">8. Licenses and Certifications</a></li>
+        <li><a href="#section9" data-section="section9">9. Featured Experience</a></li>
+        <li><a href="#section10" data-section="section10">10. Educational Programs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participated</a></li>
+        <li><a href="#section11" data-section="section11">11. Featured Lectures Attended</a></li>
+        <li><a href="#section12" data-section="section12">12. Volunteering</a></li>
+        <li><a href="#section13" data-section="section13">13. Skills/Languages</a></li>
+        <li><a href="#section14" data-section="section14">14. Career Breaks</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script src="{{ '/assets/js/contents.js' | relative_url }}"></script>
 
   <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 </body>
