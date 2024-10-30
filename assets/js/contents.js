@@ -5,14 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let sidebarVisible = false;
     let hideSidebarTimeout;
 
-    // Show sidebar when the mouse is near the right edge of the screen
+    // Show sidebar when the mouse is near the right edge of the screen and near the vertical bounds of the sidebar
     document.addEventListener("mousemove", (e) => {
-        if (e.clientX > window.innerWidth - 50) {
-            // Show the sidebar when cursor is near the right edge
+        const sidebarRect = sidebar.getBoundingClientRect();
+        const isNearRightEdge = e.clientX > window.innerWidth - 50; // Cursor near the right edge
+        const isWithinSidebarHeight = e.clientY > sidebarRect.top && e.clientY < sidebarRect.bottom; // Cursor is vertically aligned with the sidebar
+
+        if (isNearRightEdge && isWithinSidebarHeight) {
+            // Show the sidebar when cursor is near the right edge and aligned with the sidebar's height
             sidebar.style.right = "0";
             sidebarVisible = true;
             clearTimeout(hideSidebarTimeout); // Cancel hide timeout if the cursor is near
-        } else if (sidebarVisible && e.clientX < window.innerWidth - 300) {
+        } else if (sidebarVisible && (e.clientX < window.innerWidth - 300 || !isWithinSidebarHeight)) {
             // Start hiding the sidebar if the mouse is far from the sidebar
             hideSidebarTimeout = setTimeout(() => {
                 sidebar.style.right = "-280px";
