@@ -134,9 +134,6 @@
 </style>
 
 <body class="">
-  {%- if jekyll.environment == 'production' and site.gtm -%}
-    {%- include gtm_body.html -%}
-  {%- endif -%}
 
   <div class="fixed-toggle">
     <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
@@ -148,6 +145,10 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
+      
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
 
       <section id="section1">{%- include about.html -%}</section>
 
