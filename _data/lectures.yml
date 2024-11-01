@@ -5,6 +5,12 @@ content:
       - layout: left
         title: Academic Topics
         description: |
+          ##### Jaewan Kim (Physics Professor at KIAS and Yonsei U.) <a href="https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10146&trget=listDstPrfFaculty&menuNo=401003&pageIndex=" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ###### Quantum Informatics at Yonsei Academy (QIYA) | Oct. 2024
+          - Quantum Information Science: For Using Quantum Computers (Beyond Quantum, Nano, and Digital)
+          - Kickoff Lecture for Qiskit Fall Fest 2024 in Yonsei <a href="https://qiya-yonsei.github.io" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+          <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Quantum Computing Seminar
           ###### Electrical Engineering Honor Society (EEHS), Quantum Informatics at Yonsei Academy (QIYA) | Oct. 2024
           - Information on the Concept of Quantum Computers and the Current State of the Industry
