@@ -35,38 +35,39 @@
                 {%- if forloop.last == false -%}&nbsp&nbsp&nbsp&nbsp{% endif -%}
             {% endfor %}
         </p>
-      
-        <!-- Feather icon toggle -->
-        <div style="text-align: center;">
-            <span id="toggle-button" onclick="toggleContent()" style="cursor: pointer; font-size: 16px;">
-                <i id="toggle-icon" data-feather="chevron-right" style="vertical-align: middle;"></i>
-                <span id="toggle-text" style="font-size: inherit;">Abstract</span>
-            </span>
-        </div>
+        
+        {%- if item.abstract -%}
+          <!-- Feather icon toggle -->
+          <div style="text-align: center;">
+              <span id="toggle-button" onclick="toggleContent()" style="cursor: pointer; font-size: 16px;">
+                  <i id="toggle-icon" data-feather="chevron-right" style="vertical-align: middle;"></i>
+                  <span id="toggle-text" style="font-size: inherit;">Abstract</span>
+              </span>
+          </div>
 
-        <div id="abstract" style="display: none;">
-            {{ item.abstract | strip | markdownify }}
-        </div>
+          <div id="abstract" style="display: none;">
+              {{ item.abstract | strip | markdownify }}
+          </div>
 
-        <script>
-        function toggleContent() {
-            var content = document.getElementById("abstract");
-            var toggleIcon = document.getElementById("toggle-icon");
+          <script>
+          function toggleContent() {
+              var content = document.getElementById("abstract");
+              var toggleIcon = document.getElementById("toggle-icon");
 
-            if (content.style.display === "none") {
-                content.style.display = "block";
-                toggleIcon.setAttribute('data-feather', 'chevron-down');
-            } else {
-                content.style.display = "none";
-                toggleIcon.setAttribute('data-feather', 'chevron-right');
-            }
-            feather.replace();  // Re-render Feather icons after changing
-        }
-        </script>
-        <script>
-            feather.replace();  // Initialize Feather Icons
-        </script>
-
+              if (content.style.display === "none") {
+                  content.style.display = "block";
+                  toggleIcon.setAttribute('data-feather', 'chevron-down');
+              } else {
+                  content.style.display = "none";
+                  toggleIcon.setAttribute('data-feather', 'chevron-right');
+              }
+              feather.replace();  // Re-render Feather icons after changing
+          }
+          </script>
+          <script>
+              feather.replace();  // Initialize Feather Icons
+          </script>
+        {%- endif -%}
 
     </div>
   </div>
