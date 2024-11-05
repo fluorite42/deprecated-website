@@ -27,4 +27,4 @@ content:
         description: |
           - Developed a compilation framework to enhance the performance of quantum compilers.
           - Utilized the qubit reuse technique to improve resource efficiency and fidelity in quantum circuits.
-          - Wrote a research paper on the project and submitted it to the 2025 IEEE International Symposium on High-Performance Computer Architecture (HPCA).
+#          - Wrote a research paper on the project and submitted it to the 2025 International Symposium on Computer Architecture (ISCA).
