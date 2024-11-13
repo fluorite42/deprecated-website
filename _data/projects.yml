@@ -3,7 +3,7 @@ content:
     layout: list
     content:
       - layout: top
-        title: Developing A High-Speed Quantum Circuit Simulator Supports Verification and Testing of Hyperscale Quantum Algorithms
+        title: Developing A High-Speed Quantum Circuit Simulator that Supports Verification and Testing of Hyperscale Quantum Algorithms
         sub_title: |
           Hyundai NGV,
           Embedded Systems and Computer Architecture Lab (eSCaL)
