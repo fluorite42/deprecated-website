@@ -5,10 +5,16 @@ content:
       - layout: left
         title: Academic Topics
         description: |
-          ##### Jaewan Kim (Physics Professor at KIAS and Yonsei U.) <a href="https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10146&trget=listDstPrfFaculty&menuNo=401003&pageIndex=" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### 6ᵗʰ Memory-Centric Computing Future and Challenge Workshop
+          ###### The Institute of Electronics and Information Engineers (IEIE) | Nov. 2024
+          - 6ᵗʰ Memory-Centric Computing Future and Challenge Workshop: Looking Back on the Past 7 Years...
+            - Lecturer: Won Woo Ro (Electrical and Electronic Engineering Professor at Yonsei U.) <a href="http://escal.yonsei.ac.kr/professor.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          
+          <hr style="border-bottom: dashed 1px #CCCCCC;">
+          ##### Qiskit Fall Fest (QFF) 2024 in Yonsei <a href="https://qiya-yonsei.github.io" target="_blank"><i class="fa fa-link" title="Website"></i></a>
           ###### Quantum Informatics at Yonsei Academy (QIYA) | Oct. 2024
           - Quantum Information Science: For Using Quantum Computers (Beyond Quantum, Nano, and Digital)
-          - Kickoff Lecture for Qiskit Fall Fest (QFF) 2024 in Yonsei <a href="https://qiya-yonsei.github.io" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Jaewan Kim (Physics Professor at KIAS and Yonsei U.) <a href="https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10146&trget=listDstPrfFaculty&menuNo=401003&pageIndex=" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Quantum Computing Seminar
@@ -36,7 +42,7 @@ content:
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### ACM SIGARCH Korea Chapter Workshop 2024
-          ###### Korean Institute of Information Scientists and Engineers | Jul. 2024
+          ###### Korean Institute of Information Scientists and Engineers (KIISE) | Jul. 2024
           - A Fault-Tolerant Million Qubit-Scale Distributed Quantum Computer <a href="https://doi.org/10.1145/3620665.3640388" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
           - Memory and Storage for AI Service Platform: The Importance of System Interconnection
             - Lecturer: Youngpyo Joo (VP/Research Fellow at SK hynix)
