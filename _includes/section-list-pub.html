@@ -1,23 +1,67 @@
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
-      {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
-      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
-      {%- if item.link -%}
-        {% include a.html href=item.link class="link" %}
-          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
-        </a>
-      {%- endif -%}
+      <style>
+        .columns-pub {
+          display: flex;
+          justify-content: space-between;
+        }
+        .column-pub1 {
+          width: 83%;
+          font-size: 16px;
+        }
 
-      <p class="no-print aditional-links">
-        {% for link in item.additional_links %}
-          {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-          </a>
-        {% endfor %}
-      </p>
+        .column-pub2 {
+          width: 13%;
+          font-size: 16px;
+          text-align: left;
+        }
+
+        @media (max-width: 768px) {
+          .columns-pub {
+            flex-direction: column;
+          }
+          .column-pub1 {
+            width: 100%;
+          }
+
+          .column-pub2 {
+            width: 100%;
+            text-align: center;
+          }
+        }
+      </style>
+
+      <div class="columns-pub">
+
+        <div class="column-pub1">
+          <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+          {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
+          {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+          {%- if item.link -%}
+            {% include a.html href=item.link class="link" %}
+              {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+            </a>
+          {%- endif -%}
+
+          <p class="no-print aditional-links">
+            {% for link in item.additional_links %}
+              {% include a.html href=link.url class="" %}
+                <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+              </a>
+            {% endfor %}
+          </p>
+        </div>
+        <div class="column-pub2">
+          {%- if item.img -%}
+            <img src="{{ item.img }}" alt="{{ item.sub_title }}" class="img-responsive">
+          {%- endif -%}
+        </div>
+
+      </div>
+
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
         <p class="quote">

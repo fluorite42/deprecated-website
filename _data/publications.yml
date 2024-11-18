@@ -7,6 +7,7 @@ content:
         sub_title: |
           CGO '25: Proceedings of the 2025 IEEE/ACM International Symposium on Code Generation and Optimization
         caption: Mar. 2025
+        img: /images/cgo_logo.jpg
         authors:
           - name: Enhyeok Jang*
           - name: Youngmin Kim*
@@ -27,6 +28,7 @@ content:
           PACT '24: Proceedings of the 2024 International Conference on Parallel Architectures and Compilation Techniques
         caption: 13 Oct. 2024
         link: https://doi.org/10.1145/3656019.3676899
+        img: /images/pact_logo.gif
         authors:
           - name: Enhyeok Jang*
           - name: Dongho Ha**
