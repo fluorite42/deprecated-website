@@ -3,12 +3,31 @@ content:
     layout: list
     content:
       - layout: top
-        title: Developing A High-Speed Quantum Circuit Simulator that Supports Verification and Testing of Hyperscale Quantum Algorithms
+        title: Developing a High-Speed Quantum Circuit Simulator that Supports Verification and Testing of Hyperscale Quantum Algorithms
         sub_title: |
           Hyundai NGV,
           Embedded Systems and Computer Architecture Lab (eSCaL)
         caption: Jul. 2024 - Oct. 2024
-        description: | 
-          - Client Company: Hyundai NGV <a href="https://www.hyundai-ngv.com/en/main/index.do" target="_blank"><i class="fa fa-link" title="Website"></i></a>
-          - Project Director: Won Woo Ro <a href="http://escal.yonsei.ac.kr/professor.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
-          - Working Director: Enhyeok Jang <a href="https://www.notion.so/Enhyeok-Jang-9f594ec32719477fa5ab8cf0f517a642?pvs=4" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+        img: /images/Hyundai_Motor_Group_CI.png
+        authors:
+          - name: Jinyoung Lee*¹
+          - name: Won Woo Ro**²
+          - name: Enhyeok Jang**³
+          - name: Sungwoo Ahn**
+          - name: Seungwoo Choi**
+          - name: Cheolhwan Kim**
+          - name: Youngmin Kim**
+          - name: Hyungseok Kim**
+            style: bold
+        affiliations:
+          - name: >
+              *Hyundai Motor Group, Republic of Korea
+          - name: >
+              **Yonsei University, Republic of Korea
+        roles:
+          - name: >
+              ¹Project Manager
+          - name: >
+              ²Research Director
+          - name: >
+              ³Working Director

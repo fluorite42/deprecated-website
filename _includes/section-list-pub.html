@@ -16,6 +16,8 @@
           width: 13%;
           font-size: 16px;
           text-align: left;
+          margin-top: auto;
+          margin-bottom: auto;
         }
 
         @media (max-width: 768px) {
@@ -79,7 +81,18 @@
                 {{ affiliation.name }}
                 {%- if forloop.last == false -%}&nbsp&nbsp&nbsp&nbsp{% endif -%}
             {% endfor %}
+            {%- if item.roles -%}
+                <br>
+                {% for role in item.roles %}
+                    {{ role.name }}
+                    {%- if forloop.last == false -%}&nbsp&nbsp&nbsp&nbsp{% endif -%}
+                {% endfor %}
+            {%- endif -%}
         </p>
+
+        {%- if item.description -%}
+          {{ item.description | strip | markdownify }}
+        {%- endif -%}
         
         {%- if item.abstract -%}
           <!-- Feather icon toggle -->
