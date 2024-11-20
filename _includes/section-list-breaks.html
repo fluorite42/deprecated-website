@@ -55,7 +55,53 @@
               {% endfor %}
           </div>
         {%- else -%}
-          {{ item.description | strip | markdownify }}
+
+          <style>
+            .columns-breaks {
+              display: flex;
+              justify-content: space-between;
+            }
+            .column-breaks1 {
+              width: 83%;
+              font-size: 16px;
+            }
+    
+            .column-breaks2 {
+              width: 13%;
+              font-size: 16px;
+              text-align: left;
+              margin-top: auto;
+              margin-bottom: auto;
+            }
+    
+            @media (max-width: 768px) {
+              .columns-breaks {
+                flex-direction: column;
+              }
+              .column-breaks1 {
+                width: 100%;
+              }
+    
+              .column-breaks2 {
+                width: 25%;
+                margin: 0 auto;
+                text-align: center;
+              }
+            }
+          </style>
+
+          {%- if item.img -%}
+            <div class="columns-breaks">
+              <div class="column-breaks1">
+                {{ item.description | strip | markdownify }}
+              </div>
+              <div class="column-breaks2">
+                  <img src="{{ item.img }}" alt="{{ item.sub_title }}" class="img-responsive">
+              </div>
+            </div>
+          {%- else -%}
+              {{ item.description | strip | markdownify }}
+          {%- endif -%}
         {%- endif -%}
     </div>
 

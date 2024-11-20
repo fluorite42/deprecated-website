@@ -69,6 +69,7 @@ content:
         description: |
           - II Corps, Republic of Korea Army
           - Final Rank: Sergeant (E-5 of US Army or OR-5 of NATO Equivalent)
+        img: /images/logo_army.png
         border: weak
 
       - layout: left
