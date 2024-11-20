@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (sidebarVisible && (e.clientX < window.innerWidth - 300 || !isWithinSidebarHeight)) {
             // Start hiding the sidebar if the mouse is far from the sidebar
             hideSidebarTimeout = setTimeout(() => {
-                sidebar.style.right = "-280px";
+                sidebar.style.right = "-230px";
                 sidebarVisible = false;
             }, 300); // Add delay before hiding to prevent accidental disappearance
         }
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebar.addEventListener("mouseleave", () => {
         // Hide sidebar after a delay when the mouse leaves the sidebar
         hideSidebarTimeout = setTimeout(() => {
-            sidebar.style.right = "-280px";
+            sidebar.style.right = "-230px";
             sidebarVisible = false;
         }, 500);
     });
