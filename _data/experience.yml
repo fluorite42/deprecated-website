@@ -10,6 +10,7 @@ content:
         link: http://escal.yonsei.ac.kr/index.html
         quote: >
           Led by Professor Won Woo Ro, eSCaL conducts cutting-edge research in computer architecture, embedded systems, and parallel processing, focusing on optimizing performance and energy efficiency in multi-core processors, GPUs, and novel hardware designs.
+        img: /images/logo_escal.png
         description: | 
           - Collaborates with the quantum computing team on various research projects aimed at advancing quantum computing technologies.
           - Engages in innovative solutions and contributes to cutting-edge developments in the field.
@@ -24,6 +25,7 @@ content:
         quote: >
           The School of Electrical and Electronic Engineering offers undergraduates research opportunities, requiring all seniors to complete the EEE4610 Capstone Design course.
           Senior projects are supervised and evaluated by faculty and teaching assistants.
+        img: /images/logo_escal.png
         description: |
           - Developed a compilation framework to enhance the performance of quantum compilers.
           - Utilized the qubit reuse technique to improve resource efficiency and fidelity in quantum circuits.
