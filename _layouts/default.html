@@ -216,7 +216,7 @@
       {% for section in site.data.featured_ex.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          {% include {{ section.layout | prepend: "section-" | append: "-fea-ex.html" }} content=section.content %}
         </div>
       {% endfor %}
       </section>

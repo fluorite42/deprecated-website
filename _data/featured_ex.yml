@@ -11,22 +11,25 @@ content:
           Languages: English, Spanish
         description: | 
           - Participated in the program for 5 quarters with one or two KLI students per quarter.
-          - English-Korean: Fall 2023, Winter 2023, Spring 2024, Summer 2024; Spanish-Korean: Fall 2024
+          - English-Korean: Fall 2023, Winter 2023, Spring 2024, and Summer 2024;<br>
+            Spanish-Korean: Fall 2024
           - Practiced English and Spanish and helped the KLI students study Korean by meeting regularly.
+        img: /images/logo_kli.png
         border: weak
 
       - layout: left
         title: Virtual Pen Pal Program
         sub_title: |
-          University of South Florida,
+          University of South Florida Judy Genshaft Honors College,
           Yonsei University Office of International Affairs
         caption: Feb. 2023 - May 2023
         quote: >
           Languages: English
         description: | 
           - As part of IDH 4200-007: Korean Culture & Identity held at Judy Genshaft Honors College of University of South Florida.
-          - Had conversations with a student at University of South Florida regarding each other’s culture, interests, languages, etc. through a messaging app.
+          - Had conversations with a student at University of South Florida regarding each other's culture, interests, languages, etc. through a messaging app.
           - Participated in the offline meeting event with University of South Florida students held at Yonsei University in May 2023.
+        img: /images/logo_usf.jpg
         border: weak
 
       - layout: left
@@ -39,3 +42,4 @@ content:
           Languages: Japanese, English
         description: | 
           - Introduced the campus to Waseda University students in Japanese and English at Yonsei University International Campus.
+        img: /images/logo_waseda.png
