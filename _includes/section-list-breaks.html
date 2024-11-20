@@ -62,11 +62,18 @@
               justify-content: space-between;
             }
             .column-breaks1 {
-              width: 83%;
+              width: 70%;
               font-size: 16px;
             }
     
             .column-breaks2 {
+              width: 13%;
+              font-size: 16px;
+              text-align: left;
+              margin-top: auto;
+              margin-bottom: auto;
+            }
+            .column-breaks3 {
               width: 13%;
               font-size: 16px;
               text-align: left;
@@ -87,6 +94,11 @@
                 margin: 0 auto;
                 text-align: center;
               }
+              .column-breaks3 {
+                width: 25%;
+                margin: 0 auto;
+                text-align: center;
+              }
             }
           </style>
 
@@ -97,6 +109,9 @@
               </div>
               <div class="column-breaks2">
                   <img src="{{ item.img }}" alt="{{ item.sub_title }}" class="img-responsive">
+              </div>
+              <div class="column-breaks3">
+                <img src="{{ item.img2 }}" alt="{{ item.sub_title }}" class="img-responsive">
               </div>
             </div>
           {%- else -%}
