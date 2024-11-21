@@ -21,6 +21,7 @@ content:
               *Yonsei University, Republic of Korea    
           - name: >
               **Rutgers University, New Jersey, USA
+        border: weak
 
       - layout: top
         title: Recompiling QAOA Circuits on Various Rotational Directions
