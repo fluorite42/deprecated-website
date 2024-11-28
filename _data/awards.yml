@@ -3,6 +3,21 @@ content:
     layout: list
     content:
       - layout: left
+        title: Student-Designed Major Competition
+        sub_title: |
+          Yonsei University Office of Academic Affairs
+        caption: Nov. 2024
+        quote: |
+          Students can create personalized majors by combining courses from multiple departments, recognized as a double major starting in 2025. The competition aims to explore students' interests and potential new majors using existing university courses.
+        description: |
+          - Designed Major: BSc in Quantum Information Engineering
+          - Majors Combined: Electrical and Electronic Engineering, Physics, and Mathematics
+          - Required Credits: 36 Credits (12 Essential, 24 Elective)
+          - 2ⁿᵈ prize with ₩500,000 (~$500)
+        attachment: /images/attachment_flowchart.png
+        border: weak
+
+      - layout: left
         title: Micro-Learning Video Contest
         sub_title: |
           Yonsei Digital Experience Center (Y-DEC)

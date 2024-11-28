@@ -1,0 +1,166 @@
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+
+      <style>
+        .columns-list {
+          display: flex;
+          justify-content: space-between;
+        }
+        .column-list1 {
+          width: 83%;
+          font-size: 16px;
+        }
+
+        .column-list2 {
+          width: 13%;
+          font-size: 16px;
+          text-align: left;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+
+        @media (max-width: 768px) {
+          .columns-list {
+            flex-direction: column;
+          }
+          .column-list1 {
+            width: 100%;
+          }
+
+          .column-list2 {
+            width: 25%;
+            margin: 0 auto;
+            text-align: center;
+          }
+        }
+      </style>
+
+      {%- if item.img -%}
+        <div class="columns-list">
+
+          <div class="column-list1">
+            <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+            {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
+            {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+            {%- if item.link -%}
+              {% include a.html href=item.link class="link" %}
+                {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+              </a>
+            {%- endif -%}
+          </div>
+          <div class="column-list2">
+              <img src="{{ item.img }}" alt="{{ item.sub_title }}" class="img-responsive">
+          </div>
+
+        </div>
+      {%- else -%}
+          <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+          {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
+          {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+          {%- if item.link -%}
+            {% include a.html href=item.link class="link" %}
+              {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+            </a>
+          {%- endif -%}
+      {%- endif -%}
+
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.video -%}
+        <style>
+          .columns {
+            display: flex;
+            justify-content: space-between;
+          }
+          .column_text {
+            width: 58%;
+            font-size: 16px;
+          }
+
+          .column_video {
+            width: 38%;
+            font-size: 16px;
+            text-align: left;
+          }
+
+          @media (max-width: 768px) {
+            .columns {
+              flex-direction: column;
+            }
+            .column_text {
+              width: 100%;
+            }
+
+            .column_video {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        </style>
+
+        <div class="columns">
+          <div class="column_text">
+            {%- if item.quote -%}
+              <p class="quote">{{ item.quote }}</p>
+            {%- endif -%}
+            {{ item.description | strip | markdownify }}
+          </div>
+
+          <div class="column_video">
+            <iframe width="314px"  height="176px"
+                    src="{{ item.video }}" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      {%- else -%}
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+          {{ item.description | strip | markdownify }}
+      {% endif %}
+
+      {%- if item.attachment -%}
+      <!-- Feather icon toggle -->
+      <div style="text-align: center;">
+        <span class="toggle-button" onclick="toggleContent(this)" style="cursor: pointer; font-size: 16px;">
+            <i class="toggle-icon" data-feather="chevron-right" style="vertical-align: middle;"></i>
+            <span class="toggle-text" style="font-size: inherit;">Attachment</span>
+        </span>
+      </div>
+
+      <div class="attachment" style="display: none;">
+        <img src="{{ item.attachment }}" alt="Attachment" class="img-responsive">
+      </div>
+
+      <script>
+      function toggleContent(element) {
+        var content = element.parentNode.nextElementSibling; // Select the next sibling div
+        var toggleIcon = element.querySelector('.toggle-icon');
+
+        if (content.style.display === "none") {
+            content.style.display = "block";
+            toggleIcon.setAttribute('data-feather', 'chevron-down');
+        } else {
+            content.style.display = "none";
+            toggleIcon.setAttribute('data-feather', 'chevron-right');
+        }
+        feather.replace();  // Re-render Feather icons after changing
+      }
+      </script>
+      <script>
+        feather.replace();  // Initialize Feather Icons
+      </script>
+    {%- endif -%}
+    </div>
+
+  </div>
+{% endfor %}

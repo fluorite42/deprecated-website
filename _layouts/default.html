@@ -189,7 +189,7 @@
       {% for section in site.data.awards.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          {% include {{ section.layout | prepend: "section-" | append: "-awards.html" }} content=section.content %}
         </div>
       {% endfor %}
       </section>
