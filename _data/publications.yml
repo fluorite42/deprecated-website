@@ -21,6 +21,14 @@ content:
               *Yonsei University, Republic of Korea    
           - name: >
               **Rutgers University, New Jersey, USA
+        abstract: |
+            A zoned neutral atom architecture achieves high fidelity by segregating the execution spaces of single-qubit and two-qubit gates, making it a promising candidate for high-accuracy quantum systems. 
+            However, naïvely applying quantum program structures designed for static qubit topologies to zoned architectures may result in most execution time being consumed by inter- and intra-zone atom movements.
+
+            To address this challenge, we introduce *Mantra* (Minimizing trAp movemeNts for aTom aRray Architectures), which rewrites quantum programs to reduce the interleaving of single-qubit and two-qubit gates, thereby minimizing atom movement overhead. 
+            *Mantra* incorporates three key strategies: (i) a fountain-shaped controlled-Z (CZ) chain, (ii) a single-qubit gate-less ZZ-rotation protocol, and (iii) preemptive alignment of identical zoned gates.
+            Our evaluations demonstrate that *Mantra* reduces inter-zone movements by 68%, decreases physical gate counts by 35%, and improves circuit fidelities by 17% compared to standard execution in scenarios where gate execution is isolated by zones. 
+            Even when single-qubit gate execution is allowed within entangling zones, *Mantra* reduces trap transfer overhead between acousto-optic deflectors (AOD) and spatial light modulators (SLM) by 64% and shuttling time by 43%, achieving an overall run-time reduction of 57% compared to standard programs.
         border: weak
 
       - layout: top
