@@ -56,7 +56,13 @@
 
         </div>
       {%- else -%}
-          <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+          <h4 id="{{ item.title | slugify }}">
+            {%- if item.fail -%}
+              <del>{{ item.title }}</del>
+            {%- else -%}
+              {{ item.title }}
+            {%- endif -%}
+          </h4>
           {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
           {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
@@ -159,7 +165,7 @@
       <script>
         feather.replace();  // Initialize Feather Icons
       </script>
-    {%- endif -%}
+      {%- endif -%}
     </div>
 
   </div>
