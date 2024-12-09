@@ -3,6 +3,20 @@ content:
     layout: list
     content:
       - layout: left
+        title: Paper Reading Challenge
+        sub_title: |
+          Editage
+        caption: Jan. 2024 - Jun. 2024
+        quote: >
+          Languages: English
+        description: |
+          - Read research papers for at least an hour a day, and recorded the progress on a daily basis.
+          - If did it successfully for more or equal to 20 days in a month, received a gift card.
+          - Participated in the challenge for 6 months in a row.
+        img: /images/logo_editage.png
+        border: weak
+
+      - layout: left
         title: Language Exchange Program
         sub_title: |
           Yonsei Korean Language Institute (KLI)
