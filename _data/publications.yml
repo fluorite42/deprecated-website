@@ -3,6 +3,39 @@ content:
     layout: list
     content:
       - layout: top
+        title: Distribution-Adaptive Dynamic Shot Optimization for Variational Quantum Algorithms
+        sub_title: |
+          arXiv preprint
+        caption: 23 Dec. 2024
+        img: /images/logo_arxiv.png
+        authors:
+          - name: Youngmin Kim*
+          - name: Enhyeok Jang*
+          - name: Hyungseok Kim*
+            style: bold
+          - name: Seungwoo Choi*
+          - name: Changhun Lee*
+          - name: Donghwi Kim**
+          - name: Woomin Kyoung**
+          - name: Kyujin Shin**
+          - name: Won Woo Ro*
+        affiliations:
+          - name: >
+              *Yonsei University, Republic of Korea
+          - name: >
+              **Hyundai Motor Company, Republic of Korea
+        abstract: |
+            Variational quantum algorithms (VQAs) have attracted remarkable interest over the past few years because of their potential computational advantages on near-term quantum devices. 
+            They leverage a hybrid approach that integrates classical and quantum computing resources to solve high dimensional problems that are challenging for classical approaches alone. 
+            In the training process ofvariational circuits, constructing an accurate probability distribution for each epoch is not always necessary, creating opportunities to reduce computational costs through shot reduction. 
+            However, existing shot-allocation methods that capitalize on this potential often lack adaptive feedback or aretied to specific classical optimizers, which limits their applicability to common VQAs and broader optimization techniques. 
+            Our observations indicate that the information entropy of a quantum circuit's output distribution exhibits an approximately exponential relationship with the numberof shots needed to achieve a target Hellinger distance. 
+            In this work, we propose a distribution-adaptive dynamic shot (DDS) framework that efficiently adjusts the number of shots per iterationin VQAs using the entropy distribution from the prior training epoch. 
+            Our results demonstrate that the DDS framework sustains inference accuracy while achieving a ~50% reduction in average shotcount compared to fixed-shot training, and ~60% higher accuracy than recently proposed tiered shot allocation methods. 
+            Furthermore, in noisy simulations that reflect the error rates of actual IBM quantum systems, DDS achieves approximately a ~30% reduction in the total number of shots compared to the fixed-shot method with minimal degradation in accuracy, and offers about ~70% higher computational accuracy than tiered shot allocation methods.
+        border: weak
+
+      - layout: top
         title: Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors
         sub_title: |
           CGO '25: Proceedings of the 2025 IEEE/ACM International Symposium on Code Generation and Optimization
