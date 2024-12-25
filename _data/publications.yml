@@ -36,6 +36,7 @@ content:
         sub_title: |
           arXiv preprint
         caption: 23 Dec. 2024
+        link: https://doi.org/10.48550/arXiv.2412.17485
         img: /images/logo_arxiv.png
         authors:
           - name: Youngmin Kim*
