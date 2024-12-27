@@ -683,7 +683,9 @@ content:
                         course: Coding for Economics 1
                         description: |
                           ###### Course Objective
-                          - Learn Python, numerical computation, and object oriented programming.
+                          - Learn basic Python programming, data analysis, and object-oriented programming.
+                          - Learn the basic concepts of deep hedging.
+                          - Virtual trading of financial products using the open trading API.
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
@@ -692,10 +694,21 @@ content:
                           1. Introduction to Functions
                           1. Python Toolbox
 
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] KIS Developers, Korea Investment. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          [2] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
                       - number: 4
                         course: AI Assisted Financial Engineering
                         description: |
                           ###### Course Objective
-                          - Learn deep hedging.
-                          - Learn simulation-based delta hedging.
-                          - Understand the pricing of options.
+                          - Learn the concepts of deep learning and deep hedging.
+                          - Implement deep hedging on financial products using the PFHedge library.
+                          - Virtual trading of financial products using the open trading API.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] PFHedge. <a href="https://github.com/pfnet-research/pfhedge" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          [2] KIS Developers, Korea Investment. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          [3] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
