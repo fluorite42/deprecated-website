@@ -697,6 +697,7 @@ content:
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
                           [1] KIS Developers, Korea Investment. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          <br>
                           [2] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
                       - number: 4
@@ -710,5 +711,7 @@ content:
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
                           [1] PFHedge. <a href="https://github.com/pfnet-research/pfhedge" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
-                          [2] KIS Developers, Korea Investment. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          <br>
+                          [2] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          <br>
                           [3] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
