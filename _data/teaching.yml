@@ -1,0 +1,15 @@
+content:
+  - title: Teaching Experience
+    layout: list
+    content:
+      - layout: left
+        title: Teaching Assistant
+        sub_title: |
+          Yonsei University
+        caption: Spring 2025
+        quote: >
+          EEE 4610: Electrical and Electronic Engineering Capstone Design
+        description: | 
+          - Assisted professor Won Woo Ro in teaching the capstone design course.
+          - Provided guidance to 1 student team in designing and implementing the capstone project.
+          - Capstone project: "Quantum Computing"
