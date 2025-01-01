@@ -198,7 +198,7 @@
       {% for section in site.data.teaching.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
         </div>
       {% endfor %}
       </section>
