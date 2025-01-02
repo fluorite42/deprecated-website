@@ -51,7 +51,7 @@
 
         <div class="columns-edu">
           <div class="column-edu1">
-            <p class="quote">{{ item.quote }}</p>
+            {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
             {{ item.description | strip | markdownify }}
           </div>
           <div class="column-edu2">

@@ -153,7 +153,7 @@
       {% for section in site.data.education.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-education.html" }} content=section.content %}
+          {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
         </div>
       {% endfor %}
       </section>
@@ -162,7 +162,7 @@
       {% for section in site.data.experience.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-education.html" }} content=section.content %}
+          {% include {{ section.layout | prepend: "section-" | append: "-experience.html" }} content=section.content %}
         </div>
       {% endfor %}
       </section>
@@ -252,7 +252,7 @@
       {% for section in site.data.volunteering.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
         </div>
       {% endfor %}
       </section>
