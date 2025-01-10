@@ -31,3 +31,28 @@ content:
               ²Research Director
           - name: >
               ³Working Director
+        border: weak
+
+      - layout: top
+        title: Research on Quantum Pulse Latency Reduction Through Quantum Optimal Control Framework
+        sub_title: |
+          National Research Foundation of Korea (NRF),
+          Yonsei University Office of Research Affairs and University-Industry Foundation (UIF)
+        caption: Jan. 2025 - Dec. 2025
+        img: /images/logo_nrf.png
+        authors:
+          - name: Won Woo Ro*¹
+          - name: Enhyeok Jang*
+          - name: Seungwoo Choi*
+          - name: Cheolhwan Kim*
+          - name: Youngmin Kim*
+          - name: Jeewoo Seo*
+          - name: Dongjoon Kim*
+          - name: Hyungseok Kim*
+            style: bold
+        affiliations:
+          - name: >
+              *Yonsei University, Republic of Korea
+        roles:
+          - name: >
+              ¹Research Director
