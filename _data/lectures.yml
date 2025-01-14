@@ -5,6 +5,11 @@ content:
       - layout: left
         title: Academic Topics
         description: |
+          ##### Mingoo Seok (Electrical Engineering Professor at Columbia U.) <a href="https://www.ee.columbia.edu/~mgseok/index.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ###### Yonsei University School of Electrical and Electronic Engineering | Jan. 2025
+          - SRAM-based In-Memory Computing Hardware for Energy-Efficient AI: AMS vs. All Analog vs. Digital Macros to Microprocessors
+
+          <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Special Lecture on 2024 Nobel Prize in Physics
           ###### Yonsei University College of Science | Nov. 2024
           - Foundational Discoveries and Inventions that Enable Machine Learning with Artificial Neural Networks <a href="https://www.nobelprize.org/prizes/physics/2024/summary/" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
