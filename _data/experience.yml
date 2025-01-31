@@ -3,17 +3,31 @@ content:
     layout: list
     content:
       - layout: left
-        title: Undergraduate Researcher
+        title: Graduate Researcher
         sub_title: |
           Embedded Systems and Computer Architecture Lab (eSCaL)
-        caption: Jun. 2024 - Present
+        caption: Mar. 2025 - Present
         link: http://escal.yonsei.ac.kr/index.html
         quote: >
           Led by Professor Won Woo Ro, the Embedded Systems and Computer Architecture Lab (eSCaL) conducts cutting-edge research in computer architecture, embedded systems, and parallel processing, focusing on optimizing performance and energy efficiency in multi-core processors, GPUs, and novel hardware designs.
         img: /images/logo_escal.png
         description: | 
-          - Collaborates with the quantum computing team on various research projects aimed at advancing quantum computing technologies.
-          - Engages in innovative solutions and contributes to cutting-edge developments in the field.
+          - Conducting research on quantum computing, focusing on quantum architecture and quantum pulse generation.
+          - Collaborating with the quantum computing team to advance quantum computing technologies.
+        border: weak
+
+      - layout: left
+        title: Undergraduate Researcher
+        sub_title: |
+          Embedded Systems and Computer Architecture Lab (eSCaL)
+        caption: Jun. 2024 - Feb. 2025
+        link: http://escal.yonsei.ac.kr/index.html
+        quote: >
+          Led by Professor Won Woo Ro, the Embedded Systems and Computer Architecture Lab (eSCaL) conducts cutting-edge research in computer architecture, embedded systems, and parallel processing, focusing on optimizing performance and energy efficiency in multi-core processors, GPUs, and novel hardware designs.
+        img: /images/logo_escal.png
+        description: | 
+          - Collaborated with the quantum computing team on various research projects aimed at advancing quantum computing technologies.
+          - Engaged in innovative solutions and contributes to cutting-edge developments in the field.
         border: weak
 
       - layout: left

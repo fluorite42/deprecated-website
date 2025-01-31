@@ -5,9 +5,24 @@ content:
       - layout: left
         title: Yonsei University
         sub_title: |
+          MSc in Electrical and Electronic Engineering
+        caption: Mar. 2025 - Feb. 2027 (Expected)
+        link: https://www.yonsei.ac.kr/en_sc/
+        quote: >
+          Founded in 1885, Yonsei University is a prestigious private institution located in Seoul, Republic of Korea, known for its rigorous academics and beautiful campus. 
+          It offers a wide range of undergraduate and graduate programs, emphasizing academic excellence, innovative research, and global engagement.
+        img: /images/logo_yonsei.png
+        description: | 
+          - Researching on quantum computer architecture and quantum pulse generation.
+          - Participating in the educational track of Automotive System IC Fusion Human Resource Research Center (ASRC). <a href="http://asrc.yonsei.ac.kr/index.php" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+        border: weak
+
+      - layout: left
+        title: Yonsei University
+        sub_title: |
           BSc in Electrical and Electronic Engineering
           BA in Economics (Double Major)
-        caption: Mar. 2019 – Feb. 2025 (Expected)
+        caption: Mar. 2019 - Feb. 2025
         link: https://www.yonsei.ac.kr/en_sc/
         quote: >
           Founded in 1885, Yonsei University is a prestigious private institution located in Seoul, Republic of Korea, known for its rigorous academics and beautiful campus. 
