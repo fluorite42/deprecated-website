@@ -3,7 +3,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Reviewer
+        title: Review Experience
         sub_title: |
           The 52ⁿᵈ International Symposium on Computer Architecture (ISCA '25)
         caption: Jan. 2025
