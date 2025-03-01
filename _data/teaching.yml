@@ -14,6 +14,7 @@ content:
           - Assisted professor Won Woo Ro in teaching the embedded system lab course.
           - Provided guidance to 30 students in designing and implementing the lab project.
           - Managed quizzes and exams, and graded assignments.
+        border: weak
 
       - layout: left
         title: Teaching Assistant
