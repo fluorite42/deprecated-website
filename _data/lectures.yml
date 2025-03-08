@@ -5,19 +5,19 @@ content:
       - layout: left
         title: Academic Topics
         description: |
-          ##### Yonsei Quantum Week 2025 <a href="https://qinitiative.yonsei.ac.kr/en/main" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Yonsei Quantum Week 2025 <a href="https://qinitiative.yonsei.ac.kr/en/main" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Yonsei University Quantum Computing Project Group | Mar. 2025
           - Quantum Algorithms and Their Role in Transforming Health care
-            - Lecturer: Richard Jozsa (Mathematics and Physics Professor at U. of Cambridge) <a href="https://www.damtp.cam.ac.uk/person/rj310" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Richard_Jozsa" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+            - Lecturer: Richard Jozsa (Mathematics and Physics Professor at U. of Cambridge) <a href="https://www.damtp.cam.ac.uk/person/rj310" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Richard_Jozsa" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
           - AI Meets Quantum: Innovations in Drug Discovery and Translational Science
-            - Lecturer: Namshik Han (Computational Drug Discovery Scientist at U. of Cambridge) <a href="https://www.stemcells.cam.ac.uk/people/affiliates/han" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Namshik Han (Computational Drug Discovery Scientist at U. of Cambridge) <a href="https://www.stemcells.cam.ac.uk/people/affiliates/han" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           - Quantum Machine Learning for Precision Medicine: Opportunities and Challenges
-            - Lecturer: Daniel Kyungdeock Park (Statistics Professor at Yonsei U.) <a href="https://quantumpark.yonsei.ac.kr/people#h.nrd1picpu3iu" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Daniel Kyungdeock Park (Statistics Professor at Yonsei U.) <a href="https://quantumpark.yonsei.ac.kr/people#h.nrd1picpu3iu" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           - Quantum Algorithms for Genomics: Mapping DNA Diversity
-            - Lecturer: Sergii Strelchuk (Computer Science Professor at U. of Oxford) <a href="https://www.cs.ox.ac.uk/people/sergii.strelchuk/" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Sergii Strelchuk (Computer Science Professor at U. of Oxford) <a href="https://www.cs.ox.ac.uk/people/sergii.strelchuk/" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Mingoo Seok (Electrical Engineering Professor at Columbia U.) <a href="https://www.ee.columbia.edu/~mgseok/index.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Mingoo Seok (Electrical Engineering Professor at Columbia U.) <a href="https://www.ee.columbia.edu/~mgseok/index.html" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Yonsei University School of Electrical and Electronic Engineering | Jan. 2025
           - SRAM-based In-Memory Computing Hardware for Energy-Efficient AI: AMS vs. All Analog vs. Digital Macros to Microprocessors
 
@@ -25,19 +25,19 @@ content:
           ##### Special Lecture on 2024 Nobel Prize in Physics
           ###### Yonsei University College of Science | Nov. 2024
           - Foundational Discoveries and Inventions that Enable Machine Learning with Artificial Neural Networks <a href="https://www.nobelprize.org/prizes/physics/2024/summary/" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
-            - Lecturer: Daniel Kyungdeock Park (Statistics Professor at Yonsei U.) <a href="https://quantumpark.yonsei.ac.kr/people#h.nrd1picpu3iu" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Daniel Kyungdeock Park (Statistics Professor at Yonsei U.) <a href="https://quantumpark.yonsei.ac.kr/people#h.nrd1picpu3iu" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### 6ᵗʰ Memory-Centric Computing Future and Challenge Workshop
           ###### The Institute of Electronics and Information Engineers (IEIE) | Nov. 2024
           - 6ᵗʰ Memory-Centric Computing Future and Challenge Workshop: Looking Back on the Past 7 Years...
-            - Lecturer: Won Woo Ro (Electrical and Electronic Engineering Professor at Yonsei U.) <a href="http://escal.yonsei.ac.kr/professor.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Won Woo Ro (Electrical and Electronic Engineering Professor at Yonsei U.) <a href="http://escal.yonsei.ac.kr/professor.html" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Qiskit Fall Fest (QFF) 2024 in Yonsei <a href="https://qiya-yonsei.github.io" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Qiskit Fall Fest (QFF) 2024 in Yonsei <a href="https://qiya-yonsei.github.io" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Quantum Informatics at Yonsei Academy (QIYA) | Oct. 2024
           - Quantum Information Science: For Using Quantum Computers (Beyond Quantum, Nano, and Digital)
-            - Lecturer: Jaewan Kim (Physics Professor at KIAS and Yonsei U.) <a href="https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10146&trget=listDstPrfFaculty&menuNo=401003&pageIndex=" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Jaewan Kim (Physics Professor at KIAS and Yonsei U.) <a href="https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10146&trget=listDstPrfFaculty&menuNo=401003&pageIndex=" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Quantum Computing Seminar
@@ -49,12 +49,12 @@ content:
           ##### 2024 College of Computing Quantum Seminar Series
           ###### Yonsei University College of Computing | Aug. 2024, Jul. 2024
           - Quantum Reinforcement Learning Theory and Multimedia Applications
-            - Lecturer: Soohyun Park (Software Professor at Sookmyung Women's U.) <a href="https://sites.google.com/view/dpslab-smwu/members?authuser=0" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Soohyun Park (Software Professor at Sookmyung Women's U.) <a href="https://sites.google.com/view/dpslab-smwu/members?authuser=0" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           - New Frontier of Quantum Computing with Neutral Atoms
-            - Lecturer: Joonhee Choi (Electrical Engineering Professor at Stanford U.) <a href="https://choilab.stanford.edu/people/joonhee-choi" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Joonhee Choi (Electrical Engineering Professor at Stanford U.) <a href="https://choilab.stanford.edu/people/joonhee-choi" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Seok-Bum Ko (Electrical and Computer Engineering Professor at U. of Saskatchewan) <a href="https://engineering.usask.ca/people/ece/ko,seok-bum.php" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Seok-Bum Ko (Electrical and Computer Engineering Professor at U. of Saskatchewan) <a href="https://engineering.usask.ca/people/ece/ko,seok-bum.php" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Yonsei University School of Electrical and Electronic Engineering | Aug. 2024
           - Efficient AI Computation and Its Applications
 
@@ -70,13 +70,13 @@ content:
           - Memory and Storage for AI Service Platform: The Importance of System Interconnection
             - Lecturer: Youngpyo Joo (VP/Research Fellow at SK hynix)
           - How a DPU is Transforming AI Datacenters
-            - Lecturer: Dongup Kwon (CTO and Co-Founder of MangoBoost) <a href="https://www.mangoboost.io" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+            - Lecturer: Dongup Kwon (CTO and Co-Founder of MangoBoost) <a href="https://www.mangoboost.io" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Quantum Korea 2024
           ###### Ministry of Science and ICT | Jun. 2024
           - New Frontier of Quantum Computing
-            - Lecturer: Mikhail Lukin (Physics Professor at Harvard U.) <a href="https://lukin.physics.harvard.edu/people" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Mikhail_Lukin" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+            - Lecturer: Mikhail Lukin (Physics Professor at Harvard U.) <a href="https://lukin.physics.harvard.edu/people" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Mikhail_Lukin" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
           - Measuring Non-local Order with Error-Corrected Quantum Gas Microscopes <a href="https://doi.org/10.1103/PhysRevX.14.011003" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
           - Exhibitor's Forum
             - IonQ, SK Telecom, Pasqal, MegazoneCloud, Qblox, Norma, QuEra Computing, and AWS.
@@ -90,19 +90,19 @@ content:
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### AWS Summit Seoul 2024
           ###### Amazon Web Services Korea | May 2024
-          - Innovation in Drama & Company Hiring: The Future Opening with Amazon OpenSearch Service <a href="https://dramancompany.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
-          - Nexon's How to Train Your LLM Agent: Application of Infrastructure Monitoring Services <a href="https://company.nexon.com/en/" target="_blank"><i class="fa fa-link" title="Website"></i></a>
-          - Huge Challenge and Journey for Hyperconnect’s Transfer to AWS Graviton <a href="https://career.hyperconnect.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
-          - Samsung Electronics' AI-Based SmartThings Intelligence Platform <a href="https://www.samsung.com/us/" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          - Innovation in Drama & Company Hiring: The Future Opening with Amazon OpenSearch Service <a href="https://dramancompany.com" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
+          - Nexon's How to Train Your LLM Agent: Application of Infrastructure Monitoring Services <a href="https://company.nexon.com/en/" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
+          - Huge Challenge and Journey for Hyperconnect's Transfer to AWS Graviton <a href="https://career.hyperconnect.com" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
+          - Samsung Electronics' AI-Based SmartThings Intelligence Platform <a href="https://www.samsung.com/us/" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Quantum Colloquium 2024-1
           ###### Yonsei Institute of Quantum Information Technology (IQIT) | Apr. 2024
-          - Lecturer: Eunjong Kim (Physics Professor at SNU) <a href="https://sites.google.com/view/snu-quantum-device/people/principal-investigator" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          - Lecturer: Eunjong Kim (Physics Professor at SNU) <a href="https://sites.google.com/view/snu-quantum-device/people/principal-investigator" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           - Engineering Long-Range Connectivity in Superconducting Quantum Circuits <a href="http://doi.org/10.1126/science.ade7651" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Hyung Won Chung (Research Scientist at OpenAI) <a href="https://hwchung27.github.io" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Hyung Won Chung (Research Scientist at OpenAI) <a href="https://hwchung27.github.io" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Yonsei University College of Computing | Nov. 2023
           - Large Language Models (in 2023)
 
@@ -145,7 +145,7 @@ content:
       - layout: left
         title: Other Topics
         description: |
-          ##### Kyungil Kim (Psychology Professor at Ajou U., Writer) <a href="https://sites.google.com/ajou.ac.kr/tetross/home" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Kyungil Kim (Psychology Professor at Ajou U., Writer) <a href="https://sites.google.com/ajou.ac.kr/tetross/home" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Yonsei University Library | Nov. 2024
           - Communication in the Digital Age: Feedback and Relationalism are the Answer
 
@@ -161,7 +161,7 @@ content:
           - Time for Science <a href="https://www.google.co.kr/books/edition/%EA%B3%BC%ED%95%99%EC%9D%B4_%ED%95%84%EC%9A%94%ED%95%9C_%EC%8B%9C%EA%B0%84/keGWEAAAQBAJ?hl=ko&gbpv=0" target="_blank"><i class="fab fa-google" title="Google Books link"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Fredrik Backman (Writer, Columnist) <a href="https://fredrikbackmanbooks.com" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Fredrik_Backman" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+          ##### Fredrik Backman (Writer, Columnist) <a href="https://fredrikbackmanbooks.com" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Fredrik_Backman" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
           ###### Center for Arts & Humanities at Yonsei University | Sep. 2024
           - A Conversation with Backman
           - A Man Called Ove <a href="https://www.google.co.kr/books/edition/_/Y0H6AwAAQBAJ?hl=ko&sa=X&ved=2ahUKEwimubq-nbWIAxXcafUHHTnfHiAQre8FegQIFhAH" target="_blank"><i class="fab fa-google" title="Google Books link"></i></a>
@@ -170,10 +170,10 @@ content:
           ##### Orbit (Science Communicator) <a href="https://www.youtube.com/@Unrealscience" target="_blank"><i class="fab fa-youtube" title="YouTube link"></i></a>
           ###### Quantum Korea 2024 | Jun. 2024
           - Quantum Talk Concert: The Music Created by Waves and Quantum Mechanics
-          - Panel: Edward J. Lee of Peppertones <a href="http://peppertones.net" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Peppertones" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+          - Panel: Edward J. Lee of Peppertones <a href="http://peppertones.net" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Peppertones" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Hyunjoon Yoo (Architectural Design Professor at Hongik U., Writer) <a href="https://hyunjoonyoo.com/hyunjoon_yoo.html" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://www.youtube.com/@Sherlock_HJ" target="_blank"><i class="fab fa-youtube" title="YouTube link"></i></a>
+          ##### Hyunjoon Yoo (Architectural Design Professor at Hongik U., Writer) <a href="https://hyunjoonyoo.com/hyunjoon_yoo.html" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a> <a href="https://www.youtube.com/@Sherlock_HJ" target="_blank"><i class="fab fa-youtube" title="YouTube link"></i></a>
           ###### Center for Arts & Humanities at Yonsei University | Jun. 2024
           - Space Created by Space <a href="https://www.google.co.kr/books/edition/%EA%B3%B5%EA%B0%84%EC%9D%B4_%EB%A7%8C%EB%93%A0_%EA%B3%B5%EA%B0%84/UAF-zQEACAAJ?hl=ko" target="_blank"><i class="fab fa-google" title="Google Books link"></i></a>
 
@@ -188,7 +188,7 @@ content:
           - AI & Future Technology Seen from Silicon Valley - AI Leadership -
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Sang Wook Kim (Physics Professor at Kyung Hee U., Writer) <a href="https://khu.elsevierpure.com/en/persons/sang-wook-kim" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ##### Sang Wook Kim (Physics Professor at Kyung Hee U., Writer) <a href="https://khu.elsevierpure.com/en/persons/sang-wook-kim" target="_blank"><i class="fa-light fa-globe" title="Website"></i></a>
           ###### Yonsei University Library | Sep. 2023
           - Sky, Wind, Stars, and Humans <a href="https://www.google.co.kr/books/edition/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%9D%B8%EA%B0%84/JCXMEAAAQBAJ?hl=ko&gbpv=0" target="_blank"><i class="fab fa-google" title="Google Books link"></i></a>
 
