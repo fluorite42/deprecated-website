@@ -5,6 +5,22 @@ content:
       - layout: left
         title: Academic Topics
         description: |
+          ##### Yonsei Quantum Week 2025 <a href="https://qinitiative.yonsei.ac.kr/en/main" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ###### Yonsei University Quantum Computing Project Group | Mar. 2025
+          - Quantum Algorithms and Their Role in Transforming Health care
+            - Lecturer: Richard Jozsa (Applied Mathematics and Theoretical Physics Professor at U. of Cambridge) <a href="https://www.damtp.cam.ac.uk/person/rj310" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://en.wikipedia.org/wiki/Richard_Jozsa" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+          - Quantum computing in biomedicine and precision health care
+            - Lecturer: Jae-Ho Cheong (Director of Quantum Computing Project Group at Yonsei U.) <a href="http://mdi.yonsei.ac.kr/en/professor/page1.php?boardid=teacher&mode=view&idx=37&sk=&sw=&offset=20&category=%EA%B5%90%EC%88%98" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          - AI Meets Quantum: Innovations in Drug Discovery and Translational Science
+            - Lecturer: Namshik Han (Computational Drug Discovery Scientist at U. of Cambridge) <a href="https://www.stemcells.cam.ac.uk/people/affiliates/han" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          - Quantum Machine Learning for Precision Medicine: Opportunities and Challenges
+            - Lecturer: Daniel Kyungdeock Park (Statistics Professor at Yonsei U.) <a href="https://quantumpark.yonsei.ac.kr/people#h.nrd1picpu3iu" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          - Quantum Algorithms for Genomics: Mapping DNA Diversity
+            - Lecturer: Sergii Strelchuk (Computer Science Professor at U. of Oxford) <a href="https://www.cs.ox.ac.uk/people/sergii.strelchuk/" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          - Quantum Computing for Genomic Data Analysis
+            - Lecturer: Joonsuk Huh (Chemistry Professor at Yonsei U.) <a href="https://joonsukhuh.wixsite.com/mqudit" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+          <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Mingoo Seok (Electrical Engineering Professor at Columbia U.) <a href="https://www.ee.columbia.edu/~mgseok/index.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
           ###### Yonsei University School of Electrical and Electronic Engineering | Jan. 2025
           - SRAM-based In-Memory Computing Hardware for Energy-Efficient AI: AMS vs. All Analog vs. Digital Macros to Microprocessors
