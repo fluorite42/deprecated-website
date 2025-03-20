@@ -34,3 +34,37 @@ content:
             In this work, we introduce Dementor (<u>De</u>ad Quantu<u>m</u> Gat<u>e</u> Elimi<u>n</u>a<u>tor</u>), which efficiently detects and removes dead gates by considering a range of redundancy patterns. 
             To evaluate the efficacy of Dementor, we conducted experiments on IBM quantum processors, which have two distinct native gate sets: Echoed Cross-Resonance (ECR)-based and Controlled-X (CX)-based. 
             Our experiments show that Dementor achieves a reduction in the number of decomposed gates by an average of 46.4% on ECR-based systems and by an average of 60.6% on CX-based systems compared to Qiskit Transpiler with optimization level 3.
+        border: weak
+
+      - layout: top
+        title: |
+          Dementor: Removing Dead Gates in Quantum Programs
+        sub_title: |
+          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop
+        caption: 01 Mar. 2025
+        img: /images/logo_haiq.jpg
+        authors:
+          - name: Enhyeok Jang*
+          - name: Youngmin Kim*
+          - name: Hyungseok Kim*
+            style: bold
+          - name: Dongho Ha**
+          - name: Yongju Lee*
+          - name: Jaewon Kwon*
+          - name: Jun Woo You*
+          - name: Jiho Park*
+          - name: Won Woo Ro*
+        affiliations:
+          - name: >
+              *Yonsei University, Republic of Korea    
+          - name: >
+              **MangoBoost, Washington, USA
+        abstract: |
+            The computational complexity of quantum programs is influenced by the limitations of the native gate set and the constraints imposed by qubit topology. 
+            These factors necessitate advanced compilation techniques for efficient execution. 
+            Our experimental data reveal that approximately 23.1% of gates in quantum programs are *dead gates*, which do not contribute to any meaningful alteration in the quantum state. 
+            Removing these dead gates would provide the potential opportunity to reduce the size and improve the accuracy of the quantum program. 
+            However, we observe that existing methods, including those integrated into Qiskit Transpiler, cannot adequately remove these unnecessary gates. 
+            In this work, we introduce Dementor (<u>De</u>ad Quantu<u>m</u> Gat<u>e</u> Elimi<u>n</u>a<u>tor</u>), which efficiently detects and removes dead gates by considering a range of redundancy patterns. 
+            To evaluate the efficacy of Dementor, we conducted experiments on IBM quantum processors, which have two distinct native gate sets: Echoed Cross-Resonance (ECR)-based and Controlled-X (CX)-based. 
+            Our experiments show that Dementor achieves a reduction in the number of decomposed gates by an average of 46.4% on ECR-based systems and by an average of 60.6% on CX-based systems compared to Qiskit Transpiler with optimization level 3.
