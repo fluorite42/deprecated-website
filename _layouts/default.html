@@ -177,6 +177,15 @@
       </section>
 
       <section id="section5">
+        {% for section in site.data.workshops.content %}
+          <div class="container {{ section.layout }}-container">
+            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+            {% include {{ section.layout | prepend: "section-" | append: "-pub.html" }} content=section.content %}
+          </div>
+        {% endfor %}
+        </section>
+
+      <section id="section6">
       {% for section in site.data.projects.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -185,7 +194,7 @@
       {% endfor %}
       </section>
 
-      <section id="section6">
+      <section id="section7">
       {% for section in site.data.awards.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -194,7 +203,7 @@
       {% endfor %}
       </section>
 
-      <section id="section7">
+      <section id="section8">
       {% for section in site.data.teaching.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -203,7 +212,7 @@
       {% endfor %}
       </section>
 
-      <section id="section8">
+      <section id="section9">
         {% for section in site.data.professional.content %}
           <div class="container {{ section.layout }}-container">
             <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -212,7 +221,7 @@
         {% endfor %}
         </section>
 
-      <section id="section9">
+      <section id="section10">
       {% for section in site.data.coursework.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -221,7 +230,7 @@
       {% endfor %}
       </section>
 
-      <section id="section10">
+      <section id="section11">
       {% for section in site.data.certifications.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -230,7 +239,7 @@
       {% endfor %}
       </section>
 
-      <section id="section11">
+      <section id="section12">
       {% for section in site.data.featured_ex.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -239,7 +248,7 @@
       {% endfor %}
       </section>
 
-      <section id="section12">
+      <section id="section13">
       {% for section in site.data.educational.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -248,7 +257,7 @@
       {% endfor %}
       </section>
 
-      <section id="section13">
+      <section id="section14">
       {% for section in site.data.lectures.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -257,7 +266,7 @@
       {% endfor %}
       </section>
 
-      <section id="section14">
+      <section id="section15">
       {% for section in site.data.volunteering.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -266,7 +275,7 @@
       {% endfor %}
       </section>
 
-      <section id="section15">
+      <section id="section16">
       {% for section in site.data.skills.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -275,7 +284,7 @@
       {% endfor %}
       </section>
 
-      <section id="section16">
+      <section id="section17">
       {% for section in site.data.breaks.content %}
         <div class="container {{ section.layout }}-container">
           <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
@@ -302,18 +311,19 @@
         <li><a href="#section2" data-section="section2">2. Education</a></li>
         <li><a href="#section3" data-section="section3">3. Research Experience</a></li>
         <li><a href="#section4" data-section="section4">4. Publications</a></li>
-        <li><a href="#section5" data-section="section5">5. Participated Projects</a></li>
-        <li><a href="#section6" data-section="section6">6. Honors and Awards</a></li>
-        <li><a href="#section7" data-section="section7">7. Teaching Experience</a></li>
-        <li><a href="#section8" data-section="section8">8. Professional Experience</a></li>
-        <li><a href="#section9" data-section="section9">9. Selected Coursework</a></li>
-        <li><a href="#section10" data-section="section10">10. Licenses and<br>&nbsp;&nbsp;&nbsp;&nbsp;Certifications</a></li>
-        <li><a href="#section11" data-section="section11">11. Featured Experience</a></li>
-        <li><a href="#section12" data-section="section12">12. Educational Programs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participated</a></li>
-        <li><a href="#section13" data-section="section13">13. Featured Lectures<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attended</a></li>
-        <li><a href="#section14" data-section="section14">14. Volunteering</a></li>
-        <li><a href="#section15" data-section="section15">15. Skills/Languages</a></li>
-        <li><a href="#section16" data-section="section16">16. Career Breaks</a></li>
+        <li><a href="#section5" data-section="section5">5. Workshops</a></li>
+        <li><a href="#section6" data-section="section6">6. Participated Projects</a></li>
+        <li><a href="#section7" data-section="section7">7. Honors and Awards</a></li>
+        <li><a href="#section8" data-section="section8">8. Teaching Experience</a></li>
+        <li><a href="#section9" data-section="section9">9. Professional Experience</a></li>
+        <li><a href="#section10" data-section="section10">10. Selected Coursework</a></li>
+        <li><a href="#section11" data-section="section11">11. Licenses and<br>&nbsp;&nbsp;&nbsp;&nbsp;Certifications</a></li>
+        <li><a href="#section12" data-section="section12">12. Featured Experience</a></li>
+        <li><a href="#section13" data-section="section13">13. Educational Programs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participated</a></li>
+        <li><a href="#section14" data-section="section14">14. Featured Lectures<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attended</a></li>
+        <li><a href="#section15" data-section="section15">15. Volunteering</a></li>
+        <li><a href="#section16" data-section="section16">16. Skills/Languages</a></li>
+        <li><a href="#section17" data-section="section17">17. Career Breaks</a></li>
       </ul>
     </nav>
   </div>
