@@ -6,8 +6,9 @@ content:
         title: |
           Dementor: Removing Dead Gates in Quantum Programs
         sub_title: |
-          HAIQ '25: The 1ˢᵗ HPC/AI Integration with Quantum Computing Workshop
+          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop
         caption: 01 Mar. 2025
+        img: /images/logo_haiq.jpg
         authors:
           - name: Enhyeok Jang*
           - name: Youngmin Kim*
