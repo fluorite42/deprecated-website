@@ -4,43 +4,41 @@ content:
     content:
       - layout: top
         title: |
-          Dementor: Removing Dead Gates in Quantum Programs
+          Native Gate-Aware QAOA Ansatz
         sub_title: |
-          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop
-        caption: 01 Mar. 2025
-        img: /images/logo_haiq.jpg
+          QDML '25: The 1st International Workshop on Quantum Data and Machine Learning: Systems, Theory and Hardware<br>
+          In conjunction with ICDE '25
+        caption: 19 May 2025
+        img: /images/logo_qdml.jpg
         authors:
-          - name: Enhyeok Jang*
-          - name: Youngmin Kim*
           - name: Hyungseok Kim*
             style: bold
-          - name: Dongho Ha**
-          - name: Yongju Lee*
-          - name: Jaewon Kwon*
-          - name: Jun Woo You*
-          - name: Jiho Park*
+          - name: Enhyeok Jang*
+          - name: Youngmin Kim*
           - name: Won Woo Ro*
         affiliations:
           - name: >
-              *Yonsei University, Republic of Korea    
-          - name: >
-              **MangoBoost, Washington, USA
+              *Yonsei University, Republic of Korea
         abstract: |
-            The computational complexity of quantum programs is influenced by the limitations of the native gate set and the constraints imposed by qubit topology. 
-            These factors necessitate advanced compilation techniques for efficient execution. 
-            Our experimental data reveal that approximately 23.1% of gates in quantum programs are *dead gates*, which do not contribute to any meaningful alteration in the quantum state. 
-            Removing these dead gates would provide the potential opportunity to reduce the size and improve the accuracy of the quantum program. 
-            However, we observe that existing methods, including those integrated into Qiskit Transpiler, cannot adequately remove these unnecessary gates. 
-            In this work, we introduce Dementor (<u>De</u>ad Quantu<u>m</u> Gat<u>e</u> Elimi<u>n</u>a<u>tor</u>), which efficiently detects and removes dead gates by considering a range of redundancy patterns. 
-            To evaluate the efficacy of Dementor, we conducted experiments on IBM quantum processors, which have two distinct native gate sets: Echoed Cross-Resonance (ECR)-based and Controlled-X (CX)-based. 
-            Our experiments show that Dementor achieves a reduction in the number of decomposed gates by an average of 46.4% on ECR-based systems and by an average of 60.6% on CX-based systems compared to Qiskit Transpiler with optimization level 3.
+            The quantum approximate optimization algorithm (QAOA) is introduced to solve combinatorial optimization problems efficiently. 
+            Despite the computational benefit of the QAOA, the cost of executing QAOA programs at scale to demonstrate quantum advantage is still expensive for the near-future quantum computing system.
+            We observe that real quantum computing devices represent and execute QAOA circuits through their finite set of native gates.
+            In general, the cost and mixer Hamiltonian are realized with ZZ and X-direction rotations of qubits, respectively.
+            However, the rotation direction of the qubit for QAOA circuit training does not necessarily have to be configured only with the combination described above, nor is this combination of rotation always optimal for all quantum processors.
+            By adopting rotational combinations that utilize native gates more directly than the standard QAOA circuit model, the execution cost on real quantum devices can be reduced.
+            In this study, we propose *Racoon* (<u>R</u>ot<u>a</u>tional Spa<u>c</u>e Virtualizati<u>o</u>n for QA<u>O</u>A A<u>n</u>satz), an algorithm-hardware co-design approach that revisits the synthesis conditions of QAOA circuits and selects alternative candidates with different rotational combinations. 
+            Our analysis of six commercial quantum processors demonstrates that applying *Racoon* to QAOA circuits for the 4-node Sherrington-Kirkpatrick model reduces the number of native gates by an average of 23% and up to 79%.
+            Consequently, using *Racoon* results in 43% fewer training epochs, 41% lower training energy consumption, and a 6% improvement in inference on average compared to standard QAOA.
+            *Racoon* consistently reduces circuit depth as the number of qubits and layers increases, achieving 123× more circuit depth reduction compared to the recently proposed Depth First Search (DFS)-based method.
+            Furthermore, we confirm that *Racoon* method can be extended to state-of-the-art QAOAs with modified ansatz and to variational quantum eigensolvers (VQEs).
         border: weak
 
       - layout: top
         title: |
           Dementor: Removing Dead Gates in Quantum Programs
         sub_title: |
-          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop
+          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop<br>
+          In conjunction with HPCA '25
         caption: 01 Mar. 2025
         img: /images/logo_haiq.jpg
         authors:
