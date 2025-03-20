@@ -6,10 +6,9 @@ content:
         title: |
           Native Gate-Aware QAOA Ansatz
         sub_title: |
-          QDML '25: The 1st International Workshop on Quantum Data and Machine Learning: Systems, Theory and Hardware<br>
-          In conjunction with ICDE '25
+          QDML '25: The 1st International Workshop on Quantum Data and Machine Learning: Systems, Theory and Hardware<br>In conjunction with ICDE '25
         caption: 19 May 2025
-        img: /images/logo_qdml.jpg
+        img: /images/logo_qdml.png
         authors:
           - name: Hyungseok Kim*
             style: bold
@@ -37,8 +36,7 @@ content:
         title: |
           Dementor: Removing Dead Gates in Quantum Programs
         sub_title: |
-          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop<br>
-          In conjunction with HPCA '25
+          HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop<br>In conjunction with HPCA '25
         caption: 01 Mar. 2025
         img: /images/logo_haiq.jpg
         authors:
