@@ -1,4 +1,5 @@
 {% for item in include.content %}
+{%- if item.category -%}<br><p><b><h4><u>{{ item.category }}</u></h4></b></p>{%- endif -%}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
 

@@ -5,6 +5,15 @@ content:
       - layout: left
         title: Academic Topics
         description: |
+          ##### Engineering AI Plus Forum
+          ###### Yonsei University Institute of Engineering Research, Yonsei University Engineering AI Research Institute | Mar. 2025
+          - Theme: Artificial Intelligence: How is it Revolutionizing the Field of Engineering?
+          - Phone, Camera, and AI
+            - Lecturer: Minkyu Park (Researcher at Samsung Electronics MX Division Camera Innovation Group)
+          - AI, Architecture, and Cities
+            - Lecturer: Hyunjoon Yoo (Architectural Design Professor at Hongik U., Writer) <a href="https://hyunjoonyoo.com/hyunjoon_yoo.html" target="_blank"><i class="fa fa-link" title="Website"></i></a> <a href="https://www.youtube.com/@Sherlock_HJ" target="_blank"><i class="fab fa-youtube" title="YouTube link"></i></a>
+
+          <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Yonsei Quantum Week 2025 <a href="https://qinitiative.yonsei.ac.kr/en/main" target="_blank"><i class="fa fa-link" title="Website"></i></a>
           ###### Yonsei University Quantum Computing Project Group | Mar. 2025
           - Quantum Algorithms and Their Role in Transforming Health care
@@ -193,7 +202,7 @@ content:
           - Sky, Wind, Stars, and Humans <a href="https://www.google.co.kr/books/edition/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%9D%B8%EA%B0%84/JCXMEAAAQBAJ?hl=ko&gbpv=0" target="_blank"><i class="fab fa-google" title="Google Books link"></i></a>
 
           <hr style="border-bottom: dashed 1px #CCCCCC;">
-          ##### Ye Won Cho (Pixar Lighting Designer)
+          ##### Ye Won Cho (Lighting Designer at Pixar Animation Studios)
           ###### Yonsei Digital Experience Center (Y-DEC) | Apr. 2023
           - The Cinematic Storytelling
 
