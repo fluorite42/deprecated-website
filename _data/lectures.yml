@@ -5,6 +5,12 @@ content:
       - layout: left
         title: Academic Topics
         description: |
+          ##### 2025 Yonsei Engineering Symposium (YES 2025) <a href="https://yes2025.org" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+          ###### Yonsei University BK21 FOUR | Mar. 2025
+          - Technology for Bioelectronic Medicine
+            - Lecturer: George Malliaras (Electrical Engineering Professor at U. of Cambridge) <a href="https://www.eng.cam.ac.uk/profiles/gm603" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+          <hr style="border-bottom: dashed 1px #CCCCCC;">
           ##### Engineering AI Plus Forum
           ###### Yonsei University Institute of Engineering Research, Yonsei University Engineering AI Research Institute | Mar. 2025
           - Theme: Artificial Intelligence: How is it Revolutionizing the Field of Engineering?
