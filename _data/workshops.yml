@@ -34,7 +34,7 @@ content:
 
       - layout: top
         title: |
-          Dementor: Removing Dead Gates in Quantum Programs
+          A Dead Gate Elimination for Quantum Programs
         sub_title: |
           HAIQ '25: The 1st HPC/AI Integration with Quantum Computing Workshop<br>In conjunction with HPCA '25
         caption: 01 Mar. 2025
