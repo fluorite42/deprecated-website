@@ -4,6 +4,25 @@ content:
     content:
       - layout: top
         category: Conference Proceedings
+        title: |
+          QR-Map: A Map-Based Approach to Quantum Circuit Abstraction for Qubit Reuse Optimization
+        sub_title: |
+          ISCA '25: Proceedings of the 52nd Annual International Symposium on Computer Architecture
+        caption: Jun. 2025
+        img: /images/logo_isca2025.png
+        authors:
+          - name: Hyungseok Kim*
+            style: bold
+          - name: Enhyeok Jang*
+          - name: Seungwoo Choi*
+          - name: Youngmin Kim*
+          - name: Won Woo Ro*
+        affiliations:
+          - name: >
+              *Yonsei University, Republic of Korea
+        border: weak
+
+      - layout: top
         title: Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors
         sub_title: |
           CGO '25: Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization
