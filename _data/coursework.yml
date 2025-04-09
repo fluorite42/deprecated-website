@@ -247,6 +247,7 @@ content:
                           ###### References
                           [1] Kar-Ann Toh, Quoc-Long Tran and D. Srinivasan, "Benchmarking a reduced multivariate polynomial pattern classifier," in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 26, no. 6, pp. 740-755, June 2004 <a href="https://doi.org/10.1109/TPAMI.2004.3" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
           
+          - name:
               - category:
                   - title: Software Engineering
                     name:
@@ -277,7 +278,6 @@ content:
                           ###### Textbook
                           1. Data Structures and Algorithm Analysis in C (Pearson) by Mark Allen Weiss <a href="https://a.co/d/bBkDN9B" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
-          - name:
               - category:
                   - title: Digital System Design
                     name:
