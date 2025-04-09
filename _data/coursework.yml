@@ -10,7 +10,7 @@ content:
                   - title: Quantum Computing
                     name:
                       - number: 1
-                        course: Quantum Computer and Simulation 1
+                        course: <sup>BSc</sup>Quantum Computer and Simulation 1
                         description: |
                           ###### Course Objective
                           - Understand the basic concepts of quantum computing and quantum information.
