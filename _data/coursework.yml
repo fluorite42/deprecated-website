@@ -20,11 +20,11 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Quantum Computing: A Gentle Introduction (MIT Press) by Eleanor Rieffel and Wolfgang Polak <a href="https://a.co/d/1odkDcg" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Quantum Computing: A Gentle Introduction (MIT Press) by Eleanor Rieffel and Wolfgang Polak <a href="https://a.co/d/1odkDcg" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
                           
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Quantum Coding Practice Materials
-                          - <a href="https://github.com/qiskit-community/korean-community.git" target="_blank"><i class="fab fa-github" title="Github link"></i></a> korean-community / tutorials / 2023 Yonsei Lecture /
+                          - <a href="https://github.com/qiskit-community/korean-community.git" target="_blank"><i class="fab fa-github" title="Github"></i></a> korean-community / tutorials / 2023 Yonsei Lecture /
 
                       - number: 2
                         course: Quantum Machine Learning
@@ -36,9 +36,9 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. An Introduction to Quantum Computing (Oxford University Press) by Phillip Kaye, Raymond Laflamme, and Michele Mosca <a href="https://a.co/d/6FZXB1l" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. Quantum Computation and Quantum Information (Cambridge University Press) by Michael A. Nielsen and Isaac L. Chuang <a href="https://a.co/d/7eJEEGs" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. Machine Learning with Quantum Computers (Springer) by Maria Schuld and Francesco Petruccione <a href="https://a.co/d/3dj0lgZ" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. An Introduction to Quantum Computing (Oxford University Press) by Phillip Kaye, Raymond Laflamme, and Michele Mosca <a href="https://a.co/d/6FZXB1l" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Quantum Computation and Quantum Information (Cambridge University Press) by Michael A. Nielsen and Isaac L. Chuang <a href="https://a.co/d/7eJEEGs" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Machine Learning with Quantum Computers (Springer) by Maria Schuld and Francesco Petruccione <a href="https://a.co/d/3dj0lgZ" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 3
                         course: Electrical and Electronic Engineering Capstone Design
@@ -76,7 +76,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Contemporary Logic Design (Pearson) by Randy H. Katz and Gaetano Borriello <a href="https://a.co/d/dKk9GQi" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Contemporary Logic Design (Pearson) by Randy H. Katz and Gaetano Borriello <a href="https://a.co/d/dKk9GQi" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
                         course: Computer Architecture
@@ -89,7 +89,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Computer Organization and Design RISC-V Edition (Morgan Kaufmann) by David A. Patterson and John L. Hennessy <a href="https://a.co/d/cS3eyE1" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Computer Organization and Design RISC-V Edition (Morgan Kaufmann) by David A. Patterson and John L. Hennessy <a href="https://a.co/d/cS3eyE1" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -111,7 +111,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Computer Networking (Pearson) by James F. Kurose and Keith W. Ross <a href="https://a.co/d/iPX5Vqz" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Computer Networking (Pearson) by James F. Kurose and Keith W. Ross <a href="https://a.co/d/iPX5Vqz" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -135,7 +135,7 @@ content:
                           - **Assignment 1**: Implementing a simple shell in xv6-riscv.
                           - **Assignment 2**: Adding a new system call to xv6-riscv that probes processes and prints out their information, including process ID, execution state, runtime, and program name.
                           - **Assignment 3**: Replacing the round-robin process scheduler of xv6-riscv with a fair-share scheduling algorithm.
-                          - **Assignment 4**: Replacing the next-fit free list management scheme of xv6-riscv’s malloc library with the best-fit policy.
+                          - **Assignment 4**: Replacing the next-fit free list management scheme of xv6-riscv's malloc library with the best-fit policy.
                           - **Assignment 5**: Modifying the paging scheme of xv6-riscv to allocate physical frames belatedly on their first write access, referred to as copy-on-write.
                           - **Assignment 6**: Implementing multi-threading features in xv6-riscv.
 
@@ -162,9 +162,9 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Programming Massively Parallel Processors: A Hands-on Approach (Morgan Kaufmann) by Wen-mei W. Hwu, David B. Kirk, and Izzat El Hajj <a href="https://a.co/d/9KFxLMG" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. Parallel Programming: Concepts and Practice (Morgan Kaufmann) by Bertil Schmidt, Jorge Gonzalez-Dominguez, Christian Hundt, and Moritz Schlarb <a href="https://a.co/d/hVPHI5c" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. C++ Concurrency in Action (Manning) by Anthony Williams <a href="https://a.co/d/hfHWZZ1" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Programming Massively Parallel Processors: A Hands-on Approach (Morgan Kaufmann) by Wen-mei W. Hwu, David B. Kirk, and Izzat El Hajj <a href="https://a.co/d/9KFxLMG" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Parallel Programming: Concepts and Practice (Morgan Kaufmann) by Bertil Schmidt, Jorge Gonzalez-Dominguez, Christian Hundt, and Moritz Schlarb <a href="https://a.co/d/hVPHI5c" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. C++ Concurrency in Action (Manning) by Anthony Williams <a href="https://a.co/d/hfHWZZ1" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -188,7 +188,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. The Hundred-Page Machine Learning Book by Andriy Burkov <a href="https://a.co/d/1Klobej" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. The Hundred-Page Machine Learning Book by Andriy Burkov <a href="https://a.co/d/1Klobej" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -205,7 +205,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Reinforcement Learning, second edition: An Introduction (Bradford Books) by Richard S. Sutton and Andrew G. Barto <a href="https://a.co/d/6XCtaII" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Reinforcement Learning, second edition: An Introduction (Bradford Books) by Richard S. Sutton and Andrew G. Barto <a href="https://a.co/d/6XCtaII" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -230,7 +230,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. The Elements of Statistical Learning: Data Mining, Inference, and Prediction (Springer) by Trevor Hastie, Robert Tibshirani, and Jerome Friedman <a href="https://a.co/d/dL70zrf" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. The Elements of Statistical Learning: Data Mining, Inference, and Prediction (Springer) by Trevor Hastie, Robert Tibshirani, and Jerome Friedman <a href="https://a.co/d/dL70zrf" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -272,7 +272,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Data Structures and Algorithm Analysis in C (Pearson) by Mark Allen Weiss <a href="https://a.co/d/bBkDN9B" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Data Structures and Algorithm Analysis in C (Pearson) by Mark Allen Weiss <a href="https://a.co/d/bBkDN9B" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
               - category:
                   - title: Digital System Design
@@ -287,7 +287,7 @@ content:
                           ###### Projects
                           - Implementing a simple running game on a XILINX PYNQ-Z2 board.
                             1. Characters: Yonsei University Eagle <a href="https://www.yonsei.ac.kr/en_sc/intro/symbol2.jsp" target="_blank"><i class="fa fa-link" title="Yonsei Eagle"></i></a>, MIT Beaver <a href="https://brand.mit.edu/logos-marks/tim-beaver" target="_blank"><i class="fa fa-link" title="Tim the Beaver"></i></a>, and Caltech Beaver <a href="https://identity.caltech.edu/officiallogomarks/athletics" target="_blank"><i class="fa fa-link" title="Caltech Beaver"></i></a>.
-                            1. Back ground music: The Skaters' Waltz from *Antarctic Adventure* (1983) by KONAMI. <a href="https://open.spotify.com/track/5XkIJ4UGZ2QvusWhFXBU5i" target="_blank"><i class="fab fa-spotify" title="Spotify link"></i></a> Originally composed by Émile Waldteufel. <a href="https://en.wikipedia.org/wiki/%C3%89mile_Waldteufel" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia link"></i></a>
+                            1. Back ground music: The Skaters' Waltz from *Antarctic Adventure* (1983) by KONAMI. <a href="https://open.spotify.com/track/5XkIJ4UGZ2QvusWhFXBU5i" target="_blank"><i class="fab fa-spotify" title="Spotify"></i></a> Originally composed by Émile Waldteufel. <a href="https://en.wikipedia.org/wiki/%C3%89mile_Waldteufel" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia"></i></a>
 
                             <br>
                             <div style="text-align: center;">
@@ -329,7 +329,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Integrated Circuit Design: Global Edition (Pearson) by Neil H. E. Weste and David Money Harris <a href="https://a.co/d/2gf5FKv" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Integrated Circuit Design: Global Edition (Pearson) by Neil H. E. Weste and David Money Harris <a href="https://a.co/d/2gf5FKv" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Project (in groups of 2)
@@ -401,7 +401,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Introduction to Electric Circuits (Wiley) by James A. Svoboda and Richard C. Dorf <a href="https://a.co/d/1bngi0l" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Introduction to Electric Circuits (Wiley) by James A. Svoboda and Richard C. Dorf <a href="https://a.co/d/1bngi0l" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
                         course: Electronic Circuits
@@ -415,7 +415,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Fundamentals of Microelectronics (Wiley) by Behzad Razavi <a href="https://a.co/d/0tSO6jd" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Fundamentals of Microelectronics (Wiley) by Behzad Razavi <a href="https://a.co/d/0tSO6jd" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -429,7 +429,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] Modern Semiconductor Devices for Integrated Circuits (Pearson) by Chenming Hu <a href="https://a.co/d/gZM2V2G" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          [1] Modern Semiconductor Devices for Integrated Circuits (Pearson) by Chenming Hu <a href="https://a.co/d/gZM2V2G" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 3
                         course: Analog Electronics Lab.
@@ -462,11 +462,11 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Signal and Linear System Analysis 2e (John Wiley & Sons) by Gordon E. Carlson <a href="https://a.co/d/iOZ2w6X" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Signal and Linear System Analysis 2e (John Wiley & Sons) by Gordon E. Carlson <a href="https://a.co/d/iOZ2w6X" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### MATLAB Onramp
-                          - Recieved course completion certificate on 11 May 2020 from MathWorks. <a href="https://matlabacademy.mathworks.com/en/details/matlab-onramp/gettingstarted" title="MathWorks link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M5.765 21.661C4.172 20.473 2.188 19.078 0 17.489l7.749-2.979l3.183 2.385c-2.385 2.781-3.973 3.776-5.167 4.771zm21.266-8.344c-.599-1.588-.995-3.181-1.593-4.771c-.593-1.792-1.187-3.38-2.183-4.771c-.4-.593-1.192-1.989-2.187-1.989c-.199 0-.396.197-.599.197c-.595.204-1.391 1.391-1.589 2.188c-.593.995-1.792 2.583-2.583 3.577c-.199.396-.6.797-.797.996c-.593.395-1.193.995-1.984 1.391c-.204 0-.401.197-.599.197c-.595 0-.996.396-1.391.593c-.595.6-1.193 1.391-1.787 1.991c0 .197-.204.395-.401.599l2.984 2.181c2.188-2.583 4.771-5.167 6.557-10.135c0 0-.593 5.369-5.364 11.131c-2.985 3.38-5.371 5.171-5.767 5.567c0 0 .792-.197 1.589.199c1.593.593 2.385 2.781 2.984 4.369c.396 1.193.989 2.188 1.391 3.38c1.589-.396 2.584-.995 3.579-1.989c.989-.989 1.984-2.183 2.979-3.177c1.792-2.187 3.975-4.968 6.756-3.577c.4.197.995.599 1.192.796c.599.396.995.792 1.593 1.391c.991.792 1.391 1.391 2.183 1.787c-1.984-3.973-3.375-7.948-4.968-12.125z"/></svg></a>
+                          - Recieved course completion certificate on 11 May 2020 from MathWorks. <a href="https://matlabacademy.mathworks.com/en/details/matlab-onramp/gettingstarted" title="MathWorks" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M5.765 21.661C4.172 20.473 2.188 19.078 0 17.489l7.749-2.979l3.183 2.385c-2.385 2.781-3.973 3.776-5.167 4.771zm21.266-8.344c-.599-1.588-.995-3.181-1.593-4.771c-.593-1.792-1.187-3.38-2.183-4.771c-.4-.593-1.192-1.989-2.187-1.989c-.199 0-.396.197-.599.197c-.595.204-1.391 1.391-1.589 2.188c-.593.995-1.792 2.583-2.583 3.577c-.199.396-.6.797-.797.996c-.593.395-1.193.995-1.984 1.391c-.204 0-.401.197-.599.197c-.595 0-.996.396-1.391.593c-.595.6-1.193 1.391-1.787 1.991c0 .197-.204.395-.401.599l2.984 2.181c2.188-2.583 4.771-5.167 6.557-10.135c0 0-.593 5.369-5.364 11.131c-2.985 3.38-5.371 5.171-5.767 5.567c0 0 .792-.197 1.589.199c1.593.593 2.385 2.781 2.984 4.369c.396 1.193.989 2.188 1.391 3.38c1.589-.396 2.584-.995 3.579-1.989c.989-.989 1.984-2.183 2.979-3.177c1.792-2.187 3.975-4.968 6.756-3.577c.4.197.995.599 1.192.796c.599.396.995.792 1.593 1.391c.991.792 1.391 1.391 2.183 1.787c-1.984-3.973-3.375-7.948-4.968-12.125z"/></svg></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Projects
@@ -475,7 +475,7 @@ content:
                           - **Project 3**: 
                             1. Restoring the music signal* sampled at 4000 Hz to the original signal using a low-pass filter (LPF). 
                             2. Removing noise from a music signal** using an LPF.
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;*What is Love? (2018) by TWICE <a href="https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y?si=f5416cccd7b944be&nd=1&dlsi=aefc1535489d41c1" target="_blank"><i class="fab fa-spotify" title="Spotify link"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;**Secret Garden (2017) by IU <a href="https://open.spotify.com/track/5F6nAnNIsRk9QbPOx9t11B?si=cc051a133ed64a0c&nd=1&dlsi=53d104c23545482d" target="_blank"><i class="fab fa-spotify" title="Spotify link"></i></a>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;*What is Love? (2018) by TWICE <a href="https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y?si=f5416cccd7b944be&nd=1&dlsi=aefc1535489d41c1" target="_blank"><i class="fab fa-spotify" title="Spotify"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;**Secret Garden (2017) by IU <a href="https://open.spotify.com/track/5F6nAnNIsRk9QbPOx9t11B?si=cc051a133ed64a0c&nd=1&dlsi=53d104c23545482d" target="_blank"><i class="fab fa-spotify" title="Spotify"></i></a>
                           - **Project 4**: Verifying Fourier transform, Laplace transform, and z-transform on different examples.
 
                           <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
@@ -547,7 +547,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Field and Wave Electromagnetics: Pearson New International E (Pearson) by David K. Cheng <a href="https://a.co/d/iCUWvaV" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Field and Wave Electromagnetics: Pearson New International E (Pearson) by David K. Cheng <a href="https://a.co/d/iCUWvaV" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
         border: weak
 
@@ -568,7 +568,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Introduction to Econometrics, Global Edition (Pearson) by James H. Stock and Mark W. Watson <a href="https://a.co/d/aG6p4qd" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Introduction to Econometrics, Global Edition (Pearson) by James H. Stock and Mark W. Watson <a href="https://a.co/d/aG6p4qd" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
                         course: Financial Econometrics
@@ -580,7 +580,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
-                          1. Introductory Econometrics for Finance (Cambridge University Press) by Chris Brooks <a href="https://a.co/d/gLWSj9p" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Introductory Econometrics for Finance (Cambridge University Press) by Chris Brooks <a href="https://a.co/d/gLWSj9p" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
               - category:
                   - title: DSGE Modeling
@@ -595,10 +595,10 @@ content:
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### Textbook
                           1. Macroeconomics by Matthias Doepke, Andreas Lehnert, and Andrew Sellgren <a href="https://faculty.wcas.northwestern.edu/mdo738/book.htm" target="_blank"><i class="fa fa-link" title="Website"></i></a>
-                          1. Macroeconomics (MIT Press) by Robert J. Barro <a href="https://a.co/d/5WrelpZ" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. Advanced Macroeconomics (McGraw-Hill/Irwin) by David Romer <a href="https://a.co/d/62atimX" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. Elements of Dynamic Optimization (Waveland Pr Inc) by Alpha C. Chiang <a href="https://a.co/d/8DkaBQD" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
-                          1. Fundamental Methods of Mathematical Economics (McGraw-Hill) by Alpha C. Chiang and Kevin Wainwright <a href="https://a.co/d/62VojZb" target="_blank"><i class="fab fa-amazon" title="Amazon link"></i></a>
+                          1. Macroeconomics (MIT Press) by Robert J. Barro <a href="https://a.co/d/5WrelpZ" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Advanced Macroeconomics (McGraw-Hill/Irwin) by David Romer <a href="https://a.co/d/62atimX" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Elements of Dynamic Optimization (Waveland Pr Inc) by Alpha C. Chiang <a href="https://a.co/d/8DkaBQD" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Fundamental Methods of Mathematical Economics (McGraw-Hill) by Alpha C. Chiang and Kevin Wainwright <a href="https://a.co/d/62VojZb" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
                         course: Quantitative Macroeconomics
@@ -641,7 +641,7 @@ content:
                           [3] "NOVA: Trillion Dollar Bet," *PBS*, 2000. <a href="https://www.imdb.com/title/tt1028385/" target="_blank"><i class="fab fa-imdb" title="IMDb link"></i></a>
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
-                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
                           1. Introduction to Python
                           1. Intermediate Python
                           1. Python Data Science Toolbox (Part 1)
@@ -666,7 +666,7 @@ content:
                           - Perform numerical analysis of changes in balance according to changes in the economic environment.
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
-                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
                           1. Manipulating Time Series Data in Python
                           1. Introduction to Portfolio Analysis in Python
                           1. Introduction to Portfolio Risk Management in Python
@@ -688,7 +688,7 @@ content:
                           - Virtual trading of financial products using the open trading API.
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
-                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
                           1. Introduction to Python
                           1. Intermediate Python
                           1. Introduction to Functions
@@ -696,7 +696,7 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          [1] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
                           <br>
                           [2] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
@@ -710,8 +710,8 @@ content:
 
                           <hr style="border-bottom: dashed 1px #CCCCCC;">
                           ###### References
-                          [1] PFHedge: Deep Hedging in PyTorch. <a href="https://github.com/pfnet-research/pfhedge" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          [1] PFHedge: Deep Hedging in PyTorch. <a href="https://github.com/pfnet-research/pfhedge" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
                           <br>
-                          [2] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub link"></i></a>
+                          [2] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
                           <br>
                           [3] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
