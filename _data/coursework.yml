@@ -27,7 +27,7 @@ content:
                           - <a href="https://github.com/qiskit-community/korean-community.git" target="_blank"><i class="fab fa-github" title="Github"></i></a> korean-community / tutorials / 2023 Yonsei Lecture /
 
                       - number: 2
-                        course: Quantum Machine Learning
+                        course: <sup>BSc</sup>Quantum Machine Learning
                         description: |
                           ###### Course Objective
                           - Understand the basic principles of quantum information theory and its applications on quantum computing.
@@ -41,7 +41,7 @@ content:
                           1. Machine Learning with Quantum Computers (Springer) by Maria Schuld and Francesco Petruccione <a href="https://a.co/d/3dj0lgZ" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 3
-                        course: Electrical and Electronic Engineering Capstone Design
+                        course: <sup>BSc</sup>Electrical and Electronic Engineering Capstone Design
                         description: |
                           ###### Course Objective
                           - Cultivate creative engineers with synthetic research ability.
@@ -68,7 +68,7 @@ content:
                   - title: Computer Architecture
                     name:
                       - number: 1
-                        course: Digital Logic Circuits
+                        course: <sup>BSc</sup>Digital Logic Circuits
                         description: |
                           ###### Course Objective
                           - Understand the basic principles of digital circuits and analysing simple digital systems.
@@ -79,7 +79,7 @@ content:
                           1. Contemporary Logic Design (Pearson) by Randy H. Katz and Gaetano Borriello <a href="https://a.co/d/dKk9GQi" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
-                        course: Computer Architecture
+                        course: <sup>BSc</sup>Computer Architecture
                         description: |
                           ###### Course Objective
                           - Understand the basic principles of computer architecture.
@@ -102,7 +102,7 @@ content:
                           <div style="font-size: 0.8em; text-align: center;">The block diagram of a pipelined RISC-V microprocessor.</div>
 
                       - number: 3
-                        course: Communication Networks
+                        course: <sup>BSc</sup>Communication Networks
                         description: |
                           ###### Course Objective
                           - Understand the basic principles of communication networks.
@@ -119,7 +119,7 @@ content:
                           - **Project 2**: Investigating behaviors and analysing packets of IPv4, Ethernet, and 802.11 Wi-Fi protocols using Wireshark.
 
                       - number: 4
-                        course: Operating Systems
+                        course: <sup>BSc</sup>Operating Systems
                         description: |
                           ###### Course Objective
                           - Understand the basic principles of process and scheduling.
@@ -140,7 +140,7 @@ content:
                           - **Assignment 6**: Implementing multi-threading features in xv6-riscv.
 
                       - number: 5
-                        course: Microprocessors
+                        course: <sup>BSc</sup>Microprocessors
                         description: |
                           ###### Course Objective
                           - Understand parallel architectures and major peripheral devices.
@@ -153,7 +153,7 @@ content:
                             * Team Member: James Jihyun Moon <a href="https://magic-lycra-8cf.notion.site/Portfolio-3e8cdf51b9da45cbbf6f071994031aa9" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
                       - number: 6
-                        course: Multicore and GPU Programming
+                        course: <sup>BSc</sup>Multicore and GPU Programming
                         description: |
                           ###### Course Objective
                           - Understand programming models for multi-threading (Pthread).
@@ -179,7 +179,7 @@ content:
                   - title: Machine Learning
                     name:
                       - number: 1
-                        course: Introduction Artificial Intelligence
+                        course: <sup>BSc</sup>Introduction Artificial Intelligence
                         description: |
                           ###### Course Objective
                           - Understand the basic concepts and components of artificial intelligence (AI) and machine learning (ML).
@@ -196,7 +196,7 @@ content:
                           - **Project 2**: Training a decision tree regressor using the dataset “from sklearn.datasets import fetch_california_housing”.
 
                       - number: 2
-                        course: Intelligent Control
+                        course: <sup>BSc</sup>Intelligent Control
                         description: |
                           ###### Course Objective
                           - Understand reinforcement learning through programming.
@@ -222,7 +222,7 @@ content:
                           [1] Mnih, V., Kavukcuoglu, K., Silver, D. *et al.* Human-level control through deep reinforcement learning. *Nature* **518**, 529-533 (2015). <a href="https://doi.org/10.1038/nature14236" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
                           
                       - number: 3
-                        course: Special Topics in Pattern Recognition
+                        course: <sup>BSc</sup>Special Topics in Pattern Recognition
                         description: |
                           ###### Course Objective
                           - Focus on a special topic about "elements of learning from data" by going through important components in the field and link among these learning elements in pattern recognition.
@@ -248,7 +248,7 @@ content:
                   - title: Software Engineering
                     name:
                       - number: 1
-                        course: Engineering Information Processing
+                        course: <sup>BSc</sup>Engineering Information Processing
                         description: |
                           ###### Course Objective
                           - Understand the basic concepts of programming.
@@ -263,7 +263,7 @@ content:
                           <div style="font-size: 0.8em; text-align: center;">The initial screen of the household account book program.</div>
 
                       - number: 2
-                        course: Data Structure and Algorithms
+                        course: <sup>BSc</sup>Data Structure and Algorithms
                         description: |
                           ###### Course Objective
                           - Understand abstract data types using the C programming language.
@@ -278,7 +278,7 @@ content:
                   - title: Digital System Design
                     name:
                       - number: 1
-                        course: Introductory Digital Labs
+                        course: <sup>BSc</sup>Introductory Digital Labs
                         description: |
                           ###### Course Objective
                           - Learn basic digital logic design skills through laboratory experiments and projects.
@@ -320,7 +320,7 @@ content:
                             </div>
 
                       - number: 2
-                        course: Digital Microelectronics
+                        course: <sup>BSc</sup>Digital Microelectronics
                         description: |
                           ###### Course Objective
                           - Understand CMOS transistors.
@@ -345,7 +345,7 @@ content:
                           [1] R. -J. Yang and S. -I. Liu, "A 40-550 MHz Harmonic-Free All-Digital Delay-Locked Loop Using a Variable SAR Algorithm," in *IEEE Journal of Solid-State Circuits*, vol. 42, no. 2, pp. 361-373, Feb. 2007 <a href="http://doi.org/10.1109/JSSC.2006.889381" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
 
                       - number: 3
-                        course: System IC Design
+                        course: <sup>BSc</sup>System IC Design
                         description: |
                           ###### Course Objective
                           - Understand system IC design flow.
@@ -364,7 +364,7 @@ content:
                           [2] AES specification by Federal Information Processing Standard (FIPS) Publication 197. <a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
 
                       - number: 4
-                        course: Embedded System Lab.
+                        course: <sup>BSc</sup>Embedded System Lab.
                         description: |
                           ###### Course Objective
                           - Lab practices of embedded system hardware designs.
@@ -391,7 +391,7 @@ content:
                   - title: Analog System Design
                     name: 
                       - number: 1
-                        course: Basic Circuit Theory
+                        course: <sup>BSc</sup>Basic Circuit Theory
                         description: |
                           ###### Course Objective
                           - Learn fundamental components comprising the analog ciruits.
@@ -404,7 +404,7 @@ content:
                           1. Introduction to Electric Circuits (Wiley) by James A. Svoboda and Richard C. Dorf <a href="https://a.co/d/1bngi0l" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
-                        course: Electronic Circuits
+                        course: <sup>BSc</sup>Electronic Circuits
                         description: |
                           ###### Course Objective
                           - Understand electronic circuits using Diode and Transistors.
@@ -432,7 +432,7 @@ content:
                           [1] Modern Semiconductor Devices for Integrated Circuits (Pearson) by Chenming Hu <a href="https://a.co/d/gZM2V2G" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 3
-                        course: Analog Electronics Lab.
+                        course: <sup>BSc</sup>Analog Electronics Lab.
                         description: |
                           ###### Course Objective
                           - Verify the theoretical content of circuit theory through experiments and perform application projects.
@@ -451,7 +451,7 @@ content:
                   - title: Telecommunications Engineering
                     name: 
                       - number: 1
-                        course: Signal and Systems
+                        course: <sup>BSc</sup>Signal and Systems
                         description: |
                           ###### Course Objective
                           - Learn signal and system characteristics and models.
@@ -539,7 +539,7 @@ content:
                           </div>
 
                       - number: 2
-                        course: Electricity & Magnetism (1)
+                        course: <sup>BSc</sup>Electricity & Magnetism (1)
                         description: |
                           ###### Course Objective
                           - Learn the basic characteristics of electric and magnetic fields.
@@ -559,7 +559,7 @@ content:
                   - title: Econometrics
                     name:
                       - number: 1
-                        course: Econometrics I
+                        course: <sup>BA</sup>Econometrics I
                         description: |
                           ###### Course Objective
                           - Introduction to popular skills for analysing economic data.
@@ -571,7 +571,7 @@ content:
                           1. Introduction to Econometrics, Global Edition (Pearson) by James H. Stock and Mark W. Watson <a href="https://a.co/d/aG6p4qd" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
-                        course: Financial Econometrics
+                        course: <sup>BA</sup>Financial Econometrics
                         description: |
                           ###### Course Objective
                           - Learn economic methods for modeling, analysing, and forecasting financial data.
@@ -586,7 +586,7 @@ content:
                   - title: DSGE Modeling
                     name:
                       - number: 1
-                        course: Dynamic Analysis of Macroeconomy
+                        course: <sup>BA</sup>Dynamic Analysis of Macroeconomy
                         description: |
                           ###### Course Objective
                           - Learn the dynamic stochastic general equilibrium (DSGE) model.
@@ -601,7 +601,7 @@ content:
                           1. Fundamental Methods of Mathematical Economics (McGraw-Hill) by Alpha C. Chiang and Kevin Wainwright <a href="https://a.co/d/62VojZb" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
                       - number: 2
-                        course: Quantitative Macroeconomics
+                        course: <sup>BA</sup>Quantitative Macroeconomics
                         description: |
                           ###### Course Objective
                           - Introduction to dynamic macroeconomic models that have been widely employed in modern macroeconomic analyses.
@@ -625,7 +625,7 @@ content:
                   - title: Financial Engineering
                     name:
                       - number: 1
-                        course: Introduction to Financial Engineering
+                        course: <sup>BA</sup>Introduction to Financial Engineering
                         description: |
                           ###### Course Objective
                           - Understand the the types of derivatives.
@@ -659,7 +659,7 @@ content:
                           <div style="font-size: 0.8em; text-align: center;">Result of deep hedging on Asian option using sigmoid function.</div>
 
                       - number: 2
-                        course: Coding for Economics 2
+                        course: <sup>BA</sup>Coding for Economics 2
                         description: |
                           ###### Course Objective
                           - Analyze the balance of a model economy by applying quantitative analysis algorithms to various economic theories.
@@ -680,7 +680,7 @@ content:
                           - **Coding 3**: Simulating Friedman-Hall consumption smoothing model and present value model of asset pricing theory. Finding general equilibrium of an economic model with nonlinear demands and supplies using Newton's method.
 
                       - number: 3
-                        course: Coding for Economics 1
+                        course: <sup>BA</sup>Coding for Economics 1
                         description: |
                           ###### Course Objective
                           - Learn basic Python programming, data analysis, and object-oriented programming.
@@ -701,7 +701,7 @@ content:
                           [2] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
 
                       - number: 4
-                        course: AI Assisted Financial Engineering
+                        course: <sup>BA</sup>AI Assisted Financial Engineering
                         description: |
                           ###### Course Objective
                           - Learn the concepts of deep learning and deep hedging.
