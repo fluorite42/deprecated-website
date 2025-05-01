@@ -21,7 +21,7 @@ content:
           - name: >
               *Yonsei University, Republic of Korea
         abstract: |
-            Recent advances in quantum computing introduce the ability to reuse qubits through mid-circuit measurements, thereby enhancing the efficiency of quantum devices with limited computational resources.  
+            Recent advances in quantum computing introduce the ability to reuse qubits through mid-circuit measurements, thereby enhancing the efficiency of quantum devices with limited computational resources.
             However, identifying optimal reuse opportunities in quantum circuits remains challenging due to the intricate dependencies between quantum gates. 
             Existing frameworks address this by either directly searching for reuse opportunities or converting circuits into directed acyclic graphs (DAGs).
             Unfortunately, these frameworks may require exponential search complexity or may not always ensure optimal results due to their non-deterministic property.
