@@ -1,0 +1,100 @@
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+
+      <style>
+        .columns-list {
+          display: flex;
+          justify-content: space-between;
+        }
+        .column-list1 {
+          width: 83%;
+          font-size: 16px;
+        }
+
+        .column-list2 {
+          width: 13%;
+          font-size: 16px;
+          text-align: left;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+
+        @media (max-width: 768px) {
+          .columns-list {
+            flex-direction: column;
+          }
+          .column-list1 {
+            width: 100%;
+          }
+
+          .column-list2 {
+            width: 25%;
+            margin: 0 auto;
+            text-align: center;
+          }
+        }
+      </style>
+
+      {%- if item.img -%}
+        <div class="columns-list">
+
+          <div class="column-list1">
+            <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+            {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
+            {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+            {%- if item.link -%}
+              {% include a.html href=item.link class="link" %}
+                {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+              </a>
+            {%- endif -%}
+          </div>
+          <div class="column-list2">
+              <img src="{{ item.img }}" alt="{{ item.sub_title }}" class="img-responsive">
+          </div>
+
+        </div>
+      {%- else -%}
+          <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+          {%- if item.sub_title -%}<p><b>{{ item.sub_title | newline_to_br }}</b></p>{%- endif -%}
+          {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+          {%- if item.link -%}
+            {% include a.html href=item.link class="link" %}
+              {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+            </a>
+          {%- endif -%}
+      {%- endif -%}
+
+      <p class="no-print aditional-links">
+        {% for link in item.additional_links %}
+          {%- if link.icon_svg -%}
+            <div class="icons no-print">
+              <div class="centered">
+                <a target="_blank" href="{{ link.url | escape }}" title="{{ link.title | escape}}">
+                  <aa class="button button--sacnite button--round-l">
+                    {{ link.icon_svg | safe }}
+                  </aa>
+                </a>
+              </div>
+            </div>
+          {%- else -%}
+            {% include a.html href=link.url class="" %}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          {%- endif -%}
+        {% endfor %}
+      </p>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.quote -%}
+        <p class="quote">{{ item.quote }}</p>
+      {%- endif -%}
+        {{ item.description | strip | markdownify }}
+    </div>
+
+  </div>
+{% endfor %}

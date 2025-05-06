@@ -1,0 +1,59 @@
+content:
+  - title: Participated Projects
+    layout: list
+    content:
+      - layout: top
+        title: Research on Quantum Pulse Latency Reduction Through Quantum Optimal Control Framework
+        sub_title: |
+          National Research Foundation of Korea (NRF),
+          Yonsei University Office of Research Affairs and University-Industry Foundation (UIF)
+        caption: Jan. 2025 - Dec. 2025
+        img: /images/logo_nrf.png
+        authors:
+          - name: Won Woo Ro*¹
+          - name: Enhyeok Jang*
+          - name: Seungwoo Choi*
+          - name: Cheolhwan Kim*
+          - name: Youngmin Kim*
+          - name: Jeewoo Seo*
+          - name: Dongjoon Kim*
+          - name: Hyungseok Kim*
+            style: bold
+          - name: Changheon Lee*
+        affiliations:
+          - name: >
+              *Yonsei University, Republic of Korea
+        roles:
+          - name: >
+              ¹Research Director
+        border: weak
+        
+      - layout: top
+        title: Developing a High-Speed Quantum Circuit Simulator that Supports Verification and Testing of Hyperscale Quantum Algorithms
+        sub_title: |
+          Hyundai NGV,
+          Embedded Systems and Computer Architecture Lab (eSCaL)
+        caption: Jun. 2024 - Oct. 2024
+        img: /images/logo_hyundai.png
+        authors:
+          - name: Jinyoung Lee*¹
+          - name: Won Woo Ro**²
+          - name: Enhyeok Jang**³
+          - name: Sungwoo Ahn**
+          - name: Seungwoo Choi**
+          - name: Cheolhwan Kim**
+          - name: Youngmin Kim**
+          - name: Hyungseok Kim**
+            style: bold
+        affiliations:
+          - name: >
+              *Hyundai Motor Group, Republic of Korea
+          - name: >
+              **Yonsei University, Republic of Korea
+        roles:
+          - name: >
+              ¹Project Manager
+          - name: >
+              ²Research Director
+          - name: >
+              ³Working Director

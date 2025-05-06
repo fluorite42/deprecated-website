@@ -1,0 +1,76 @@
+content:
+  - title: Educational Programs Participated
+    layout: list
+    content:
+      - layout: left
+        title: Research-Related Topics
+        description:
+          - name: |
+              ##### IonQ Research Mentoring Program
+              ###### Quantum Information Research Support Center (QCenter), IonQ | Feb. 2025 - Apr. 2025
+              - Optimizing varQITE for Efficient Quantum Simulations <a href="https://doi.org/10.48550/arXiv.2404.16135" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+              - Mentor: Sang Hyub Kim (Senior Staff Engineer at IonQ)
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### Research Education
+              ###### Yonsei University Library, Editage | Jan. 2024
+              - Writing papers in English and submitting them to journals.
+                - Common Errors by Korean Authors and Word Choice
+                - All about Plagiarism
+                - How to Paraphrase Sentences
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+
+          - name: |
+              ##### Research Education
+              ###### Yonsei University Library | Dec. 2023
+                - Submission of Papers to Overseas Academic Journals
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### Research Education
+              ###### Yonsei University Library, Editage | Aug. 2023
+              - Responding to Reviewer Comments
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### Research Education
+              ###### Yonsei University Library, Oxford University Press | May 2023
+              - How to publish with Oxford University Press
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### Research Education
+              ###### Yonsei University Library | Mar. 2023
+              - Search and Use of Major Academic Journals and Papers
+        border: weak
+
+      - layout: left
+        title: Other Topics
+        description:
+          - name: |
+              ##### ACP Academy (Adobe Premiere Pro)
+              ###### Yonsei Digital Experience Center (Y-DEC) | Jan. 2024
+              - Training program to prepare for the ACP certification exam. <a href="#adobe-certified-professional-acp-in-digital-video-using-adobe-premiere-pro">[Certification]</a>
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### Understanding ChatGPT Properly (Python)
+              ###### Yonsei University College of Engineering | May 2023
+              - Understanding and Using ChatGPT through Python Coding
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### Winter DX Coding Camp (Machine Learning Class)
+              ###### Yonsei University Library | Jan. 2023
+              - Instructor: Joeun Park <a href="https://www.youtube.com/@todaycode" target="_blank"><i class="fab fa-youtube" title="YouTube"></i></a>
+              - Understanding the Basics of Machine Learning
+              - Feature Engineering Practice Using Python
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+
+          - name: |
+              ##### DX Academy (Adobe After Effect)
+              ###### Yonsei Digital Experience Center (Y-DEC) | Jan. 2023
+              - Training program to prepare for the micro-learning video contest. <a href="#micro-learning-video-contest">[Award]</a>
+
+              <hr style="border-bottom: dashed 1px #CCCCCC;">
+              ##### DX Academy Digital Literacy One-Day Class
+              ###### Yonsei Digital Experience Center (Y-DEC) | Nov. 2022
+              - Instructor: Hojun Lee (Editor of <a href="https://www.youtube.com/@GYMJONGKOOK" target="_blank"><i class="fab fa-youtube" title="YouTube"></i></a>)
+              - Creating a Vlog Using Adobe Premiere Pro

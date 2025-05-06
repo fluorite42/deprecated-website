@@ -1,0 +1,15 @@
+content:
+  - title: Volunteering
+    layout: list
+    content:
+      - layout: left
+        title: Academic Mentor
+        sub_title: |
+          Yonsei University,
+          Dong Incheon High School
+        caption: Mar. 2019 - Jun. 2019
+        img: /images/logo_yonsei.png
+        description: | 
+          - As part of UCR1015-10: Social Engagement-[Yon-In] High School Students Mentoring, spring semester 2019.
+          - Provided academic mentoring to two high school students at Dong Incheon High School for a total of 20 hours.
+          - Mainly helped the students with mathematics, physics, and chemistry.

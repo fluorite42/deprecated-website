@@ -1,0 +1,730 @@
+content:
+  - title: Selected Coursework
+    layout: list
+    content:
+      - layout: left
+        title: Electrical and Electronic Engineering
+        description:
+          - name:
+              - category:
+                  - title: Quantum Computing
+                    name:
+                      - number: 1
+                        course: <sup>BSc</sup>Quantum Computer and Simulation 1
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic concepts of quantum computing and quantum information.
+                          - Learn quantum algorithms and practice quantum coding using IBM Qiskit.
+                          - Understand the physical systems that constitute qubits.
+                          - Learn quantum error correction essential for NISQ devices.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Quantum Computing: A Gentle Introduction (MIT Press) by Eleanor Rieffel and Wolfgang Polak <a href="https://a.co/d/1odkDcg" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Quantum Coding Practice Materials
+                          - <a href="https://github.com/qiskit-community/korean-community.git" target="_blank"><i class="fab fa-github" title="Github"></i></a> korean-community / tutorials / 2023 Yonsei Lecture /
+
+                      - number: 2
+                        course: <sup>BSc</sup>Quantum Machine Learning
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of quantum information theory and its applications on quantum computing.
+                          - Learn basic oracle-based quantum algorithms.
+                          - Understand near-term quantum machine learning algorithms.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. An Introduction to Quantum Computing (Oxford University Press) by Phillip Kaye, Raymond Laflamme, and Michele Mosca <a href="https://a.co/d/6FZXB1l" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Quantum Computation and Quantum Information (Cambridge University Press) by Michael A. Nielsen and Isaac L. Chuang <a href="https://a.co/d/7eJEEGs" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Machine Learning with Quantum Computers (Springer) by Maria Schuld and Francesco Petruccione <a href="https://a.co/d/3dj0lgZ" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                      - number: 3
+                        course: <sup>BSc</sup>Electrical and Electronic Engineering Capstone Design
+                        description: |
+                          ###### Course Objective
+                          - Cultivate creative engineers with synthetic research ability.
+                          - Develop an engineering program considering industry requirements.
+                          - Summarize the undergraduate programs of EE.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Capstone Topic
+                          - **Title**: HS-Table: A Table-Based Algorithm for Optimizing Quantum Circuits through Qubit Reuse
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Capstone Team
+                          - **Members**: 1 student
+                          - **Role**: Team Leader
+                          - **Responsibility**: Every aspect of the project from planning to execution.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Research Lab
+                          - **Lab**: Embedded Systems and Computer Architecture Lab (eSCaL) <a href="http://escal.yonsei.ac.kr/research.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+                          - **Advisor**: Prof. Won Woo Ro <a href="http://escal.yonsei.ac.kr/professor.html" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+                          - **Teaching Assistant**: Enhyeok Jang <a href="https://www.notion.so/Enhyeok-Jang-9f594ec32719477fa5ab8cf0f517a642?pvs=4" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+                      - number: 4
+                        course: <sup>MSc</sup>Quantum Computing
+                      
+              - category:
+                  - title: Computer Architecture
+                    name:
+                      - number: 1
+                        course: <sup>BSc</sup>Digital Logic Circuits
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of digital circuits and analysing simple digital systems.
+                          - Learn Boolean algebra, Karnaugh map, combinational circuit, and sequential circuit.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Contemporary Logic Design (Pearson) by Randy H. Katz and Gaetano Borriello <a href="https://a.co/d/dKk9GQi" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                      - number: 2
+                        course: <sup>BSc</sup>Computer Architecture
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of computer architecture.
+                          - Learn the structure of RISC CPU.
+                          - Learn the CPU pipeline structure.
+                          - Learn cache and memory structure.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Computer Organization and Design RISC-V Edition (Morgan Kaufmann) by David A. Patterson and John L. Hennessy <a href="https://a.co/d/cS3eyE1" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1-1**: Implementing a simple combinational circuit using on Quartus II.
+                          - **Project 1-2**: Designing an 8-bit arithmetic logic unit (ALU).
+                          - **Project 2**: Designing a 64-bit single-cycle RISC-V microprocessor.
+                          - **Project 3**: Designing a 64-bit pipelined RISC-V microprocessor.
+                          
+                          <img src="/images/coursework_ca.png" alt="Project 3" style="width: 80%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The block diagram of a pipelined RISC-V microprocessor.</div>
+
+                      - number: 3
+                        course: <sup>BSc</sup>Communication Networks
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of communication networks.
+                          - Learn protocols of communication networks.
+                          - Learn control algorithms of communication networks.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Computer Networking (Pearson) by James F. Kurose and Keith W. Ross <a href="https://a.co/d/iPX5Vqz" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Investigating behaviors and analysing packets of HTTP, TCP, and UDP protocols using Wireshark.
+                          - **Project 2**: Investigating behaviors and analysing packets of IPv4, Ethernet, and 802.11 Wi-Fi protocols using Wireshark.
+
+                      - number: 4
+                        course: <sup>BSc</sup>Operating Systems
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic principles of process and scheduling.
+                          - Learn the basic concepts of memory virtualization, multi-threading, and file systems.
+                          - Programming practice of operating systems using xv6-riscv.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Operating Systems: Three Easy Pieces by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Assignment 1**: Implementing a simple shell in xv6-riscv.
+                          - **Assignment 2**: Adding a new system call to xv6-riscv that probes processes and prints out their information, including process ID, execution state, runtime, and program name.
+                          - **Assignment 3**: Replacing the round-robin process scheduler of xv6-riscv with a fair-share scheduling algorithm.
+                          - **Assignment 4**: Replacing the next-fit free list management scheme of xv6-riscv's malloc library with the best-fit policy.
+                          - **Assignment 5**: Modifying the paging scheme of xv6-riscv to allocate physical frames belatedly on their first write access, referred to as copy-on-write.
+                          - **Assignment 6**: Implementing multi-threading features in xv6-riscv.
+
+                      - number: 5
+                        course: <sup>BSc</sup>Microprocessors
+                        description: |
+                          ###### Course Objective
+                          - Understand parallel architectures and major peripheral devices.
+                          - Learn ARM processor and ARM assembly language for mobile SoCs.
+                          - Learn the solid-state drive (SSD) architecture.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 2)
+                          - Designing garbage collection and wear-leveling algorithm of block associative sector translation (BAST) flash translation layer (FTL) for an SSD.
+                            * Team Member: James Jihyun Moon <a href="https://magic-lycra-8cf.notion.site/Portfolio-3e8cdf51b9da45cbbf6f071994031aa9" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+                      - number: 6
+                        course: <sup>BSc</sup>Multicore and GPU Programming
+                        description: |
+                          ###### Course Objective
+                          - Understand programming models for multi-threading (Pthread).
+                          - Understand programming models for multicore CPUs (OpenMP).
+                          - Understand programming models for GPUs (CUDA).
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Programming Massively Parallel Processors: A Hands-on Approach (Morgan Kaufmann) by Wen-mei W. Hwu, David B. Kirk, and Izzat El Hajj <a href="https://a.co/d/9KFxLMG" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Parallel Programming: Concepts and Practice (Morgan Kaufmann) by Bertil Schmidt, Jorge Gonzalez-Dominguez, Christian Hundt, and Moritz Schlarb <a href="https://a.co/d/hVPHI5c" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. C++ Concurrency in Action (Manning) by Anthony Williams <a href="https://a.co/d/hfHWZZ1" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Assignment 1**: Implementing a simple filter on 1D array using Pthread.
+                          - **Assignment 2**: Implementing a hash table using open addressing method using Pthread.
+                          - **Assignment 3**: Implementing a matrix multiplication kernel using OpenMP.
+                          - **Assignment 4**: Implementing a matrix multiplication kernel using CUDA.
+                          - **Assignment 5**: Implementing 7 versions of sum reduction kernels using CUDA.
+                          - **Assignment 6**: Implementing the VGG16 DNN model using CUDA.
+
+              - category:
+                  - title: Machine Learning
+                    name:
+                      - number: 1
+                        course: <sup>BSc</sup>Introduction Artificial Intelligence
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic concepts and components of artificial intelligence (AI) and machine learning (ML).
+                          - Learn to formulate and to prepare the data for learning processing.
+                          - Learn to utilize and to implement programs for recognition applications and to evaluate the performance.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. The Hundred-Page Machine Learning Book by Andriy Burkov <a href="https://a.co/d/1Klobej" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Performing a linear regression for classification using the dataset “from sklearn.datasets import load_iris”.
+                          - **Project 2**: Training a decision tree regressor using the dataset “from sklearn.datasets import fetch_california_housing”.
+
+                      - number: 2
+                        course: <sup>BSc</sup>Intelligent Control
+                        description: |
+                          ###### Course Objective
+                          - Understand reinforcement learning through programming.
+                          - Learn various reinforcement learning mothods such as Markov Decision Process (MDP), Dynamic Programming (DP), Monte Carlo, Temporal-Difference (TD) learning, and Q-learning.
+                          - Implement various reinforcement learning techniques through Python/Pytorch coding and compare their strengths and weaknesses.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Reinforcement Learning, second edition: An Introduction (Bradford Books) by Richard S. Sutton and Andrew G. Barto <a href="https://a.co/d/6XCtaII" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Implementing a program that solves the value function of a simple gridworld problem by matrix inversion.
+                          - **Project 2**: Implementing the DP algorithm to solve a gridworld problem.
+                          - **Project 3**: Implementing the Monte Carlo Control On Policy Simulation to solve a gridworld problem.
+                          - **Project 4**: Implementing the Q-learning Simulation to solve a gridworld problem.
+
+                          <img src="/images/coursework_ic.png" alt="Gridworld" style="width: 50%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The gridworld problem.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Mnih, V., Kavukcuoglu, K., Silver, D. *et al.* Human-level control through deep reinforcement learning. *Nature* **518**, 529-533 (2015). <a href="https://doi.org/10.1038/nature14236" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+                          
+                      - number: 3
+                        course: <sup>BSc</sup>Special Topics in Pattern Recognition
+                        description: |
+                          ###### Course Objective
+                          - Focus on a special topic about "elements of learning from data" by going through important components in the field and link among these learning elements in pattern recognition.
+                          - Cover ecent and advanced learning algorithms from literatures of machine learning, neural network, and pattern recognition with particular attention paying towards relationships among the learning components.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. The Elements of Statistical Learning: Data Mining, Inference, and Prediction (Springer) by Trevor Hastie, Robert Tibshirani, and Jerome Friedman <a href="https://a.co/d/dL70zrf" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Performing classification using the linear regression model and reduced multivariate (RM) model and comparing the accuracies using the experimental data of Gaussian distribution.
+                          - **Project 2**: Performing a 5-fold cross validation test for the 3 data sets which are Mushroom, Iris, and Optical Recognition of Handwritten digits, using the following algorithms: 3-layer multi-layer perceptron (MLP) at different hidden node sizes, support vector machine (SVM) using different kernels, and RM Model for orders 1 to 5.
+
+                          <img src="/images/coursework_pr.png" alt="Project 1" style="width: 60%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">Project 1: The decision boundary line at order 5.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Kar-Ann Toh, Quoc-Long Tran and D. Srinivasan, "Benchmarking a reduced multivariate polynomial pattern classifier," in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 26, no. 6, pp. 740-755, June 2004 <a href="https://doi.org/10.1109/TPAMI.2004.3" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+          
+          - name:
+              - category:
+                  - title: Software Engineering
+                    name:
+                      - number: 1
+                        course: <sup>BSc</sup>Engineering Information Processing
+                        description: |
+                          ###### Course Objective
+                          - Understand the basic concepts of programming.
+                          - Learn problem solving methods using the C programming language.
+                          - Improve the ability of solving some engineering-related subjects using the C programming language through various tasks.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 2)
+                          - Implementing a household account book program with the following functions: print the contents of all entries, add a new entry, delete or modify an entry, find some item from entry, calculate the current balance, display verbal histogram, sort entries, display the sum of card and cash, write the contents to account_book_new.txt file, and quit.
+
+                          <img src="/images/coursework_eip.png" alt="Project" style="width: 50%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The initial screen of the household account book program.</div>
+
+                      - number: 2
+                        course: <sup>BSc</sup>Data Structure and Algorithms
+                        description: |
+                          ###### Course Objective
+                          - Understand abstract data types using the C programming language.
+                          - Analyze and design basic algorithms.
+                          - Introduction to the discrete mathematics system that is the basis of computer science and coding theory.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Data Structures and Algorithm Analysis in C (Pearson) by Mark Allen Weiss <a href="https://a.co/d/bBkDN9B" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+              - category:
+                  - title: Digital System Design
+                    name:
+                      - number: 1
+                        course: <sup>BSc</sup>Introductory Digital Labs
+                        description: |
+                          ###### Course Objective
+                          - Learn basic digital logic design skills through laboratory experiments and projects.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Implementing a simple running game on a XILINX PYNQ-Z2 board.
+                            1. Characters: Yonsei University Eagle <a href="https://www.yonsei.ac.kr/en_sc/intro/symbol2.jsp" target="_blank"><i class="fa fa-link" title="Yonsei Eagle"></i></a>, MIT Beaver <a href="https://brand.mit.edu/logos-marks/tim-beaver" target="_blank"><i class="fa fa-link" title="Tim the Beaver"></i></a>, and Caltech Beaver <a href="https://identity.caltech.edu/officiallogomarks/athletics" target="_blank"><i class="fa fa-link" title="Caltech Beaver"></i></a>.
+                            1. Back ground music: The Skaters' Waltz from *Antarctic Adventure* (1983) by KONAMI. <a href="https://open.spotify.com/track/5XkIJ4UGZ2QvusWhFXBU5i" target="_blank"><i class="fab fa-spotify" title="Spotify"></i></a> Originally composed by Émile Waldteufel. <a href="https://en.wikipedia.org/wiki/%C3%89mile_Waldteufel" target="_blank"><i class="fab fa-wikipedia-w" title="Wikipedia"></i></a>
+
+                            <br>
+                            <div style="text-align: center;">
+                            <iframe width="226" height="127" 
+                              src="https://www.youtube.com/embed/ziwD89N9HxE?si=DScZf7jL9Gn0Ldq6" 
+                              title="YouTube video player" 
+                              frameborder="0" 
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                              referrerpolicy="strict-origin-when-cross-origin" 
+                              allowfullscreen>
+                            </iframe>
+
+                            <iframe width="226" height="127" 
+                              src="https://www.youtube.com/embed/NHBaYf8Geag?si=jvJbs6CFz0_typpG" 
+                              title="YouTube video player" 
+                              frameborder="0" 
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                              referrerpolicy="strict-origin-when-cross-origin" 
+                              allowfullscreen>
+                            </iframe>
+
+                            <iframe width="226" height="127" 
+                              src="https://www.youtube.com/embed/LRzXyT2rxAA?si=dVvw6q3fHezhSXOH" 
+                              title="YouTube video player" 
+                              frameborder="0" 
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                              referrerpolicy="strict-origin-when-cross-origin" 
+                              allowfullscreen>
+                            </iframe>
+                            </div>
+
+                      - number: 2
+                        course: <sup>BSc</sup>Digital Microelectronics
+                        description: |
+                          ###### Course Objective
+                          - Understand CMOS transistors.
+                          - Learn combinational and sequential VLSI circuit design.
+                          - Learn subsystems of a computer such as data path, array, I/O, and clock.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Integrated Circuit Design: Global Edition (Pearson) by Neil H. E. Weste and David Money Harris <a href="https://a.co/d/2gf5FKv" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 2)
+                          - Designing a 6-bit decoder and digitally controlled delay line (DCDL) using combinational circuit.
+                            1. Pre-/main- decoder structural analysis and design considering metal resistance and capacitance.
+                            1. DCDL structural analysis and design considering uniform step-delay.
+
+                          <img src="/images/coursework_dm.png" alt="Project" style="width: 30%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">A uniform step-delay DCDL.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] R. -J. Yang and S. -I. Liu, "A 40-550 MHz Harmonic-Free All-Digital Delay-Locked Loop Using a Variable SAR Algorithm," in *IEEE Journal of Solid-State Circuits*, vol. 42, no. 2, pp. 361-373, Feb. 2007 <a href="http://doi.org/10.1109/JSSC.2006.889381" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+
+                      - number: 3
+                        course: <sup>BSc</sup>System IC Design
+                        description: |
+                          ###### Course Objective
+                          - Understand system IC design flow.
+                          - Learn structural and behavioral modeling.
+                          - Learn synthesis and verification.
+                          - Learn design for testability and low power.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Project (in groups of 3)
+                          - Designing, verifying, and synthesising a modified advanced encryption standard (AES) 128 decryptor.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Explanatory material for AES by Intel. <a href="https://www.intel.com/content/dam/doc/white-paper/advanced-encryption-standard-new-instructions-set-paper.pdf" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+                          <br>
+                          [2] AES specification by Federal Information Processing Standard (FIPS) Publication 197. <a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+
+                      - number: 4
+                        course: <sup>BSc</sup>Embedded System Lab.
+                        description: |
+                          ###### Course Objective
+                          - Lab practices of embedded system hardware designs.
+                          - Lab practices of embedded software development.
+                          - Lab practices of development boards and kits.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Midterm Project**
+                            - Abstract: <br>
+                              This report introduces a methodology of designing a liquid-crystal display (LCD) controller utilizing a fieldprogrammable gate array (FPGA) board. The controller controls two LCDs: a Text-LCD and a thin-film-transistor LCD (TFT-LCD). Instead of merely displaying texts, it interlocks data of two LCDs and implements effects such as blinking and color. Effects can be controlled through external buttons. The controller is designed through Verilog hardware description language (HDL) and implemented on an FPGA board. By operating the designed LCD controller, it can be verified that LCDs display and exchange characters in the form of American standard code for information interchange (ASCII) codes.
+
+                              <img src="/images/coursework_esl1.png" alt="Midterm Project" style="width: 80%; display: block; margin: 0 auto;">
+                              <div style="font-size: 0.8em; text-align: center;">A block diagram of the LCD controller.</div>
+
+                          - **Final Project**
+                            - Abstract: <br>
+                              This report introduces the methodology of designing an interrupt clock using a field-programmable gate array (FPGA) board. The interrupt clock has two functions: retrieving the initial time from the real-time clock (RTC) and setting the time. The clock receives push button signals as interrupts, and these interrupts control the clock functions. The time is displayed on the 7-segment. The input/output (I/O) part is designed in Verilog hardware description language (HDL) and the firmware which handles interrupts is designed in the C programming language. By operating the designed interrupt clock, it can be verified that the clock manages interrupts using the interrupt device handler.
+
+                              <img src="/images/coursework_esl2.png" alt="Final Project" style="width: 80%; display: block; margin: 0 auto;">
+                              <div style="font-size: 0.8em; text-align: center;">A block diagram of the interrupt clock.</div>
+
+                      - number: 5
+                        course: <sup>MSc</sup>Semiconductor Memory Design
+
+              - category:
+                  - title: Analog System Design
+                    name: 
+                      - number: 1
+                        course: <sup>BSc</sup>Basic Circuit Theory
+                        description: |
+                          ###### Course Objective
+                          - Learn fundamental components comprising the analog ciruits.
+                          - Build the proper equations governing the circuit behaviors.
+                          - Learn algebraic equations explaining the static characteristics.
+                          - Learn differential equations explaining the dynamic characteristics.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Introduction to Electric Circuits (Wiley) by James A. Svoboda and Richard C. Dorf <a href="https://a.co/d/1bngi0l" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                      - number: 2
+                        course: <sup>BSc</sup>Electronic Circuits
+                        description: |
+                          ###### Course Objective
+                          - Understand electronic circuits using Diode and Transistors.
+                          - Understand the physics of semiconductor.
+                          - Understand the physics of bipolar (BJT) and field effect (FET) transistors.
+                          - Design BJT and FET amplifiers.
+                          - Design multi-stage amplifiers.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Fundamentals of Microelectronics (Wiley) by Behzad Razavi <a href="https://a.co/d/0tSO6jd" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Designing a two stage amplifier based on bipolar junction transistors (BJTs).
+                            1. Finding the parameters and small signal model of BJTs.
+                            1. Designing a common emitter amplifier with a voltage gain higher than 45 dB.
+                            1. Designing an amplifier to drive a low impedance load.
+
+                          <img src="/images/coursework_ec.png" alt="Project" style="width: 60%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">Full circuit of the two-stage amplifier.</div>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] Modern Semiconductor Devices for Integrated Circuits (Pearson) by Chenming Hu <a href="https://a.co/d/gZM2V2G" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                      - number: 3
+                        course: <sup>BSc</sup>Analog Electronics Lab.
+                        description: |
+                          ###### Course Objective
+                          - Verify the theoretical content of circuit theory through experiments and perform application projects.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Designing electrocardiogram (ECG) readout circuit.
+                            1. Designing ECG readout circuit using instrumentation amplifier (IA), notch filter, low-pass filter, and high-pass filter.
+                            1. Verifying the design through PSpice simulation.
+                            1. Implementing the design with breadboards and mearsuring ECG signals.
+
+                          <img src="/images/coursework_ael.png" alt="Project" style="width: 30%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">The ECG readout result.</div>
+
+              - category:
+                  - title: Telecommunications Engineering
+                    name: 
+                      - number: 1
+                        course: <sup>BSc</sup>Signal and Systems
+                        description: |
+                          ###### Course Objective
+                          - Learn signal and system characteristics and models.
+                          - Learn time-domain analysis of continuous-time signals.
+                          - Understand frequency-domain of continuous-time signals.
+                          - Understand analysis of continuous-time systems using Laplace transform.
+                          - Understand analysis of discrete-time systems using z-transform.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Signal and Linear System Analysis 2e (John Wiley & Sons) by Gordon E. Carlson <a href="https://a.co/d/iOZ2w6X" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### MATLAB Onramp
+                          - Recieved course completion certificate on 11 May 2020 from MathWorks. <a href="https://matlabacademy.mathworks.com/en/details/matlab-onramp/gettingstarted" title="MathWorks" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M5.765 21.661C4.172 20.473 2.188 19.078 0 17.489l7.749-2.979l3.183 2.385c-2.385 2.781-3.973 3.776-5.167 4.771zm21.266-8.344c-.599-1.588-.995-3.181-1.593-4.771c-.593-1.792-1.187-3.38-2.183-4.771c-.4-.593-1.192-1.989-2.187-1.989c-.199 0-.396.197-.599.197c-.595.204-1.391 1.391-1.589 2.188c-.593.995-1.792 2.583-2.583 3.577c-.199.396-.6.797-.797.996c-.593.395-1.193.995-1.984 1.391c-.204 0-.401.197-.599.197c-.595 0-.996.396-1.391.593c-.595.6-1.193 1.391-1.787 1.991c0 .197-.204.395-.401.599l2.984 2.181c2.188-2.583 4.771-5.167 6.557-10.135c0 0-.593 5.369-5.364 11.131c-2.985 3.38-5.371 5.171-5.767 5.567c0 0 .792-.197 1.589.199c1.593.593 2.385 2.781 2.984 4.369c.396 1.193.989 2.188 1.391 3.38c1.589-.396 2.584-.995 3.579-1.989c.989-.989 1.984-2.183 2.979-3.177c1.792-2.187 3.975-4.968 6.756-3.577c.4.197.995.599 1.192.796c.599.396.995.792 1.593 1.391c.991.792 1.391 1.391 2.183 1.787c-1.984-3.973-3.375-7.948-4.968-12.125z"/></svg></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Project 1**: Plotting continuous-time, discrete-time, and Fourier transformed signals.
+                          - **Project 2**: Verifying the Paley Wiener theory, properties of Fourier transform, and the Nyquist-Shannon sampling theorem.
+                          - **Project 3**: 
+                            1. Restoring the music signal* sampled at 4000 Hz to the original signal using a low-pass filter (LPF). 
+                            2. Removing noise from a music signal** using an LPF.
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;*What is Love? (2018) by TWICE <a href="https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y?si=f5416cccd7b944be&nd=1&dlsi=aefc1535489d41c1" target="_blank"><i class="fab fa-spotify" title="Spotify"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;**Secret Garden (2017) by IU <a href="https://open.spotify.com/track/5F6nAnNIsRk9QbPOx9t11B?si=cc051a133ed64a0c&nd=1&dlsi=53d104c23545482d" target="_blank"><i class="fab fa-spotify" title="Spotify"></i></a>
+                          - **Project 4**: Verifying Fourier transform, Laplace transform, and z-transform on different examples.
+
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss1.png" alt="Project 3(1)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Original signal.</figcaption>
+                            </figure>
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss2.png" alt="Project 3(1)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Sampled at 4000 Hz.</figcaption>
+                            </figure>
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss3.png" alt="Project 3(1)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Restored using LPF.</figcaption>
+                            </figure>
+                          </div>
+
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss6.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Original signal.</figcaption>
+                            </figure>
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss7.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(1): Restored using LPF after sampled.</figcaption>
+                            </figure>
+                          </div>
+                          <br>
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss4.png" alt="Project 3(2)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise contained.</figcaption>
+                            </figure>
+                            <figure style="text-align: center; margin: 0;">
+                              <img src="/images/coursework_ss5.png" alt="Project 3(2)" style="width: 200px;">
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise removed using LPF.</figcaption>
+                            </figure>
+                          </div>
+
+                          <div style="display: flex; justify-content: center; align-items: center; text-align: center; gap: 10px;">
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss8.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise contained.</figcaption>
+                            </figure>
+                            <figure style="text-align: center;">
+                              <audio controls>
+                                <source src="/images/coursework_ss9.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                              </audio>
+                              <figcaption style="font-size: 0.8em;">Project 3(2): Noise removed using LPF.</figcaption>
+                            </figure>
+                          </div>
+
+                      - number: 2
+                        course: <sup>BSc</sup>Electricity & Magnetism (1)
+                        description: |
+                          ###### Course Objective
+                          - Learn the basic characteristics of electric and magnetic fields.
+                          - Understand the meaning and phenomenon of electromagnetic waves through Maxwell's equations, which combine electric and magnetic fields in the time domain.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Field and Wave Electromagnetics: Pearson New International E (Pearson) by David K. Cheng <a href="https://a.co/d/iCUWvaV" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+              - category:
+                  - title: Inter-Disciplinary
+                    name: 
+                      - number: 1
+                        course: <sup>MSc</sup>Vehicle Electronics
+
+        border: weak
+
+      - layout: left
+        title: Economics
+        description:
+          - name:
+              - category:
+                  - title: Econometrics
+                    name:
+                      - number: 1
+                        course: <sup>BA</sup>Econometrics I
+                        description: |
+                          ###### Course Objective
+                          - Introduction to popular skills for analysing economic data.
+                          - Get familiar with the well-known economic analysis and relate this to the knowledge about the numerical outputs generated by standard statistical packages.
+                          - Understand the implicit assumptions behind economic data analysis.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Introduction to Econometrics, Global Edition (Pearson) by James H. Stock and Mark W. Watson <a href="https://a.co/d/aG6p4qd" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                      - number: 2
+                        course: <sup>BA</sup>Financial Econometrics
+                        description: |
+                          ###### Course Objective
+                          - Learn economic methods for modeling, analysing, and forecasting financial data.
+                          - Understand different estimation methodologies.
+                          - Critically evaluate empirical results and implications.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Introductory Econometrics for Finance (Cambridge University Press) by Chris Brooks <a href="https://a.co/d/gLWSj9p" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+              - category:
+                  - title: DSGE Modeling
+                    name:
+                      - number: 1
+                        course: <sup>BA</sup>Dynamic Analysis of Macroeconomy
+                        description: |
+                          ###### Course Objective
+                          - Learn the dynamic stochastic general equilibrium (DSGE) model.
+                          - Understand business cycle theory, dynamic changes in the macro labor market, and the effects of monetary policy applying DSGE.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Textbook
+                          1. Macroeconomics by Matthias Doepke, Andreas Lehnert, and Andrew Sellgren <a href="https://faculty.wcas.northwestern.edu/mdo738/book.htm" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+                          1. Macroeconomics (MIT Press) by Robert J. Barro <a href="https://a.co/d/5WrelpZ" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Advanced Macroeconomics (McGraw-Hill/Irwin) by David Romer <a href="https://a.co/d/62atimX" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Elements of Dynamic Optimization (Waveland Pr Inc) by Alpha C. Chiang <a href="https://a.co/d/8DkaBQD" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+                          1. Fundamental Methods of Mathematical Economics (McGraw-Hill) by Alpha C. Chiang and Kevin Wainwright <a href="https://a.co/d/62VojZb" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
+
+                      - number: 2
+                        course: <sup>BA</sup>Quantitative Macroeconomics
+                        description: |
+                          ###### Course Objective
+                          - Introduction to dynamic macroeconomic models that have been widely employed in modern macroeconomic analyses.
+                          - Provide an oppertunity to learn and practice numerical techniques to implement the theories.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Coding 1**: Solving a consumer's utility maximization problem.
+                          - **Coding 2**: Solving a dynamic stochastic general equilibrium model. Implementing value function iteration, policy function iteration, and endogenous grid method.
+                          - **Coding 3**: Solving an income fluctuation problem where assets are stochastic and denoted as a finite Markov matrix.
+                          - **Coding 4**: Simulating a lake model of labor markets.
+                          - **Coding 5**: Solving a McCall model with separation and stochastic offers.
+                          - **Coding 6**: Solving a Lucas tree model of asset pricing with Tauchen's method.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] QuantEcon. <a href="https://quantecon.org" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+          - name:
+              - category:
+                  - title: Financial Engineering
+                    name:
+                      - number: 1
+                        course: <sup>BA</sup>Introduction to Financial Engineering
+                        description: |
+                          ###### Course Objective
+                          - Understand the the types of derivatives.
+                          - Learn derivatives pricing principles.
+                          - Learn the risk management of derivatives.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] John C. Cox, Stephen A. Ross, and Mark Rubinstein, Option pricing: A simplified approach, *Journal of Financial Economics*, Volume 7, Issue 3, 1979, Pages 229-263, ISSN 0304-405X. <a href="http://doi.org/10.1016/0304-405X(79)90015-1" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+                          <br>
+                          [2] Fischer Black and Myron Scholes. "The Pricing of Options and Corporate Liabilities," *Journal of Political Economy*, vol. 81, no. 3, 1973, pp. 637-54. <a href="https://www.jstor.org/stable/1831029" target="_blank"><i class="fa fa-book" title="Reference"></i></a>
+                          <br>
+                          [3] "NOVA: Trillion Dollar Bet," *PBS*, 2000. <a href="https://www.imdb.com/title/tt1028385/" target="_blank"><i class="fab fa-imdb" title="IMDb link"></i></a>
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          1. Introduction to Python
+                          1. Intermediate Python
+                          1. Python Data Science Toolbox (Part 1)
+                          1. Supervised Learning with scikit-learn
+                          1. Introduction to Deep Learning in Python
+                          1. Advanced Deep Learning with Keras
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - Deep Hedging on Fixed Strike Asian Options
+                            - Abstract: <br>
+                              The Black-Scholes model is highly important and widely used strategy for the risk hedging of options. However, the Black-Scholes model has many limitations, and it is often unsuitable for application. This report introduces the method of option pricing using deep learning, which is called deep hedging, and applies the method on fixed strike Asian options.
+
+                          <img src="/images/coursework_ife.png" alt="Project" style="width: 40%; display: block; margin: 0 auto;">
+                          <div style="font-size: 0.8em; text-align: center;">Result of deep hedging on Asian option using sigmoid function.</div>
+
+                      - number: 2
+                        course: <sup>BA</sup>Coding for Economics 2
+                        description: |
+                          ###### Course Objective
+                          - Analyze the balance of a model economy by applying quantitative analysis algorithms to various economic theories.
+                          - Perform numerical analysis of changes in balance according to changes in the economic environment.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          1. Manipulating Time Series Data in Python
+                          1. Introduction to Portfolio Analysis in Python
+                          1. Introduction to Portfolio Risk Management in Python
+                          1. Quantitative Risk Management in Python
+                          1. Credit Risk Modeling in Python
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Projects
+                          - **Coding 1**: Analyzing demographic data and financial data.
+                          - **Coding 2**: Dynamics of population distribution by age. Finding equilibria of competitive markets.
+                          - **Coding 3**: Simulating Friedman-Hall consumption smoothing model and present value model of asset pricing theory. Finding general equilibrium of an economic model with nonlinear demands and supplies using Newton's method.
+
+                      - number: 3
+                        course: <sup>BA</sup>Coding for Economics 1
+                        description: |
+                          ###### Course Objective
+                          - Learn basic Python programming, data analysis, and object-oriented programming.
+                          - Learn the basic concepts of deep hedging.
+                          - Virtual trading of financial products using the open trading API.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### Datacamp Accomplishments <a href="https://www.datacamp.com/" title="DataCamp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.946 18.151v-5.239L21.209 8.2L19.2 7.048l-6.254 3.567V5.36c0-.356-.192-.689-.5-.866L4.922.177a1.43 1.43 0 0 0-1.455.044a1.44 1.44 0 0 0-.676 1.224v14.777A1.44 1.44 0 0 0 4.92 17.49l6.032-3.44v4.683a1 1 0 0 0 .504.867l7.73 4.4l2.01-1.152zM10.953 5.938v5.814L4.785 15.27V2.4l6.168 3.539z"/></svg></a>
+                          1. Introduction to Python
+                          1. Intermediate Python
+                          1. Introduction to Functions
+                          1. Python Toolbox
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                          <br>
+                          [2] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
+
+                      - number: 4
+                        course: <sup>BA</sup>AI Assisted Financial Engineering
+                        description: |
+                          ###### Course Objective
+                          - Learn the concepts of deep learning and deep hedging.
+                          - Implement deep hedging on financial products using the PFHedge library.
+                          - Virtual trading of financial products using the open trading API.
+
+                          <hr style="border-bottom: dashed 1px #CCCCCC;">
+                          ###### References
+                          [1] PFHedge: Deep Hedging in PyTorch. <a href="https://github.com/pfnet-research/pfhedge" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                          <br>
+                          [2] KIS Developers, *Korea Investment*. <a href="https://github.com/koreainvestment/open-trading-api" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                          <br>
+                          [3] Postman. <a href="https://www.postman.com" target="_blank"><i class="fa fa-link" title="Website"></i></a>
