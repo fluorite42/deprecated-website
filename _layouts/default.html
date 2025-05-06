@@ -1,342 +1,86 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+---
+layout: compress
+---
 
-{%- include head.html -%}
+<!doctype html>
 
-<style>
-  body {
-    overflow-y: overlay;
-  }
-  
-  /* For Chrome, Safari, and other WebKit-based browsers */
-  ::-webkit-scrollbar {
-      width: 14px; /* Width of the entire scrollbar */
-      height: 14px; /* Height of the entire scrollbar */
-  }
+{% include origin-type.html %}
 
-  ::-webkit-scrollbar-track {
-      background: transparent; /* Color of the track */
-  }
+{% include lang.html %}
 
-  ::-webkit-scrollbar-thumb {
-      outline: none; /* Disable outline on the thumb */
-      background-color: #9B5DE5; /* Color of the draggable part */
-      border-radius: 10px; /* Rounded corners for the thumb */
-  }
+{% if site.theme_mode %}
+  {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
+{% endif %}
 
-  ::-webkit-scrollbar-thumb:hover {
-      background-color: #5F34A3; /* Color of the thumb when hovered */
-  }
+<!-- `site.alt_lang` can specify a language different from the UI -->
+<html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+  {% include head.html %}
 
-  ::-webkit-scrollbar-button {
-      display: none; /* No visible buttons */
-  }
+  <body>
+    {% include sidebar.html lang=lang %}
 
-  #contentsSidebar {
-    position: fixed;
-    top: 50%;
-    right: -240px;
-    width: 240px;
-    transform: translateY(-50%);
-    background-color: #f7f0ff;
-    transition: right 0.3s ease;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    border: 1.5px solid #9B5DE5;
-  }
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column px-xxl-5">
+        {% include topbar.html lang=lang %}
 
-  .dark #contentsSidebar {
-    background-color: #2c2c2e;
-    border: 1.5px solid #D3BDF0;
-  }
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            {% if layout.refactor or layout.layout == 'default' %}
+              {% include refactor-content.html content=content lang=lang %}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </main>
 
-  .sidebar-title {
-    position: absolute;
-    left: -25.5px;
-    top: 50%;
-    transform: rotate(-90deg) translateY(-50%) translateX(-50%);
-    background-color: #f7f0ff;
-    z-index: 900;
-    transform-origin: left top;
-    font-weight: semibold;
-    color: #9B5DE5;
-    font-size: 2em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 10px 50px;
-    border-left: 1.5px solid #9B5DE5;
-    border-right: 1.5px solid #9B5DE5;
-    border-top: 1.5px solid #9B5DE5;
-  }
+          <!-- panel -->
+          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
+            <div class="access">
+              {% include_cached update-list.html lang=lang %}
+              {% include_cached trending-tags.html lang=lang %}
+            </div>
 
-  .dark .sidebar-title {
-    background-color: #2c2c2e;
-    border-left: 1.5px solid #D3BDF0;
-    border-right: 1.5px solid #D3BDF0;
-    border-top: 1.5px solid #D3BDF0;
-    color: #D3BDF0;
-  }
-
-  #contentsSidebar nav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      margin-left: 15px;
-  }
-
-  #contentsSidebar nav ul li {
-      margin: 15px 0;
-  }
-
-  #contentsSidebar nav ul li a {
-      text-decoration: none;
-      color: #9B5DE5;
-      font-weight: regular;
-  }
-
-  #contentsSidebar nav ul li a:hover {
-      color: #5F34A3;
-      font-weight: bold;
-      font-size: large;
-  }
-
-  #contentsSidebar nav ul li a.active {
-      color: #5F34A3;
-      font-weight: bold;
-      font-size: large;
-  }
-
-  .dark #contentsSidebar nav ul li a {
-      text-decoration: none;
-      color: #D3BDF0;
-      font-weight: regular;
-  }
-
-  .dark #contentsSidebar nav ul li a:hover {
-      color: #E0C6F5;
-      font-weight: bold;
-      font-size: large;
-  }
-
-  .dark #contentsSidebar nav ul li a.active {
-      color: #E0C6F5;
-      font-weight: bold;
-      font-size: large;
-  }
-
-  @media (max-width: 768px) {
-    #contentsSidebar {
-        display: none;
-    }
-  }
-</style>
-
-<body class="">
-  {%- include gtm_body.html -%}
-
-  <div class="fixed-toggle">
-    <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-    <label for="switch"><i id="moon" data-feather="moon" fill="var(color)"></i></label>
-  </div>
-  <a href="#" id="upButton" title="Go to top"><b>↑</b></a>
-
-  {%- include header.html -%}
-
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-
-      <section id="section1">{%- include about.html -%}</section>
-
-      <section id="section2">
-      {% for section in site.data.education.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
+            {% for _include in layout.panel_includes %}
+              {% assign _include_path = _include | append: '.html' %}
+              {% include {{ _include_path }} lang=lang %}
+            {% endfor %}
+          </aside>
         </div>
-      {% endfor %}
-      </section>
 
-      <section id="section3">
-      {% for section in site.data.experience.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-experience.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
+        <div class="row">
+          <!-- tail -->
+          <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            {% for _include in layout.tail_includes %}
+              {% assign _include_path = _include | append: '.html' %}
+              {% include {{ _include_path }} lang=lang %}
+            {% endfor %}
 
-      <section id="section4">
-      {% for section in site.data.publications.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-pub.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section5">
-        {% for section in site.data.workshops.content %}
-          <div class="container {{ section.layout }}-container">
-            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-            {% include {{ section.layout | prepend: "section-" | append: "-pub.html" }} content=section.content %}
+            {% include_cached footer.html lang=lang %}
           </div>
-        {% endfor %}
-        </section>
-
-      <section id="section6">
-      {% for section in site.data.projects.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-pub.html" }} content=section.content %}
         </div>
-      {% endfor %}
-      </section>
 
-      <section id="section7">
-      {% for section in site.data.awards.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-awards.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
+        {% include_cached search-results.html lang=lang %}
+      </div>
 
-      <section id="section8">
-      {% for section in site.data.teaching.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section9">
-        {% for section in site.data.professional.content %}
-          <div class="container {{ section.layout }}-container">
-            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-            {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
-          </div>
-        {% endfor %}
-        </section>
-
-      <section id="section10">
-      {% for section in site.data.coursework.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-course.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section11">
-      {% for section in site.data.certifications.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section12">
-      {% for section in site.data.featured_ex.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-fea-ex.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section13">
-      {% for section in site.data.educational.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-prog.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section14">
-      {% for section in site.data.lectures.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-lec.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section15">
-      {% for section in site.data.volunteering.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-teaching.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section16">
-      {% for section in site.data.skills.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-skills.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-
-      <section id="section17">
-      {% for section in site.data.breaks.content %}
-        <div class="container {{ section.layout }}-container">
-          <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-          {% include {{ section.layout | prepend: "section-" | append: "-breaks.html" }} content=section.content %}
-        </div>
-      {% endfor %}
-      </section>
-      
-      <div style="max-width: 70%; height: auto; margin: 0 auto; text-align: center;">
-        <img src="/images/map.png" alt="Visited Countries" class="img-responsive" style="display: block; margin: auto;">
-      </div>      
-
+      <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </aside>
     </div>
-  </main>
 
-  {%- include footer.html -%}
+    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
 
-  <!-- Sidebar -->
-  <div id="contentsSidebar">
-    <div class="sidebar-title">Contents</div>
-    <nav>
-      <ul>
-        <li><a href="#section1" data-section="section1">1. Summary</a></li>
-        <li><a href="#section2" data-section="section2">2. Education</a></li>
-        <li><a href="#section3" data-section="section3">3. Research Experience</a></li>
-        <li><a href="#section4" data-section="section4">4. Publications</a></li>
-        <li><a href="#section5" data-section="section5">5. Workshops and Tutorials</a></li>
-        <li><a href="#section6" data-section="section6">6. Participated Projects</a></li>
-        <li><a href="#section7" data-section="section7">7. Honors and Awards</a></li>
-        <li><a href="#section8" data-section="section8">8. Teaching Experience</a></li>
-        <li><a href="#section9" data-section="section9">9. Professional Experience</a></li>
-        <li><a href="#section10" data-section="section10">10. Selected Coursework</a></li>
-        <li><a href="#section11" data-section="section11">11. Licenses and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certifications</a></li>
-        <li><a href="#section12" data-section="section12">12. Featured Experience</a></li>
-        <li><a href="#section13" data-section="section13">13. Educational Programs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participated</a></li>
-        <li><a href="#section14" data-section="section14">14. Featured Lectures<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attended</a></li>
-        <li><a href="#section15" data-section="section15">15. Volunteering</a></li>
-        <li><a href="#section16" data-section="section16">16. Skills/Languages</a></li>
-        <li><a href="#section17" data-section="section17">17. Career Breaks</a></li>
-      </ul>
-    </nav>
-  </div>
-  <script src="{{ '/assets/js/contents.js' | relative_url }}"></script>
+    {% if site.pwa.enabled %}
+      {% include_cached notification.html lang=lang %}
+    {% endif %}
 
-  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-</body>
+    <!-- Embedded scripts -->
 
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-<script src="{{'/assets/js/toggleDark.js' | absolute_url}}"></script>
-<script>
-  feather.replace()
-</script>
-<script src="{{ '/assets/js/upButton.js' | relative_url }}"></script>
+    {% for _include in layout.script_includes %}
+      {% assign _include_path = _include | append: '.html' %}
+      {% include {{ _include_path }} %}
+    {% endfor %}
 
+    {% include_cached search-loader.html lang=lang %}
+  </body>
 </html>
