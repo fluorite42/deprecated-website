@@ -556,12 +556,6 @@ content:
                           ###### Textbook
                           1. Field and Wave Electromagnetics: Pearson New International E (Pearson) by David K. Cheng <a href="https://a.co/d/iCUWvaV" target="_blank"><i class="fab fa-amazon" title="Amazon"></i></a>
 
-              - category:
-                  - title: Inter-Disciplinary
-                    name: 
-                      - number: 1
-                        course: <sup>MSc</sup>Vehicle Electronics
-
         border: weak
 
       - layout: left
